@@ -70,6 +70,8 @@ export default function HomePage() {
               For Girls Ages 12–18
             </span>
             <h1 className="font-serif text-5xl sm:text-6xl lg:text-7xl font-black leading-tight text-white mb-8">
+              <span className="text-[#FF7477]">HER</span>izon
+              <br />
               Expanding Horizons.
               <br />
               <span className="text-[#FF7477]">Building Confidence.</span>
