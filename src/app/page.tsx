@@ -114,20 +114,20 @@ export default function HomePage() {
       {/* ─── MISSION ───────────────────────────────────────── */}
       <section className="bg-[#FAF8F5] py-24">
         <div className="max-w-7xl mx-auto px-6 text-center">
-          <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
+          <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-6">
             Our Mission
           </p>
-          <h2 className="font-serif text-4xl sm:text-5xl font-black text-[#1A1A1A] mb-6 max-w-3xl mx-auto leading-tight">
-            Helping Girls See What&rsquo;s{" "}
-            <span className="text-[#FF7477]">Possible</span>
-          </h2>
-          <p className="text-[#9B9B9B] text-lg max-w-2xl mx-auto leading-relaxed">
-            HERizon exists to help girls discover what&rsquo;s possible. Our goal is
-            simple:{" "}
-            <strong className="text-[#1A1A1A]">
-              to help every girl leave believing her future is bigger than she thought.
-            </strong>
-          </p>
+          <div className="max-w-2xl mx-auto space-y-5 text-lg text-[#9B9B9B] leading-relaxed">
+            <p>
+              HERizon exists to help girls discover what&rsquo;s possible.
+            </p>
+            <p>
+              Through mentorship, leadership, entrepreneurship, community
+              experiences, and real-world exposure, we inspire girls to build
+              confidence, develop life skills, and pursue opportunities they may
+              never have imagined.
+            </p>
+          </div>
         </div>
       </section>
 
