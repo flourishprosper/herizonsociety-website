@@ -16,11 +16,11 @@ export default function MentorshipPage() {
         <div className="absolute top-0 right-0 w-96 h-96 rounded-full bg-[#FF7477] opacity-10 blur-3xl" />
         <div className="relative max-w-4xl mx-auto px-6">
           <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
-            Mentorship
+            Role Models
           </p>
           <h1 className="font-serif text-6xl sm:text-7xl font-black text-white leading-tight mb-6">
-            Meet Women Who{" "}
-            <span className="text-[#FF7477]">Show the Way</span>
+            Connect with Women Who Inspire,{" "}
+            <span className="text-[#FF7477]">Encourage, and Empower</span>
           </h1>
           <p className="text-[#9B9B9B] text-xl max-w-2xl mx-auto leading-relaxed">
             The people around you shape what you believe is possible. Herizon
