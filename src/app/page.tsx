@@ -1,42 +1,30 @@
 import Link from "next/link";
 
-const coreValues = [
+const brandPillars = [
   {
-    icon: "💡",
+    number: "01",
     title: "Confidence",
-    description: "Helping girls believe in themselves.",
-    color: "bg-[#FF7477]",
+    description: "Helping girls believe in themselves deeply and unapologetically.",
   },
   {
-    icon: "🦁",
-    title: "Courage",
-    description: "Encouraging girls to step outside their comfort zones.",
-    color: "bg-[#1A1A1A]",
-  },
-  {
-    icon: "🤝",
-    title: "Community",
-    description: "Creating lifelong friendships and meaningful connections.",
-    color: "bg-[#2D2D2D]",
-  },
-  {
-    icon: "🏆",
+    number: "02",
     title: "Leadership",
-    description: "Developing tomorrow's leaders.",
-    color: "bg-[#FF7477]",
+    description: "Developing the voice, vision, and courage to lead with intention.",
   },
   {
-    icon: "🌟",
+    number: "03",
+    title: "Connection",
+    description: "Building relationships with mentors and peers that last beyond the event.",
+  },
+  {
+    number: "04",
     title: "Opportunity",
-    description:
-      "Introducing girls to careers, businesses, and experiences that expand their horizons.",
-    color: "bg-[#1A1A1A]",
+    description: "Opening doors to careers, businesses, and experiences girls never imagined.",
   },
   {
-    icon: "💛",
-    title: "Kindness",
-    description: "Supporting one another through encouragement and respect.",
-    color: "bg-[#2D2D2D]",
+    number: "05",
+    title: "Community",
+    description: "Creating a lifelong sisterhood rooted in shared values and mutual support.",
   },
 ];
 
@@ -141,34 +129,35 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ─── CORE VALUES ──────────────────────────────────── */}
-      <section className="bg-white py-24">
+      {/* ─── BRAND PILLARS ────────────────────────────────── */}
+      <section className="bg-[#1A1A1A] py-24">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
-              What We Stand For
+              Brand Pillars
             </p>
-            <h2 className="font-serif text-4xl sm:text-5xl font-black text-[#1A1A1A] leading-tight">
-              Six Values. One Community.
+            <h2 className="font-serif text-4xl sm:text-5xl font-black text-white leading-tight">
+              Everything We Do Ties Back to These
             </h2>
           </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {coreValues.map((value) => (
+          <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-px bg-white/10 rounded-3xl overflow-hidden">
+            {brandPillars.map((pillar, i) => (
               <div
-                key={value.title}
-                className="rounded-3xl overflow-hidden card-hover"
+                key={pillar.title}
+                className="bg-[#1A1A1A] p-8 flex flex-col gap-4 hover:bg-[#2D2D2D] transition-colors"
               >
-                <div className={`${value.color} p-8`}>
-                  <span className="text-4xl block mb-4">{value.icon}</span>
-                  <h3 className="font-serif text-2xl font-bold text-white leading-snug">
-                    {value.title}
-                  </h3>
-                </div>
-                <div className="bg-[#F0EFEC] p-6">
-                  <p className="text-[#2D2D2D] text-sm leading-relaxed">
-                    {value.description}
-                  </p>
-                </div>
+                <span className="font-serif text-5xl font-black text-white/10 leading-none">
+                  {pillar.number}
+                </span>
+                <h3 className={`font-serif text-2xl font-black leading-tight ${
+                  i === 0 ? "text-[#FF7477]" : "text-white"
+                }`}>
+                  {pillar.title}
+                </h3>
+                <div className="w-8 h-0.5 bg-[#FF7477]" />
+                <p className="text-[#9B9B9B] text-sm leading-relaxed">
+                  {pillar.description}
+                </p>
               </div>
             ))}
           </div>
