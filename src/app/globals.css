@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Brand Colors */
+  --color-coral: #F7836D;
+  --color-coral-light: #FAA898;
+  --color-coral-dark: #E5614A;
+  --color-jet: #1A1A1A;
+  --color-charcoal: #2D2D2D;
+  --color-warm-white: #FAF8F5;
+  --color-warm-gray: #F0EFEC;
+  --color-muted: #9B9B9B;
+  --color-border: #E8E6E2;
+
+  /* Background / Foreground */
+  --color-background: #FAF8F5;
+  --color-foreground: #1A1A1A;
+
+  /* Typography */
+  --font-serif: var(--font-playfair);
+  --font-sans: var(--font-dm-sans);
+}
+
+:root {
+  --background: #FAF8F5;
+  --foreground: #1A1A1A;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-dm-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Animated headline words */
+@keyframes fadeSlideUp {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-up {
+  animation: fadeSlideUp 0.7s ease forwards;
+}
+
+/* Smooth hover on cards */
+.card-hover {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.10);
+}
