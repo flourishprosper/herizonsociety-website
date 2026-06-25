@@ -24,8 +24,8 @@ const tiers = [
   {
     name: "Blaze",
     price: "$1,500",
-    color: "border-[#F7836D]",
-    headerBg: "bg-[#F7836D]",
+    color: "border-[#FF7477]",
+    headerBg: "bg-[#FF7477]",
     headerText: "text-white",
     badge: "Most Popular",
     perks: [
@@ -68,13 +68,13 @@ export default function SponsorPage() {
       {/* Hero */}
       <section className="bg-[#1A1A1A] py-32 relative overflow-hidden text-center">
         <div className="absolute inset-0 bg-gradient-to-br from-[#1A1A1A] via-[#2D2D2D] to-[#1A1A1A]" />
-        <div className="absolute top-0 right-0 w-96 h-96 rounded-full bg-[#F7836D] opacity-10 blur-3xl" />
+        <div className="absolute top-0 right-0 w-96 h-96 rounded-full bg-[#FF7477] opacity-10 blur-3xl" />
         <div className="relative max-w-4xl mx-auto px-6">
-          <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-4">
+          <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
             Make a Difference
           </p>
           <h1 className="font-serif text-6xl sm:text-7xl font-black text-white leading-tight mb-6">
-            Be a <span className="text-[#F7836D]">Sponsor</span>
+            Be a <span className="text-[#FF7477]">Sponsor</span>
           </h1>
           <p className="text-[#9B9B9B] text-xl max-w-2xl mx-auto leading-relaxed">
             At HERizon Society, we believe what surrounds a girl shapes who
@@ -86,7 +86,7 @@ export default function SponsorPage() {
       </section>
 
       {/* Mission Statement */}
-      <section className="bg-[#F7836D] py-16">
+      <section className="bg-[#FF7477] py-16">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <p className="font-serif text-3xl sm:text-4xl font-black text-white leading-snug">
             Our 2026 events are designed to build confidence, inspire
@@ -100,7 +100,7 @@ export default function SponsorPage() {
       <section className="bg-[#FAF8F5] py-24">
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
           <div>
-            <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-4">
+            <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
               Why Partner With Us
             </p>
             <h2 className="font-serif text-4xl font-black text-[#1A1A1A] leading-tight mb-6">
@@ -137,7 +137,7 @@ export default function SponsorPage() {
       <section className="bg-white py-24">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
-            <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-4">
+            <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
               Sponsorship Packages
             </p>
             <h2 className="font-serif text-4xl font-black text-[#1A1A1A]">
@@ -151,7 +151,7 @@ export default function SponsorPage() {
                 className={`rounded-3xl border-2 overflow-hidden card-hover relative ${tier.color}`}
               >
                 {tier.badge && (
-                  <div className="absolute top-4 right-4 bg-white text-[#F7836D] text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
+                  <div className="absolute top-4 right-4 bg-white text-[#FF7477] text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
                     {tier.badge}
                   </div>
                 )}
@@ -171,7 +171,7 @@ export default function SponsorPage() {
                   <ul className="space-y-3 mb-8">
                     {tier.perks.map((perk) => (
                       <li key={perk} className="flex items-start gap-3 text-sm">
-                        <span className="text-[#F7836D] mt-0.5 shrink-0">✦</span>
+                        <span className="text-[#FF7477] mt-0.5 shrink-0">✦</span>
                         <span className="text-[#2D2D2D]">{perk}</span>
                       </li>
                     ))}
@@ -188,7 +188,7 @@ export default function SponsorPage() {
           </div>
           <p className="text-center text-[#9B9B9B] text-sm mt-8">
             Custom packages available.{" "}
-            <Link href="/contact" className="text-[#F7836D] hover:underline">
+            <Link href="/contact" className="text-[#FF7477] hover:underline">
               Contact us
             </Link>{" "}
             to discuss your vision.
@@ -208,7 +208,7 @@ export default function SponsorPage() {
           </p>
           <Link
             href="/contact"
-            className="inline-flex bg-[#F7836D] text-white font-bold px-10 py-4 rounded-full hover:bg-[#E5614A] transition-colors"
+            className="inline-flex bg-[#FF7477] text-white font-bold px-10 py-4 rounded-full hover:bg-[#E85F62] transition-colors"
           >
             Become a Sponsor Today
           </Link>

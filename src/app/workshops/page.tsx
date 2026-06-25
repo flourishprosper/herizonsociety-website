@@ -11,7 +11,7 @@ const sessions = [
   {
     theme: "Own Your Voice — Public Speaking & Presence",
     tag: "Current Month",
-    tagColor: "bg-[#F7836D] text-white",
+    tagColor: "bg-[#FF7477] text-white",
     desc:
       "One of the most powerful things a young woman can do is speak — clearly, confidently, and without apology. This workshop gives girls a safe space to find their voice, practice speaking under pressure, and walk away owning their presence in any room.",
     takeaways: [
@@ -60,7 +60,7 @@ export default function WorkshopsPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-[#F7836D] py-32 relative overflow-hidden text-center">
+      <section className="bg-[#FF7477] py-32 relative overflow-hidden text-center">
         <div className="absolute inset-0 opacity-10"
           style={{ backgroundImage: "radial-gradient(circle at 1px 1px, #fff 1px, transparent 0)", backgroundSize: "30px 30px" }} />
         <div className="relative max-w-4xl mx-auto px-6">
@@ -82,7 +82,7 @@ export default function WorkshopsPage() {
       <section className="bg-[#FAF8F5] py-24">
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
           <div>
-            <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-4">
+            <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
               What Are the Workshops?
             </p>
             <h2 className="font-serif text-4xl sm:text-5xl font-black text-[#1A1A1A] leading-tight mb-6">
@@ -123,7 +123,7 @@ export default function WorkshopsPage() {
       <section className="bg-white py-24">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
-            <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-4">
+            <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
               Workshop Sessions
             </p>
             <h2 className="font-serif text-4xl font-black text-[#1A1A1A]">
@@ -143,13 +143,13 @@ export default function WorkshopsPage() {
                 </div>
                 <div className="p-8">
                   <p className="text-[#2D2D2D] text-sm leading-relaxed mb-6">{session.desc}</p>
-                  <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-3">
+                  <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-3">
                     Girls Walk Away With
                   </p>
                   <ul className="space-y-2">
                     {session.takeaways.map((t) => (
                       <li key={t} className="flex items-start gap-2 text-sm text-[#2D2D2D]">
-                        <span className="text-[#F7836D] mt-0.5">✦</span>
+                        <span className="text-[#FF7477] mt-0.5">✦</span>
                         {t}
                       </li>
                     ))}
@@ -164,7 +164,7 @@ export default function WorkshopsPage() {
       {/* Register CTA */}
       <section className="bg-[#1A1A1A] py-24">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-4">
+          <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
             Reserve Your Spot
           </p>
           <h2 className="font-serif text-4xl sm:text-5xl font-black text-white leading-tight mb-6">
@@ -177,7 +177,7 @@ export default function WorkshopsPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/contact"
-              className="bg-[#F7836D] text-white font-semibold px-10 py-4 rounded-full hover:bg-[#E5614A] transition-colors"
+              className="bg-[#FF7477] text-white font-semibold px-10 py-4 rounded-full hover:bg-[#E85F62] transition-colors"
             >
               Register Now
             </Link>

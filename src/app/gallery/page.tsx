@@ -12,14 +12,14 @@ export default function GalleryPage() {
       {/* Hero */}
       <section className="bg-[#1A1A1A] py-32 text-center relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-[#1A1A1A] via-[#2D2D2D] to-[#1A1A1A]" />
-        <div className="absolute top-0 right-0 w-96 h-96 rounded-full bg-[#F7836D] opacity-10 blur-3xl" />
+        <div className="absolute top-0 right-0 w-96 h-96 rounded-full bg-[#FF7477] opacity-10 blur-3xl" />
         <div className="relative max-w-4xl mx-auto px-6">
-          <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-4">
+          <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
             Gallery
           </p>
           <h1 className="font-serif text-6xl sm:text-7xl font-black text-white leading-tight mb-6">
             See the{" "}
-            <span className="text-[#F7836D]">Magic</span>
+            <span className="text-[#FF7477]">Magic</span>
           </h1>
           <p className="text-[#9B9B9B] text-xl max-w-2xl mx-auto leading-relaxed">
             Photos and moments from HERizon events — the connections made, the
@@ -46,7 +46,7 @@ export default function GalleryPage() {
                 href="https://instagram.com/herizonsociety"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-[#F7836D] text-white font-semibold px-8 py-4 rounded-full hover:bg-[#E5614A] transition-colors"
+                className="inline-block bg-[#FF7477] text-white font-semibold px-8 py-4 rounded-full hover:bg-[#E85F62] transition-colors"
               >
                 Follow on Instagram
               </a>

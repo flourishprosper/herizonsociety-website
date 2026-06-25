@@ -92,7 +92,7 @@ const posts = [
 ];
 
 const categoryColors: Record<string, string> = {
-  Mindset: "bg-[#F7836D]/10 text-[#F7836D]",
+  Mindset: "bg-[#FF7477]/10 text-[#FF7477]",
   Leadership: "bg-[#1A1A1A]/10 text-[#1A1A1A]",
   "Mental Health": "bg-purple-100 text-purple-700",
   "Health & Fitness": "bg-green-100 text-green-700",
@@ -107,11 +107,11 @@ export default function BlogPage() {
       {/* Hero */}
       <section className="bg-[#FAF8F5] py-24 text-center">
         <div className="max-w-3xl mx-auto px-6">
-          <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-4">
+          <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
             Resources & Insights
           </p>
           <h1 className="font-serif text-6xl sm:text-7xl font-black text-[#1A1A1A] leading-tight mb-6">
-            The HERizon <span className="text-[#F7836D]">Blog</span>
+            The HERizon <span className="text-[#FF7477]">Blog</span>
           </h1>
           <p className="text-[#9B9B9B] text-xl leading-relaxed">
             Real insights on confidence, leadership, mentorship, and raising
@@ -123,7 +123,7 @@ export default function BlogPage() {
       {/* Featured Post */}
       <section className="bg-white py-16">
         <div className="max-w-7xl mx-auto px-6">
-          <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-6">
+          <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-6">
             Featured Post
           </p>
           <div className="bg-[#1A1A1A] rounded-3xl overflow-hidden grid lg:grid-cols-2">
@@ -145,7 +145,7 @@ export default function BlogPage() {
               </div>
               <Link
                 href={`/blog/${featured.slug}`}
-                className="inline-flex bg-[#F7836D] text-white font-semibold px-8 py-3 rounded-full hover:bg-[#E5614A] transition-colors w-fit"
+                className="inline-flex bg-[#FF7477] text-white font-semibold px-8 py-3 rounded-full hover:bg-[#E85F62] transition-colors w-fit"
               >
                 Read Article
               </Link>
@@ -192,7 +192,7 @@ export default function BlogPage() {
       </section>
 
       {/* Newsletter */}
-      <section className="bg-[#F7836D] py-20 text-center">
+      <section className="bg-[#FF7477] py-20 text-center">
         <div className="max-w-2xl mx-auto px-6">
           <h2 className="font-serif text-4xl font-black text-white mb-4">
             Get Articles Delivered to You

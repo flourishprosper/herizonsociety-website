@@ -53,13 +53,13 @@ export default function ConversationsPage() {
     <>
       {/* Hero */}
       <section className="bg-[#1A1A1A] py-32 relative overflow-hidden">
-        <div className="absolute top-0 left-0 w-96 h-96 rounded-full bg-[#F7836D] opacity-10 blur-3xl" />
+        <div className="absolute top-0 left-0 w-96 h-96 rounded-full bg-[#FF7477] opacity-10 blur-3xl" />
         <div className="max-w-4xl mx-auto px-6 text-center relative">
-          <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-4">
+          <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
             The Conversations That Matter
           </p>
           <h1 className="font-serif text-6xl sm:text-7xl font-black text-white leading-tight mb-6">
-            Confidence <span className="text-[#F7836D]">Conversations</span>
+            Confidence <span className="text-[#FF7477]">Conversations</span>
           </h1>
           <p className="text-[#9B9B9B] text-xl max-w-2xl mx-auto leading-relaxed">
             Real talks for real girls. Explore our library of conversations on
@@ -77,8 +77,8 @@ export default function ConversationsPage() {
               key={cat}
               className={`text-sm font-semibold px-5 py-2 rounded-full cursor-pointer transition-colors ${
                 i === 0
-                  ? "bg-[#F7836D] text-white"
-                  : "bg-white border border-[#E8E6E2] text-[#2D2D2D] hover:border-[#F7836D] hover:text-[#F7836D]"
+                  ? "bg-[#FF7477] text-white"
+                  : "bg-white border border-[#E8E6E2] text-[#2D2D2D] hover:border-[#FF7477] hover:text-[#FF7477]"
               }`}
             >
               {cat}
@@ -99,7 +99,7 @@ export default function ConversationsPage() {
                 <div className="bg-[#1A1A1A] p-8 aspect-video flex items-center justify-center relative">
                   <span className="text-7xl">{topic.emoji}</span>
                   <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="w-16 h-16 rounded-full bg-[#F7836D] flex items-center justify-center opacity-90 hover:opacity-100 transition-opacity cursor-pointer">
+                    <div className="w-16 h-16 rounded-full bg-[#FF7477] flex items-center justify-center opacity-90 hover:opacity-100 transition-opacity cursor-pointer">
                       <svg className="w-6 h-6 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M8 5v14l11-7z" />
                       </svg>
@@ -122,7 +122,7 @@ export default function ConversationsPage() {
       </section>
 
       {/* Newsletter CTA */}
-      <section className="bg-[#F7836D] py-20 text-center">
+      <section className="bg-[#FF7477] py-20 text-center">
         <div className="max-w-2xl mx-auto px-6">
           <h2 className="font-serif text-4xl font-black text-white mb-4">
             Never Miss a Conversation
@@ -134,7 +134,7 @@ export default function ConversationsPage() {
           </p>
           <Link
             href="/contact"
-            className="inline-flex bg-white text-[#F7836D] font-bold px-10 py-4 rounded-full hover:bg-[#FAF8F5] transition-colors"
+            className="inline-flex bg-white text-[#FF7477] font-bold px-10 py-4 rounded-full hover:bg-[#FAF8F5] transition-colors"
           >
             Join the Community
           </Link>

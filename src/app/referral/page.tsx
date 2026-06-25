@@ -20,7 +20,7 @@ const tiers = [
     reward: "LeadHER T-Shirt + Swag Bag",
     icon: "🎒",
     desc: "Bring 5 girls and earn the T-Shirt AND a full HERizon Swag Bag packed with exclusive goodies.",
-    color: "bg-[#F7836D]/10 border-[#F7836D]/30",
+    color: "bg-[#FF7477]/10 border-[#FF7477]/30",
     featured: true,
   },
   {
@@ -46,13 +46,13 @@ export default function ReferralPage() {
       {/* Hero */}
       <section className="bg-[#1A1A1A] py-32 relative overflow-hidden text-center">
         <div className="absolute inset-0 bg-gradient-to-br from-[#1A1A1A] via-[#2D2D2D] to-[#1A1A1A]" />
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] rounded-full bg-[#F7836D] opacity-10 blur-3xl" />
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] rounded-full bg-[#FF7477] opacity-10 blur-3xl" />
         <div className="relative max-w-4xl mx-auto px-6">
-          <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-4">
+          <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
             Bring Your Crew
           </p>
           <h1 className="font-serif text-6xl sm:text-7xl font-black text-white leading-tight mb-6">
-            Be a <span className="text-[#F7836D]">LeadHER</span>
+            Be a <span className="text-[#FF7477]">LeadHER</span>
           </h1>
           <p className="text-[#9B9B9B] text-xl max-w-2xl mx-auto leading-relaxed">
             The best communities grow through the people in them. Get your
@@ -66,7 +66,7 @@ export default function ReferralPage() {
       <section className="bg-[#FAF8F5] py-24">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
-            <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-4">
+            <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
               The Rewards
             </p>
             <h2 className="font-serif text-4xl font-black text-[#1A1A1A]">
@@ -80,12 +80,12 @@ export default function ReferralPage() {
                 className={`rounded-3xl border-2 p-8 text-center card-hover ${tier.color}`}
               >
                 {tier.featured && (
-                  <span className="inline-block bg-[#F7836D] text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide mb-4">
+                  <span className="inline-block bg-[#FF7477] text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide mb-4">
                     Most Earned
                   </span>
                 )}
                 <div className="text-6xl mb-4">{tier.icon}</div>
-                <div className={`font-serif text-5xl font-black mb-2 ${tier.dark ? "text-[#F7836D]" : "text-[#F7836D]"}`}>
+                <div className={`font-serif text-5xl font-black mb-2 ${tier.dark ? "text-[#FF7477]" : "text-[#FF7477]"}`}>
                   {tier.friends}
                 </div>
                 <p className={`text-sm uppercase tracking-widest mb-4 ${tier.dark ? "text-[#9B9B9B]" : "text-[#9B9B9B]"}`}>
@@ -107,7 +107,7 @@ export default function ReferralPage() {
       <section className="bg-white py-24">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
-            <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-4">
+            <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
               It&rsquo;s Easy
             </p>
             <h2 className="font-serif text-4xl font-black text-[#1A1A1A]">
@@ -127,7 +127,7 @@ export default function ReferralPage() {
       </section>
 
       {/* Sign Up CTA */}
-      <section className="bg-[#F7836D] py-24">
+      <section className="bg-[#FF7477] py-24">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="font-serif text-4xl sm:text-5xl font-black text-white mb-6">
             Get Your Referral Link
@@ -145,7 +145,7 @@ export default function ReferralPage() {
                 <input
                   type="text"
                   placeholder="Jane Doe"
-                  className="w-full border border-[#E8E6E2] rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#F7836D] transition-colors"
+                  className="w-full border border-[#E8E6E2] rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#FF7477] transition-colors"
                 />
               </div>
               <div>
@@ -155,7 +155,7 @@ export default function ReferralPage() {
                 <input
                   type="email"
                   placeholder="jane@email.com"
-                  className="w-full border border-[#E8E6E2] rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#F7836D] transition-colors"
+                  className="w-full border border-[#E8E6E2] rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#FF7477] transition-colors"
                 />
               </div>
               <div>
@@ -165,12 +165,12 @@ export default function ReferralPage() {
                 <input
                   type="tel"
                   placeholder="(555) 000-0000"
-                  className="w-full border border-[#E8E6E2] rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#F7836D] transition-colors"
+                  className="w-full border border-[#E8E6E2] rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#FF7477] transition-colors"
                 />
               </div>
               <button
                 type="submit"
-                className="w-full bg-[#F7836D] text-white font-bold py-4 rounded-full hover:bg-[#E5614A] transition-colors"
+                className="w-full bg-[#FF7477] text-white font-bold py-4 rounded-full hover:bg-[#E85F62] transition-colors"
               >
                 Get My Referral Link
               </button>

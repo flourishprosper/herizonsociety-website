@@ -5,7 +5,7 @@ const coreValues = [
     icon: "💡",
     title: "Confidence",
     description: "Helping girls believe in themselves.",
-    color: "bg-[#F7836D]",
+    color: "bg-[#FF7477]",
   },
   {
     icon: "🦁",
@@ -23,7 +23,7 @@ const coreValues = [
     icon: "🏆",
     title: "Leadership",
     description: "Developing tomorrow's leaders.",
-    color: "bg-[#F7836D]",
+    color: "bg-[#FF7477]",
   },
   {
     icon: "🌟",
@@ -61,22 +61,22 @@ export default function HomePage() {
             backgroundSize: "40px 40px",
           }}
         />
-        <div className="absolute right-0 top-0 w-[600px] h-[600px] rounded-full bg-[#F7836D] opacity-10 blur-3xl translate-x-1/4 -translate-y-1/4 pointer-events-none" />
-        <div className="absolute left-0 bottom-0 w-[400px] h-[400px] rounded-full bg-[#F7836D] opacity-5 blur-3xl -translate-x-1/2 translate-y-1/2 pointer-events-none" />
+        <div className="absolute right-0 top-0 w-[600px] h-[600px] rounded-full bg-[#FF7477] opacity-10 blur-3xl translate-x-1/4 -translate-y-1/4 pointer-events-none" />
+        <div className="absolute left-0 bottom-0 w-[400px] h-[400px] rounded-full bg-[#FF7477] opacity-5 blur-3xl -translate-x-1/2 translate-y-1/2 pointer-events-none" />
 
         <div className="relative max-w-7xl mx-auto px-6 py-24 grid lg:grid-cols-2 gap-16 items-center">
           <div>
-            <span className="inline-block text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-6 border border-[#F7836D]/40 px-3 py-1 rounded-full">
+            <span className="inline-block text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-6 border border-[#FF7477]/40 px-3 py-1 rounded-full">
               For Girls Ages 12–18
             </span>
             <h1 className="font-serif text-6xl sm:text-7xl lg:text-8xl font-black leading-[0.9] text-white mb-4">
               YOUR
               <br />
-              <span className="text-[#F7836D]">HER</span>IZON
+              <span className="text-[#FF7477]">HER</span>IZON
               <br />
               IS NOW.
             </h1>
-            <p className="text-[#F7836D] text-sm font-semibold uppercase tracking-widest mb-8">
+            <p className="text-[#FF7477] text-sm font-semibold uppercase tracking-widest mb-8">
               Expanding Horizons. Building Confidence.
             </p>
             <p className="text-[#9B9B9B] text-lg leading-relaxed max-w-md mb-10">
@@ -88,7 +88,7 @@ export default function HomePage() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="/apply"
-                className="bg-[#F7836D] text-white font-semibold px-8 py-4 rounded-full hover:bg-[#E5614A] transition-colors text-center"
+                className="bg-[#FF7477] text-white font-semibold px-8 py-4 rounded-full hover:bg-[#E85F62] transition-colors text-center"
               >
                 Apply Now
               </Link>
@@ -107,7 +107,7 @@ export default function HomePage() {
                 key={s.label}
                 className="bg-white/5 border border-white/10 rounded-2xl p-8 text-center"
               >
-                <div className="font-serif text-5xl font-black text-[#F7836D] mb-2">
+                <div className="font-serif text-5xl font-black text-[#FF7477] mb-2">
                   {s.value}
                 </div>
                 <div className="text-sm text-[#9B9B9B] uppercase tracking-wider">
@@ -122,12 +122,12 @@ export default function HomePage() {
       {/* ─── MISSION ───────────────────────────────────────── */}
       <section className="bg-[#FAF8F5] py-24">
         <div className="max-w-7xl mx-auto px-6 text-center">
-          <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-4">
+          <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
             Our Mission
           </p>
           <h2 className="font-serif text-4xl sm:text-5xl font-black text-[#1A1A1A] mb-6 max-w-3xl mx-auto leading-tight">
             Helping Girls See What&rsquo;s{" "}
-            <span className="text-[#F7836D]">Possible</span>
+            <span className="text-[#FF7477]">Possible</span>
           </h2>
           <p className="text-[#9B9B9B] text-lg max-w-2xl mx-auto leading-relaxed">
             HERizon exists to help girls discover what&rsquo;s possible. Our goal is
@@ -143,7 +143,7 @@ export default function HomePage() {
       <section className="bg-white py-24">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
-            <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-4">
+            <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
               What We Stand For
             </p>
             <h2 className="font-serif text-4xl sm:text-5xl font-black text-[#1A1A1A] leading-tight">
@@ -174,7 +174,7 @@ export default function HomePage() {
       </section>
 
       {/* ─── UPCOMING EVENTS STRIP ───────────────────────── */}
-      <section className="bg-[#F7836D] py-16">
+      <section className="bg-[#FF7477] py-16">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
             <div>
@@ -187,7 +187,7 @@ export default function HomePage() {
             </div>
             <Link
               href="/events"
-              className="shrink-0 bg-white text-[#F7836D] font-bold px-8 py-4 rounded-full hover:bg-[#FAF8F5] transition-colors"
+              className="shrink-0 bg-white text-[#FF7477] font-bold px-8 py-4 rounded-full hover:bg-[#FAF8F5] transition-colors"
             >
               View All Events
             </Link>
@@ -219,7 +219,7 @@ export default function HomePage() {
       <section className="bg-[#FAF8F5] py-24">
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
           <div>
-            <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-4">
+            <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
               More Than an Event
             </p>
             <h2 className="font-serif text-4xl sm:text-5xl font-black text-[#1A1A1A] leading-tight mb-6">
@@ -266,7 +266,7 @@ export default function HomePage() {
           <blockquote className="font-serif text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-tight mb-8">
             &ldquo;When girls know who they are and what they&rsquo;re capable
             of, they{" "}
-            <span className="text-[#F7836D]">change everything.</span>&rdquo;
+            <span className="text-[#FF7477]">change everything.</span>&rdquo;
           </blockquote>
           <p className="text-[#9B9B9B] text-sm uppercase tracking-wider">
             — HERizon Society
@@ -279,7 +279,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="bg-white rounded-3xl border border-[#E8E6E2] p-12 lg:p-16 grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-4">
+              <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
                 Join the Movement
               </p>
               <h2 className="font-serif text-4xl font-black text-[#1A1A1A] leading-tight mb-6">
@@ -295,7 +295,7 @@ export default function HomePage() {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
                   href="/sponsor"
-                  className="bg-[#F7836D] text-white font-semibold px-8 py-4 rounded-full hover:bg-[#E5614A] transition-colors text-center"
+                  className="bg-[#FF7477] text-white font-semibold px-8 py-4 rounded-full hover:bg-[#E85F62] transition-colors text-center"
                 >
                   Become a Sponsor
                 </Link>
@@ -312,7 +312,7 @@ export default function HomePage() {
               <p className="text-[#9B9B9B] text-lg font-medium">
                 Our vision: local chapters across the country connecting girls
                 with{" "}
-                <span className="text-[#F7836D]">
+                <span className="text-[#FF7477]">
                   mentors and life-changing experiences
                 </span>
               </p>

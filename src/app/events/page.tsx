@@ -81,13 +81,13 @@ export default function EventsPage() {
     <>
       {/* Hero */}
       <section className="bg-[#1A1A1A] py-32 relative overflow-hidden">
-        <div className="absolute top-0 right-0 w-96 h-96 rounded-full bg-[#F7836D] opacity-10 blur-3xl" />
+        <div className="absolute top-0 right-0 w-96 h-96 rounded-full bg-[#FF7477] opacity-10 blur-3xl" />
         <div className="max-w-4xl mx-auto px-6 text-center relative">
-          <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-4">
+          <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
             Upcoming Events
           </p>
           <h1 className="font-serif text-6xl sm:text-7xl font-black text-white leading-tight mb-6">
-            Find an Event <span className="text-[#F7836D]">Near You</span>
+            Find an Event <span className="text-[#FF7477]">Near You</span>
           </h1>
           <p className="text-[#9B9B9B] text-xl max-w-2xl mx-auto leading-relaxed">
             One day. Life-changing confidence. Our Confidence Conferences for
@@ -100,7 +100,7 @@ export default function EventsPage() {
       <section className="bg-[#FAF8F5] py-24">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
-            <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-4">
+            <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
               2026–2027 Season
             </p>
             <h2 className="font-serif text-4xl font-black text-[#1A1A1A]">
@@ -113,7 +113,7 @@ export default function EventsPage() {
                 key={event.id}
                 className="bg-white rounded-3xl border border-[#E8E6E2] overflow-hidden card-hover"
               >
-                <div className="bg-[#F7836D] px-8 py-6">
+                <div className="bg-[#FF7477] px-8 py-6">
                   <p className="text-white/70 text-xs uppercase tracking-widest mb-1">
                     {event.date}
                   </p>
@@ -137,7 +137,7 @@ export default function EventsPage() {
           </div>
           <p className="text-center text-[#9B9B9B] text-sm mt-10">
             Dates and venues will be announced soon.{" "}
-            <Link href="/contact" className="text-[#F7836D] hover:underline">
+            <Link href="/contact" className="text-[#FF7477] hover:underline">
               Contact us
             </Link>{" "}
             to be notified first.
@@ -149,7 +149,7 @@ export default function EventsPage() {
       <section className="bg-white py-24">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
-            <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-4">
+            <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
               What Happens at a HERizon Conference
             </p>
             <h2 className="font-serif text-4xl font-black text-[#1A1A1A]">
@@ -179,7 +179,7 @@ export default function EventsPage() {
       <section className="bg-[#1A1A1A] py-20">
         <div className="max-w-7xl mx-auto px-6 flex flex-col lg:flex-row items-center justify-between gap-8">
           <div>
-            <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-2">
+            <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-2">
               Help Us Grow
             </p>
             <h2 className="font-serif text-3xl font-black text-white">
@@ -189,7 +189,7 @@ export default function EventsPage() {
           <div className="flex flex-col sm:flex-row gap-4 shrink-0">
             <Link
               href="/sponsor"
-              className="bg-[#F7836D] text-white font-semibold px-8 py-4 rounded-full hover:bg-[#E5614A] transition-colors text-center"
+              className="bg-[#FF7477] text-white font-semibold px-8 py-4 rounded-full hover:bg-[#E85F62] transition-colors text-center"
             >
               Become a Sponsor
             </Link>

@@ -8,7 +8,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="font-serif text-3xl font-black tracking-tight mb-4">
-              <span className="text-[#F7836D]">HER</span>
+              <span className="text-[#FF7477]">HER</span>
               <span className="text-white">IZON</span>
               <span className="block text-xs text-[#9B9B9B] uppercase tracking-widest font-sans font-medium mt-1">
                 SOCIETY
@@ -24,7 +24,7 @@ export default function Footer() {
                 href="https://instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#9B9B9B] hover:text-[#F7836D] transition-colors"
+                className="text-[#9B9B9B] hover:text-[#FF7477] transition-colors"
                 aria-label="Instagram"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -35,7 +35,7 @@ export default function Footer() {
                 href="https://facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#9B9B9B] hover:text-[#F7836D] transition-colors"
+                className="text-[#9B9B9B] hover:text-[#FF7477] transition-colors"
                 aria-label="Facebook"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">

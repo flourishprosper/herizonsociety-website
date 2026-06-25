@@ -57,13 +57,13 @@ export default function PartnersPage() {
     <>
       {/* Hero */}
       <section className="bg-[#FAF8F5] py-32 text-center relative overflow-hidden">
-        <div className="absolute bottom-0 right-0 w-96 h-96 rounded-full bg-[#F7836D] opacity-5 blur-3xl" />
+        <div className="absolute bottom-0 right-0 w-96 h-96 rounded-full bg-[#FF7477] opacity-5 blur-3xl" />
         <div className="relative max-w-4xl mx-auto px-6">
-          <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-4">
+          <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
             Our Ecosystem
           </p>
           <h1 className="font-serif text-6xl sm:text-7xl font-black text-[#1A1A1A] leading-tight mb-6">
-            Partner <span className="text-[#F7836D]">Programs</span>
+            Partner <span className="text-[#FF7477]">Programs</span>
           </h1>
           <p className="text-[#9B9B9B] text-xl max-w-2xl mx-auto leading-relaxed">
             HERizon Society is stronger because of the remarkable women and
@@ -76,7 +76,7 @@ export default function PartnersPage() {
       <section className="bg-[#1A1A1A] py-24">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
-            <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-3">
+            <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-3">
               Featured Partner
             </p>
             <h2 className="font-serif text-4xl font-black text-white">
@@ -89,19 +89,19 @@ export default function PartnersPage() {
               <p className="text-[#9B9B9B] leading-relaxed mb-6">{currentPartner.bio}</p>
               <Link
                 href="/events"
-                className="inline-flex bg-[#F7836D] text-white font-semibold px-8 py-4 rounded-full hover:bg-[#E5614A] transition-colors"
+                className="inline-flex bg-[#FF7477] text-white font-semibold px-8 py-4 rounded-full hover:bg-[#E85F62] transition-colors"
               >
                 See Upcoming Events
               </Link>
             </div>
             <div>
-              <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-5">
+              <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-5">
                 Areas of Expertise
               </p>
               <ul className="space-y-4">
                 {currentPartner.expertise.map((e) => (
                   <li key={e} className="flex items-start gap-3">
-                    <span className="text-[#F7836D] mt-0.5">✦</span>
+                    <span className="text-[#FF7477] mt-0.5">✦</span>
                     <span className="text-[#9B9B9B] text-sm leading-relaxed">{e}</span>
                   </li>
                 ))}
@@ -115,7 +115,7 @@ export default function PartnersPage() {
       <section className="bg-white py-24">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
-            <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-4">
+            <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
               Who We Partner With
             </p>
             <h2 className="font-serif text-4xl font-black text-[#1A1A1A]">
@@ -135,7 +135,7 @@ export default function PartnersPage() {
       </section>
 
       {/* Become a Partner CTA */}
-      <section className="bg-[#F7836D] py-24 text-center">
+      <section className="bg-[#FF7477] py-24 text-center">
         <div className="max-w-3xl mx-auto px-6">
           <h2 className="font-serif text-4xl sm:text-5xl font-black text-white mb-6">
             Want to Partner With HERizon?
@@ -147,7 +147,7 @@ export default function PartnersPage() {
           </p>
           <Link
             href="/contact"
-            className="inline-flex bg-white text-[#F7836D] font-bold px-10 py-4 rounded-full hover:bg-[#FAF8F5] transition-colors"
+            className="inline-flex bg-white text-[#FF7477] font-bold px-10 py-4 rounded-full hover:bg-[#FAF8F5] transition-colors"
           >
             Get In Touch
           </Link>

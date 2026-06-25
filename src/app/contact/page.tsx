@@ -35,13 +35,13 @@ export default function ContactPage() {
       {/* Hero */}
       <section className="bg-[#1A1A1A] py-32 relative overflow-hidden text-center">
         <div className="absolute inset-0 bg-gradient-to-br from-[#1A1A1A] via-[#2D2D2D] to-[#1A1A1A]" />
-        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[600px] h-[200px] rounded-full bg-[#F7836D] opacity-10 blur-3xl" />
+        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[600px] h-[200px] rounded-full bg-[#FF7477] opacity-10 blur-3xl" />
         <div className="relative max-w-3xl mx-auto px-6">
-          <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-4">
+          <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
             We&rsquo;d Love to Hear From You
           </p>
           <h1 className="font-serif text-6xl sm:text-7xl font-black text-white leading-tight mb-6">
-            Get In <span className="text-[#F7836D]">Touch</span>
+            Get In <span className="text-[#FF7477]">Touch</span>
           </h1>
           <p className="text-[#9B9B9B] text-xl max-w-xl mx-auto leading-relaxed">
             Whether you want to register a girl for an event, explore mentorship,
@@ -73,7 +73,7 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16">
           {/* Form */}
           <div>
-            <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-4">
+            <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
               Send a Message
             </p>
             <h2 className="font-serif text-4xl font-black text-[#1A1A1A] mb-8 leading-tight">
@@ -83,36 +83,36 @@ export default function ContactPage() {
               <div className="grid sm:grid-cols-2 gap-5">
                 <div>
                   <label className="block text-sm font-semibold text-[#1A1A1A] mb-2">
-                    First Name <span className="text-[#F7836D]">*</span>
+                    First Name <span className="text-[#FF7477]">*</span>
                   </label>
                   <input
                     type="text"
                     required
                     placeholder="Jane"
-                    className="w-full border border-[#E8E6E2] rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#F7836D] transition-colors"
+                    className="w-full border border-[#E8E6E2] rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#FF7477] transition-colors"
                   />
                 </div>
                 <div>
                   <label className="block text-sm font-semibold text-[#1A1A1A] mb-2">
-                    Last Name <span className="text-[#F7836D]">*</span>
+                    Last Name <span className="text-[#FF7477]">*</span>
                   </label>
                   <input
                     type="text"
                     required
                     placeholder="Doe"
-                    className="w-full border border-[#E8E6E2] rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#F7836D] transition-colors"
+                    className="w-full border border-[#E8E6E2] rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#FF7477] transition-colors"
                   />
                 </div>
               </div>
               <div>
                 <label className="block text-sm font-semibold text-[#1A1A1A] mb-2">
-                  Email Address <span className="text-[#F7836D]">*</span>
+                  Email Address <span className="text-[#FF7477]">*</span>
                 </label>
                 <input
                   type="email"
                   required
                   placeholder="jane@email.com"
-                  className="w-full border border-[#E8E6E2] rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#F7836D] transition-colors"
+                  className="w-full border border-[#E8E6E2] rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#FF7477] transition-colors"
                 />
               </div>
               <div>
@@ -122,14 +122,14 @@ export default function ContactPage() {
                 <input
                   type="tel"
                   placeholder="(555) 000-0000"
-                  className="w-full border border-[#E8E6E2] rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#F7836D] transition-colors"
+                  className="w-full border border-[#E8E6E2] rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#FF7477] transition-colors"
                 />
               </div>
               <div>
                 <label className="block text-sm font-semibold text-[#1A1A1A] mb-2">
                   I&rsquo;m Reaching Out About
                 </label>
-                <select className="w-full border border-[#E8E6E2] rounded-xl px-4 py-3 text-sm text-[#2D2D2D] focus:outline-none focus:border-[#F7836D] transition-colors bg-white">
+                <select className="w-full border border-[#E8E6E2] rounded-xl px-4 py-3 text-sm text-[#2D2D2D] focus:outline-none focus:border-[#FF7477] transition-colors bg-white">
                   <option value="">Select a topic</option>
                   <option value="event">Event / Conference</option>
                   <option value="workshop">Workshop Booking</option>
@@ -141,18 +141,18 @@ export default function ContactPage() {
               </div>
               <div>
                 <label className="block text-sm font-semibold text-[#1A1A1A] mb-2">
-                  Message <span className="text-[#F7836D]">*</span>
+                  Message <span className="text-[#FF7477]">*</span>
                 </label>
                 <textarea
                   required
                   rows={5}
                   placeholder="Tell us how we can help..."
-                  className="w-full border border-[#E8E6E2] rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#F7836D] transition-colors resize-none"
+                  className="w-full border border-[#E8E6E2] rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#FF7477] transition-colors resize-none"
                 />
               </div>
               <button
                 type="submit"
-                className="w-full bg-[#F7836D] text-white font-bold py-4 rounded-full hover:bg-[#E5614A] transition-colors"
+                className="w-full bg-[#FF7477] text-white font-bold py-4 rounded-full hover:bg-[#E85F62] transition-colors"
               >
                 Send Message
               </button>
@@ -162,7 +162,7 @@ export default function ContactPage() {
           {/* Info Panel */}
           <div className="space-y-10">
             <div>
-              <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-4">
+              <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
                 Contact Info
               </p>
               <h2 className="font-serif text-3xl font-black text-[#1A1A1A] mb-6">
@@ -173,7 +173,7 @@ export default function ContactPage() {
                   <span className="text-2xl shrink-0">📧</span>
                   <div>
                     <p className="font-semibold text-[#1A1A1A] text-sm">Email</p>
-                    <a href="mailto:hello@herizonsociety.com" className="text-[#F7836D] hover:underline text-sm">
+                    <a href="mailto:hello@herizonsociety.com" className="text-[#FF7477] hover:underline text-sm">
                       hello@herizonsociety.com
                     </a>
                   </div>
@@ -182,7 +182,7 @@ export default function ContactPage() {
                   <span className="text-2xl shrink-0">📸</span>
                   <div>
                     <p className="font-semibold text-[#1A1A1A] text-sm">Instagram</p>
-                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-[#F7836D] hover:underline text-sm">
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-[#FF7477] hover:underline text-sm">
                       @herizonsociety
                     </a>
                   </div>
@@ -227,7 +227,7 @@ export default function ContactPage() {
                     className="flex items-center justify-between text-sm text-[#9B9B9B] hover:text-white transition-colors group py-1"
                   >
                     {link.label}
-                    <span className="text-[#F7836D] group-hover:translate-x-1 transition-transform">→</span>
+                    <span className="text-[#FF7477] group-hover:translate-x-1 transition-transform">→</span>
                   </a>
                 ))}
               </div>

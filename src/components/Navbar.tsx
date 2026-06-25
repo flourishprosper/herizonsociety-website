@@ -24,7 +24,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 shrink-0">
           <span className="font-serif text-2xl font-black tracking-tight leading-none">
-            <span className="text-[#F7836D]">HER</span>
+            <span className="text-[#FF7477]">HER</span>
             <span className="text-[#1A1A1A]">IZON</span>
           </span>
           <span className="hidden sm:block text-xs text-[#9B9B9B] uppercase tracking-widest font-medium ml-1">
@@ -38,7 +38,7 @@ export default function Navbar() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-[#2D2D2D] hover:text-[#F7836D] transition-colors duration-200 uppercase tracking-wide"
+              className="text-sm font-medium text-[#2D2D2D] hover:text-[#FF7477] transition-colors duration-200 uppercase tracking-wide"
             >
               {link.label}
             </Link>
@@ -49,7 +49,7 @@ export default function Navbar() {
         <div className="flex items-center gap-4">
           <Link
             href="/apply"
-            className="hidden lg:inline-flex bg-[#F7836D] text-white text-sm font-semibold px-5 py-2.5 rounded-full hover:bg-[#E5614A] transition-colors duration-200"
+            className="hidden lg:inline-flex bg-[#FF7477] text-white text-sm font-semibold px-5 py-2.5 rounded-full hover:bg-[#E85F62] transition-colors duration-200"
           >
             Apply Now
           </Link>
@@ -79,7 +79,7 @@ export default function Navbar() {
               key={link.href}
               href={link.href}
               onClick={() => setOpen(false)}
-              className="text-sm font-medium text-[#2D2D2D] hover:text-[#F7836D] uppercase tracking-wide py-1"
+              className="text-sm font-medium text-[#2D2D2D] hover:text-[#FF7477] uppercase tracking-wide py-1"
             >
               {link.label}
             </Link>
@@ -87,7 +87,7 @@ export default function Navbar() {
           <Link
             href="/apply"
             onClick={() => setOpen(false)}
-            className="mt-2 bg-[#F7836D] text-white text-sm font-semibold px-5 py-3 rounded-full text-center hover:bg-[#E5614A] transition-colors"
+            className="mt-2 bg-[#FF7477] text-white text-sm font-semibold px-5 py-3 rounded-full text-center hover:bg-[#E85F62] transition-colors"
           >
             Apply Now
           </Link>

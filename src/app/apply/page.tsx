@@ -13,14 +13,14 @@ export default function ApplyPage() {
       {/* Hero */}
       <section className="bg-[#1A1A1A] py-32 text-center relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-[#1A1A1A] via-[#2D2D2D] to-[#1A1A1A]" />
-        <div className="absolute top-0 right-0 w-96 h-96 rounded-full bg-[#F7836D] opacity-10 blur-3xl" />
+        <div className="absolute top-0 right-0 w-96 h-96 rounded-full bg-[#FF7477] opacity-10 blur-3xl" />
         <div className="relative max-w-4xl mx-auto px-6">
-          <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-4">
+          <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
             Apply
           </p>
           <h1 className="font-serif text-6xl sm:text-7xl font-black text-white leading-tight mb-6">
             Your Future{" "}
-            <span className="text-[#F7836D]">Starts Here</span>
+            <span className="text-[#FF7477]">Starts Here</span>
           </h1>
           <p className="text-[#9B9B9B] text-xl max-w-2xl mx-auto leading-relaxed">
             Ready to expand your horizons? Apply to attend an upcoming HERizon
@@ -34,7 +34,7 @@ export default function ApplyPage() {
       <section className="bg-[#FAF8F5] py-24">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
-            <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-4">
+            <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
               What You&rsquo;ll Get
             </p>
             <h2 className="font-serif text-4xl sm:text-5xl font-black text-[#1A1A1A] leading-tight">
@@ -89,7 +89,7 @@ export default function ApplyPage() {
       <section className="bg-white py-24">
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
           <div>
-            <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-4">
+            <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
               Who It&rsquo;s For
             </p>
             <h2 className="font-serif text-4xl font-black text-[#1A1A1A] leading-tight mb-6">
@@ -114,7 +114,7 @@ export default function ApplyPage() {
                 "All backgrounds, all goals, all dreams welcome",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3 text-sm text-[#2D2D2D]">
-                  <span className="text-[#F7836D] mt-0.5">✦</span>
+                  <span className="text-[#FF7477] mt-0.5">✦</span>
                   {item}
                 </li>
               ))}
@@ -131,7 +131,7 @@ export default function ApplyPage() {
             </p>
             <a
               href="mailto:hello@herizonsociety.com"
-              className="inline-block bg-[#F7836D] text-white font-semibold px-8 py-4 rounded-full hover:bg-[#E5614A] transition-colors"
+              className="inline-block bg-[#FF7477] text-white font-semibold px-8 py-4 rounded-full hover:bg-[#E85F62] transition-colors"
             >
               Get Notified
             </a>
@@ -139,7 +139,7 @@ export default function ApplyPage() {
               or email{" "}
               <a
                 href="mailto:hello@herizonsociety.com"
-                className="text-[#F7836D] hover:underline"
+                className="text-[#FF7477] hover:underline"
               >
                 hello@herizonsociety.com
               </a>
@@ -149,7 +149,7 @@ export default function ApplyPage() {
       </section>
 
       {/* Events CTA */}
-      <section className="bg-[#F7836D] py-16 text-center">
+      <section className="bg-[#FF7477] py-16 text-center">
         <div className="max-w-2xl mx-auto px-6">
           <h2 className="font-serif text-3xl font-black text-white mb-4">
             See Upcoming Events
@@ -159,7 +159,7 @@ export default function ApplyPage() {
           </p>
           <Link
             href="/events"
-            className="inline-block bg-white text-[#F7836D] font-semibold px-8 py-4 rounded-full hover:bg-[#FAF8F5] transition-colors"
+            className="inline-block bg-white text-[#FF7477] font-semibold px-8 py-4 rounded-full hover:bg-[#FAF8F5] transition-colors"
           >
             View All Events
           </Link>

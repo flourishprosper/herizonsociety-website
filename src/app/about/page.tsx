@@ -100,16 +100,16 @@ export default function AboutPage() {
       {/* Hero */}
       <section className="bg-[#1A1A1A] py-32 text-center relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-[#1A1A1A] via-[#2D2D2D] to-[#1A1A1A]" />
-        <div className="absolute top-0 right-0 w-96 h-96 rounded-full bg-[#F7836D] opacity-10 blur-3xl" />
+        <div className="absolute top-0 right-0 w-96 h-96 rounded-full bg-[#FF7477] opacity-10 blur-3xl" />
         <div className="relative max-w-4xl mx-auto px-6">
-          <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-4">
+          <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
             Our Story
           </p>
           <h1 className="font-serif text-6xl sm:text-7xl font-black text-white leading-tight mb-4">
             Helping Girls See What&rsquo;s{" "}
-            <span className="text-[#F7836D]">Possible</span>
+            <span className="text-[#FF7477]">Possible</span>
           </h1>
-          <p className="text-[#F7836D]/70 text-sm font-semibold uppercase tracking-widest mb-6">
+          <p className="text-[#FF7477]/70 text-sm font-semibold uppercase tracking-widest mb-6">
             Expanding Horizons. Building Confidence.
           </p>
           <p className="text-[#9B9B9B] text-xl max-w-2xl mx-auto leading-relaxed">
@@ -124,7 +124,7 @@ export default function AboutPage() {
       <section className="bg-[#FAF8F5] py-24">
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
           <div>
-            <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-4">
+            <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
               Our Mission
             </p>
             <h2 className="font-serif text-4xl sm:text-5xl font-black text-[#1A1A1A] leading-tight mb-6">
@@ -166,7 +166,7 @@ export default function AboutPage() {
                 — HERizon Society
               </p>
             </div>
-            <div className="bg-[#F7836D] rounded-3xl p-8 text-white">
+            <div className="bg-[#FF7477] rounded-3xl p-8 text-white">
               <p className="text-white/70 text-xs font-semibold uppercase tracking-widest mb-3">
                 Our Vision
               </p>
@@ -181,7 +181,7 @@ export default function AboutPage() {
       </section>
 
       {/* Impact Numbers */}
-      <section className="bg-[#F7836D] py-20">
+      <section className="bg-[#FF7477] py-20">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center text-white">
             {[
@@ -207,7 +207,7 @@ export default function AboutPage() {
       <section className="bg-white py-24">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
-            <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-4">
+            <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
               What We Stand For
             </p>
             <h2 className="font-serif text-4xl sm:text-5xl font-black text-[#1A1A1A] leading-tight">
@@ -253,13 +253,13 @@ export default function AboutPage() {
                   </p>
                 </div>
                 <div>
-                  <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-4">
+                  <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
                     What Girls Experience
                   </p>
                   <ul className="space-y-3">
                     {value.concepts.map((c) => (
                       <li key={c} className="flex items-start gap-3">
-                        <span className="text-[#F7836D] mt-0.5">✦</span>
+                        <span className="text-[#FF7477] mt-0.5">✦</span>
                         <span
                           className={`text-sm ${
                             i % 2 === 0 ? "text-[#2D2D2D]" : "text-[#9B9B9B]"
@@ -282,7 +282,7 @@ export default function AboutPage() {
         <div className="max-w-2xl mx-auto px-6">
           <h2 className="font-serif text-4xl font-black text-[#1A1A1A] mb-6">
             Ready to Expand Her{" "}
-            <span className="text-[#F7836D]">HERizon</span>?
+            <span className="text-[#FF7477]">HERizon</span>?
           </h2>
           <p className="text-[#9B9B9B] mb-8 leading-relaxed">
             Join us at an upcoming event and give the girl in your life access
@@ -292,7 +292,7 @@ export default function AboutPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/apply"
-              className="bg-[#F7836D] text-white font-semibold px-8 py-4 rounded-full hover:bg-[#E5614A] transition-colors"
+              className="bg-[#FF7477] text-white font-semibold px-8 py-4 rounded-full hover:bg-[#E85F62] transition-colors"
             >
               Apply Now
             </Link>
