@@ -70,10 +70,12 @@ export default function HomePage() {
               </span>
             </h1>
             <p className="text-[#9B9B9B] text-lg leading-relaxed max-w-md mb-10">
-              HERizon exists to help girls discover what&rsquo;s possible. Through
-              mentorship, leadership, entrepreneurship, and real-world experiences,
-              we inspire girls to build confidence and pursue opportunities they
-              may never have imagined.
+              At HERizon, we believe confidence changes everything. Our mission
+              is to help girls discover their strengths, believe in themselves,
+              and realize what they&rsquo;re capable of. Through mentorship,
+              entrepreneurship, education, leadership, and real-world
+              experiences, we help girls build confidence, develop meaningful
+              connections, and create a future full of possibility.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
