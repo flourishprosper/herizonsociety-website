@@ -4,16 +4,16 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "About Us — HERizon Society",
   description:
-    "HERizon Society is a community for girls ages 12–18 built on confidence, leadership, and connection. Learn about our mission and the pillars that guide everything we do.",
+    "HERizon exists to help girls discover what's possible. Learn about our mission, vision, and the six core values that guide everything we do.",
 };
 
-const pillars = [
+const coreValues = [
   {
     number: "01",
     title: "Confidence",
-    icon: "🧠",
+    icon: "💡",
     description:
-      "Real confidence isn't handed to you — it's built through the right experiences, the right language, and the right community around you. We give girls the tools to believe in themselves deeply and unapologetically.",
+      "Helping girls believe in themselves. Real confidence isn't handed to you — it's built through the right experiences, the right language, and the right community.",
     concepts: [
       "I Am statements & personal affirmations",
       "Recognizing & reframing self-doubt",
@@ -24,10 +24,38 @@ const pillars = [
   },
   {
     number: "02",
+    title: "Courage",
+    icon: "🦁",
+    description:
+      "Encouraging girls to step outside their comfort zones. Growth lives just beyond the edge of comfortable — we help girls get there.",
+    concepts: [
+      "Stepping into uncomfortable growth",
+      "Trying new things fearlessly",
+      "Speaking up and standing out",
+      "Resilience through challenges",
+      "Owning your story",
+    ],
+  },
+  {
+    number: "03",
+    title: "Community",
+    icon: "🤝",
+    description:
+      "Creating lifelong friendships and meaningful connections. The people around you shape what you believe is possible.",
+    concepts: [
+      "Mentorship from women leaders",
+      "Peer community & sisterhood",
+      "Meaningful real-world networking",
+      "Relationships built on shared values",
+      "A space where you truly belong",
+    ],
+  },
+  {
+    number: "04",
     title: "Leadership",
     icon: "🏆",
     description:
-      "Leadership isn't a title you're given — it's a way of showing up. We help girls ages 12–18 find their voice, own their impact, and step into any room ready to lead with clarity and intention.",
+      "Developing tomorrow's leaders. Leadership isn't a title — it's a way of showing up. We help girls find their voice and step into any room ready to lead.",
     concepts: [
       "Public speaking & using your voice",
       "Goal-setting & personal accountability",
@@ -37,17 +65,31 @@ const pillars = [
     ],
   },
   {
-    number: "03",
-    title: "Connection",
-    icon: "🤝",
+    number: "05",
+    title: "Opportunity",
+    icon: "🌟",
     description:
-      "The people around you shape what you believe is possible. HERizon surrounds girls with mentors who've walked ahead of them and peers who lift them higher — relationships that last long after the event ends.",
+      "Introducing girls to careers, businesses, and experiences that expand their horizons. We open doors girls didn't even know existed.",
     concepts: [
-      "Mentorship from women leaders",
-      "Peer community & sisterhood",
-      "Meaningful real-world networking",
-      "Vulnerability and trust",
-      "Relationships built on shared values",
+      "Career exploration & industry exposure",
+      "Entrepreneurship & business basics",
+      "Networking with professionals",
+      "Access to scholarships & programs",
+      "Expanding what seems possible",
+    ],
+  },
+  {
+    number: "06",
+    title: "Kindness",
+    icon: "💛",
+    description:
+      "Supporting one another through encouragement and respect. We build a community where every girl feels celebrated and safe.",
+    concepts: [
+      "Uplifting every voice in the room",
+      "Practicing empathy & compassion",
+      "Creating safe, judgment-free spaces",
+      "Celebrating each other's wins",
+      "Building each other up",
     ],
   },
 ];
@@ -63,60 +105,77 @@ export default function AboutPage() {
           <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-4">
             Our Story
           </p>
-          <h1 className="font-serif text-6xl sm:text-7xl font-black text-white leading-tight mb-6">
-            We Expand What&rsquo;s{" "}
+          <h1 className="font-serif text-6xl sm:text-7xl font-black text-white leading-tight mb-4">
+            Helping Girls See What&rsquo;s{" "}
             <span className="text-[#F7836D]">Possible</span>
           </h1>
+          <p className="text-[#F7836D]/70 text-sm font-semibold uppercase tracking-widest mb-6">
+            Expanding Horizons. Building Confidence.
+          </p>
           <p className="text-[#9B9B9B] text-xl max-w-2xl mx-auto leading-relaxed">
-            HERizon Society is a community for girls ages 12–18 designed to
-            build confidence, inspire leadership, and expand what&rsquo;s
-            possible through mentorship, real-world experiences, and meaningful
-            connections.
+            HERizon Society is a community for girls ages 12–18 built on
+            mentorship, leadership, entrepreneurship, and real-world experiences
+            that expand what&rsquo;s possible.
           </p>
         </div>
       </section>
 
-      {/* Mission */}
+      {/* Mission + Vision */}
       <section className="bg-[#FAF8F5] py-24">
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-4">
-              Why We Exist
+              Our Mission
             </p>
             <h2 className="font-serif text-4xl sm:text-5xl font-black text-[#1A1A1A] leading-tight mb-6">
-              The Years That Shape Everything
+              We Help Girls Discover What&rsquo;s Possible
             </h2>
             <div className="space-y-5 text-[#2D2D2D] leading-relaxed">
               <p>
-                The beliefs a girl forms between 12 and 18 — about herself, her
-                potential, and what she deserves — follow her for the rest of
-                her life. HERizon Society was built to make sure those beliefs
-                are strong, expansive, and rooted in truth.
+                HERizon exists to help girls discover what&rsquo;s possible.
+                Through mentorship, leadership, entrepreneurship, community
+                experiences, and real-world exposure, we inspire girls to build
+                confidence, develop life skills, and pursue opportunities they
+                may never have imagined.
               </p>
               <p>
-                We created a space where teenage girls aren&rsquo;t just
-                talked <em>at</em> — they&rsquo;re mentored, challenged,
-                celebrated, and connected to women who have already walked the
-                path ahead of them.
+                Our goal is simple:{" "}
+                <strong>
+                  to help every girl leave believing her future is bigger than
+                  she thought.
+                </strong>
               </p>
               <p>
-                Through conferences, workshops, and a living community,
-                HERizon gives girls the experiences they need to step into their
-                own leadership — at 14, at 18, and at every age after.
+                We created a space where teenage girls aren&rsquo;t just talked{" "}
+                <em>at</em> — they&rsquo;re mentored, challenged, celebrated,
+                and connected to women who have already walked the path ahead of
+                them.
               </p>
             </div>
           </div>
-          <div className="bg-white rounded-3xl border border-[#E8E6E2] p-10">
-            <div className="font-serif text-7xl font-black text-[#F0EFEC] mb-4">
-              &ldquo;
+          <div className="space-y-6">
+            <div className="bg-white rounded-3xl border border-[#E8E6E2] p-10">
+              <div className="font-serif text-7xl font-black text-[#F0EFEC] mb-4">
+                &ldquo;
+              </div>
+              <blockquote className="font-serif text-2xl font-bold text-[#1A1A1A] leading-snug mb-6">
+                When girls know who they are and what they&rsquo;re capable of,
+                they change everything.
+              </blockquote>
+              <p className="text-[#9B9B9B] text-sm uppercase tracking-wider">
+                — HERizon Society
+              </p>
             </div>
-            <blockquote className="font-serif text-2xl font-bold text-[#1A1A1A] leading-snug mb-6">
-              When girls know who they are and what they&rsquo;re capable of,
-              they change everything.
-            </blockquote>
-            <p className="text-[#9B9B9B] text-sm uppercase tracking-wider">
-              — HERizon Society
-            </p>
+            <div className="bg-[#F7836D] rounded-3xl p-8 text-white">
+              <p className="text-white/70 text-xs font-semibold uppercase tracking-widest mb-3">
+                Our Vision
+              </p>
+              <p className="font-serif text-xl font-bold leading-snug">
+                To become the leading community for young women, creating local
+                chapters across the country that connect girls with mentors,
+                entrepreneurs, business leaders, and life-changing experiences.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -132,46 +191,50 @@ export default function AboutPage() {
               { val: "2026", label: "Digital Platform Launch" },
             ].map((s) => (
               <div key={s.label}>
-                <div className="font-serif text-5xl font-black mb-2">{s.val}</div>
-                <div className="text-white/70 text-xs uppercase tracking-widest">{s.label}</div>
+                <div className="font-serif text-5xl font-black mb-2">
+                  {s.val}
+                </div>
+                <div className="text-white/70 text-xs uppercase tracking-widest">
+                  {s.label}
+                </div>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Three Pillars */}
+      {/* Six Core Values */}
       <section className="bg-white py-24">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-4">
-              Our Foundation
+              What We Stand For
             </p>
             <h2 className="font-serif text-4xl sm:text-5xl font-black text-[#1A1A1A] leading-tight">
-              Three Pillars. One Community.
+              Six Core Values. One Mission.
             </h2>
             <p className="text-[#9B9B9B] mt-4 max-w-xl mx-auto">
-              Every experience at HERizon is built on three pillars — the
-              formula that creates truly confident, connected young leaders.
+              Every experience at HERizon is built on these six values — the
+              foundation that creates truly confident, connected young leaders.
             </p>
           </div>
           <div className="space-y-8">
-            {pillars.map((pillar, i) => (
+            {coreValues.map((value, i) => (
               <div
-                key={pillar.number}
+                key={value.number}
                 className={`rounded-3xl p-8 lg:p-12 grid lg:grid-cols-2 gap-10 items-start ${
                   i % 2 === 0 ? "bg-[#FAF8F5]" : "bg-[#1A1A1A] text-white"
                 }`}
               >
                 <div>
                   <div className="flex items-center gap-4 mb-4">
-                    <span className="text-4xl">{pillar.icon}</span>
+                    <span className="text-4xl">{value.icon}</span>
                     <span
                       className={`font-serif text-5xl font-black ${
                         i % 2 === 0 ? "text-[#F0EFEC]" : "text-white/20"
                       }`}
                     >
-                      {pillar.number}
+                      {value.number}
                     </span>
                   </div>
                   <h3
@@ -179,14 +242,14 @@ export default function AboutPage() {
                       i % 2 === 0 ? "text-[#1A1A1A]" : "text-white"
                     }`}
                   >
-                    {pillar.title}
+                    {value.title}
                   </h3>
                   <p
                     className={`leading-relaxed ${
                       i % 2 === 0 ? "text-[#2D2D2D]" : "text-[#9B9B9B]"
                     }`}
                   >
-                    {pillar.description}
+                    {value.description}
                   </p>
                 </div>
                 <div>
@@ -194,7 +257,7 @@ export default function AboutPage() {
                     What Girls Experience
                   </p>
                   <ul className="space-y-3">
-                    {pillar.concepts.map((c) => (
+                    {value.concepts.map((c) => (
                       <li key={c} className="flex items-start gap-3">
                         <span className="text-[#F7836D] mt-0.5">✦</span>
                         <span
@@ -228,16 +291,16 @@ export default function AboutPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="/events"
+              href="/apply"
               className="bg-[#F7836D] text-white font-semibold px-8 py-4 rounded-full hover:bg-[#E5614A] transition-colors"
             >
-              Find an Event
+              Apply Now
             </Link>
             <Link
-              href="/contact"
+              href="/events"
               className="border border-[#E8E6E2] text-[#1A1A1A] font-semibold px-8 py-4 rounded-full hover:border-[#1A1A1A] transition-colors"
             >
-              Get in Touch
+              Find an Event
             </Link>
           </div>
         </div>

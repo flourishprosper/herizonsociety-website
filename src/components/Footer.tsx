@@ -15,8 +15,9 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-[#9B9B9B] text-sm leading-relaxed max-w-xs">
-              A community for girls ages 12–18 built on confidence, leadership,
-              and meaningful connection. Expanding what’s possible — together.
+              Expanding Horizons. Building Confidence. A community for girls
+              ages 12–18 built on mentorship, leadership, and real-world
+              experiences that expand what&rsquo;s possible.
             </p>
             <div className="flex gap-4 mt-6">
               <a
@@ -53,9 +54,8 @@ export default function Footer() {
               {[
                 { label: "About Us", href: "/about" },
                 { label: "Events", href: "/events" },
-                { label: "Workshops", href: "/workshops" },
-                { label: "Conversations", href: "/conversations" },
-                { label: "Partners", href: "/partners" },
+                { label: "Mentorship", href: "/mentorship" },
+                { label: "Gallery", href: "/gallery" },
                 { label: "Blog", href: "/blog" },
               ].map((link) => (
                 <li key={link.href}>
@@ -77,8 +77,9 @@ export default function Footer() {
             </h3>
             <ul className="space-y-3 text-sm">
               {[
+                { label: "Apply Now", href: "/apply" },
                 { label: "Be a Sponsor", href: "/sponsor" },
-                { label: "LeadHER Referral Squad", href: "/referral" },
+                { label: "Volunteer", href: "/volunteer" },
                 { label: "Contact Us", href: "/contact" },
               ].map((link) => (
                 <li key={link.href}>

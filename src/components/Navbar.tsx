@@ -7,9 +7,10 @@ import { useState } from "react";
 const navLinks = [
   { label: "About", href: "/about" },
   { label: "Events", href: "/events" },
-  { label: "Workshops", href: "/workshops" },
-  { label: "Conversations", href: "/conversations" },
-  { label: "Partners", href: "/partners" },
+  { label: "Mentorship", href: "/mentorship" },
+  { label: "Sponsors", href: "/sponsor" },
+  { label: "Volunteer", href: "/volunteer" },
+  { label: "Gallery", href: "/gallery" },
   { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/contact" },
 ];
@@ -47,10 +48,10 @@ export default function Navbar() {
         {/* CTA + Hamburger */}
         <div className="flex items-center gap-4">
           <Link
-            href="/events"
+            href="/apply"
             className="hidden lg:inline-flex bg-[#F7836D] text-white text-sm font-semibold px-5 py-2.5 rounded-full hover:bg-[#E5614A] transition-colors duration-200"
           >
-            Find an Event
+            Apply Now
           </Link>
           <button
             onClick={() => setOpen(!open)}
@@ -84,11 +85,11 @@ export default function Navbar() {
             </Link>
           ))}
           <Link
-            href="/events"
+            href="/apply"
             onClick={() => setOpen(false)}
             className="mt-2 bg-[#F7836D] text-white text-sm font-semibold px-5 py-3 rounded-full text-center hover:bg-[#E5614A] transition-colors"
           >
-            Find an Event
+            Apply Now
           </Link>
         </div>
       )}

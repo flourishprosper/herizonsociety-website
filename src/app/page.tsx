@@ -1,43 +1,41 @@
 import Link from "next/link";
 
-const pillars = [
+const coreValues = [
   {
-    number: "01",
+    icon: "💡",
     title: "Confidence",
-    description:
-      "Real confidence isn't handed to you — it's built. We give girls the mindset tools, language, and experiences they need to believe in themselves deeply and unapologetically.",
-    bullets: [
-      "I Am statements & personal affirmations",
-      "Recognizing & reframing self-doubt",
-      "Emotional intelligence & self-awareness",
-      "Breaking through limiting beliefs",
-    ],
+    description: "Helping girls believe in themselves.",
     color: "bg-[#F7836D]",
   },
   {
-    number: "02",
-    title: "Leadership",
-    description:
-      "Leadership isn't a title — it's a way of showing up. We help girls find their voice, own their impact, and step into rooms ready to lead with intention.",
-    bullets: [
-      "Public speaking & personal voice",
-      "Goal-setting & accountability",
-      "Real-world project experience",
-      "Decision-making & resilience",
-    ],
+    icon: "🦁",
+    title: "Courage",
+    description: "Encouraging girls to step outside their comfort zones.",
     color: "bg-[#1A1A1A]",
   },
   {
-    number: "03",
-    title: "Connection",
+    icon: "🤝",
+    title: "Community",
+    description: "Creating lifelong friendships and meaningful connections.",
+    color: "bg-[#2D2D2D]",
+  },
+  {
+    icon: "🏆",
+    title: "Leadership",
+    description: "Developing tomorrow's leaders.",
+    color: "bg-[#F7836D]",
+  },
+  {
+    icon: "🌟",
+    title: "Opportunity",
     description:
-      "The people around you shape what you believe is possible. We surround girls with mentors who've been there and peers who lift them higher.",
-    bullets: [
-      "Mentorship from women leaders",
-      "Peer community & sisterhood",
-      "Meaningful networking experiences",
-      "Relationships that last beyond the event",
-    ],
+      "Introducing girls to careers, businesses, and experiences that expand their horizons.",
+    color: "bg-[#1A1A1A]",
+  },
+  {
+    icon: "💛",
+    title: "Kindness",
+    description: "Supporting one another through encouragement and respect.",
     color: "bg-[#2D2D2D]",
   },
 ];
@@ -46,7 +44,7 @@ const stats = [
   { value: "500+", label: "Girls in Community" },
   { value: "10+", label: "Events Hosted" },
   { value: "12–18", label: "Ages We Serve" },
-  { value: "3", label: "Core Pillars" },
+  { value: "6", label: "Core Values" },
 ];
 
 export default function HomePage() {
@@ -71,31 +69,34 @@ export default function HomePage() {
             <span className="inline-block text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-6 border border-[#F7836D]/40 px-3 py-1 rounded-full">
               For Girls Ages 12–18
             </span>
-            <h1 className="font-serif text-6xl sm:text-7xl lg:text-8xl font-black leading-[0.9] text-white mb-8">
+            <h1 className="font-serif text-6xl sm:text-7xl lg:text-8xl font-black leading-[0.9] text-white mb-4">
               YOUR
               <br />
               <span className="text-[#F7836D]">HER</span>IZON
               <br />
               IS NOW.
             </h1>
+            <p className="text-[#F7836D] text-sm font-semibold uppercase tracking-widest mb-8">
+              Expanding Horizons. Building Confidence.
+            </p>
             <p className="text-[#9B9B9B] text-lg leading-relaxed max-w-md mb-10">
-              HERizon Society is a community for girls ages 12–18 designed to
-              build confidence, inspire leadership, and expand what&rsquo;s
-              possible through mentorship, real-world experiences, and
-              meaningful connections.
+              HERizon exists to help girls discover what&rsquo;s possible. Through
+              mentorship, leadership, entrepreneurship, and real-world experiences,
+              we inspire girls to build confidence and pursue opportunities they
+              may never have imagined.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
-                href="/events"
+                href="/apply"
                 className="bg-[#F7836D] text-white font-semibold px-8 py-4 rounded-full hover:bg-[#E5614A] transition-colors text-center"
               >
-                Find an Event Near You
+                Apply Now
               </Link>
               <Link
-                href="/about"
+                href="/events"
                 className="border border-white/30 text-white font-semibold px-8 py-4 rounded-full hover:border-white/60 transition-colors text-center"
               >
-                Our Story
+                Find an Event
               </Link>
             </div>
           </div>
@@ -122,58 +123,49 @@ export default function HomePage() {
       <section className="bg-[#FAF8F5] py-24">
         <div className="max-w-7xl mx-auto px-6 text-center">
           <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-4">
-            Why HERizon Exists
+            Our Mission
           </p>
           <h2 className="font-serif text-4xl sm:text-5xl font-black text-[#1A1A1A] mb-6 max-w-3xl mx-auto leading-tight">
-            We Expand What&rsquo;s{" "}
+            Helping Girls See What&rsquo;s{" "}
             <span className="text-[#F7836D]">Possible</span>
           </h2>
           <p className="text-[#9B9B9B] text-lg max-w-2xl mx-auto leading-relaxed">
-            The teenage years are pivotal. The beliefs girls form between 12 and
-            18 about themselves, their potential, and their place in the world
-            follow them for life. HERizon Society exists to make sure those
-            beliefs are strong, expansive, and unshakeable.
+            HERizon exists to help girls discover what&rsquo;s possible. Our goal is
+            simple:{" "}
+            <strong className="text-[#1A1A1A]">
+              to help every girl leave believing her future is bigger than she thought.
+            </strong>
           </p>
         </div>
       </section>
 
-      {/* ─── THE THREE PILLARS ────────────────────────────── */}
+      {/* ─── CORE VALUES ──────────────────────────────────── */}
       <section className="bg-white py-24">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-4">
-              Our Foundation
+              What We Stand For
             </p>
             <h2 className="font-serif text-4xl sm:text-5xl font-black text-[#1A1A1A] leading-tight">
-              Three Pillars. One Community.
+              Six Values. One Community.
             </h2>
           </div>
-          <div className="grid md:grid-cols-3 gap-8">
-            {pillars.map((pillar) => (
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {coreValues.map((value) => (
               <div
-                key={pillar.number}
+                key={value.title}
                 className="rounded-3xl overflow-hidden card-hover"
               >
-                <div className={`${pillar.color} p-8`}>
-                  <span className="font-serif text-white/30 text-6xl font-black leading-none">
-                    {pillar.number}
-                  </span>
-                  <h3 className="font-serif text-2xl font-bold text-white mt-4 leading-snug">
-                    {pillar.title}
+                <div className={`${value.color} p-8`}>
+                  <span className="text-4xl block mb-4">{value.icon}</span>
+                  <h3 className="font-serif text-2xl font-bold text-white leading-snug">
+                    {value.title}
                   </h3>
                 </div>
-                <div className="bg-[#F0EFEC] p-8">
-                  <p className="text-[#2D2D2D] text-sm leading-relaxed mb-6">
-                    {pillar.description}
+                <div className="bg-[#F0EFEC] p-6">
+                  <p className="text-[#2D2D2D] text-sm leading-relaxed">
+                    {value.description}
                   </p>
-                  <ul className="space-y-2">
-                    {pillar.bullets.map((b) => (
-                      <li key={b} className="flex items-start gap-2 text-sm text-[#2D2D2D]">
-                        <span className="mt-1 shrink-0 text-[#F7836D]">✦</span>
-                        {b}
-                      </li>
-                    ))}
-                  </ul>
                 </div>
               </div>
             ))}
@@ -234,17 +226,17 @@ export default function HomePage() {
               Real Experiences. Real Mentors. Real Change.
             </h2>
             <p className="text-[#9B9B9B] text-lg leading-relaxed mb-6">
-              HERizon isn&rsquo;t just a conference — it&rsquo;s a living,
-              breathing community. Girls connect with women who have walked
-              ahead of them, get access to experiences that stretch their
-              comfort zone, and build relationships with peers who see their
-              potential even when they can&rsquo;t.
+              Every HERizon event leaves girls with a new connection, a new
+              perspective, a new opportunity, and greater confidence. HERizon
+              isn&rsquo;t just a conference — it&rsquo;s a living, breathing
+              community where girls connect with women who have walked ahead of
+              them.
             </p>
             <Link
-              href="/about"
+              href="/mentorship"
               className="inline-flex bg-[#1A1A1A] text-white font-semibold px-8 py-4 rounded-full hover:bg-[#2D2D2D] transition-colors"
             >
-              Learn About HERizon
+              Explore Mentorship
             </Link>
           </div>
           <div className="grid grid-cols-2 gap-4">
@@ -276,7 +268,7 @@ export default function HomePage() {
             of, they{" "}
             <span className="text-[#F7836D]">change everything.</span>&rdquo;
           </blockquote>
-          <p className="text-[#9B9B9B] text-sm uppercase tracking-widest">
+          <p className="text-[#9B9B9B] text-sm uppercase tracking-wider">
             — HERizon Society
           </p>
         </div>
@@ -296,8 +288,9 @@ export default function HomePage() {
               <p className="text-[#9B9B9B] leading-relaxed mb-8">
                 HERizon Society grows through the women, leaders, and businesses
                 who believe in the next generation. Sponsor an event, become a
-                mentor, or join our LeadHER referral squad. Every action sends a
-                message to a young girl: <em>you are worth investing in.</em>
+                mentor, or volunteer your time. Every action sends a message to
+                a young girl:{" "}
+                <em>you are worth investing in.</em>
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
@@ -307,18 +300,21 @@ export default function HomePage() {
                   Become a Sponsor
                 </Link>
                 <Link
-                  href="/referral"
+                  href="/volunteer"
                   className="border border-[#E8E6E2] text-[#1A1A1A] font-semibold px-8 py-4 rounded-full hover:border-[#1A1A1A] transition-colors text-center"
                 >
-                  Join the LeadHER Squad
+                  Volunteer
                 </Link>
               </div>
             </div>
             <div className="text-center">
-              <div className="font-serif text-8xl leading-none mb-4">💅</div>
+              <div className="font-serif text-8xl leading-none mb-4">✨</div>
               <p className="text-[#9B9B9B] text-lg font-medium">
-                Bring 3 girls — earn exclusive{" "}
-                <span className="text-[#F7836D]">LeadHER merch</span>
+                Our vision: local chapters across the country connecting girls
+                with{" "}
+                <span className="text-[#F7836D]">
+                  mentors and life-changing experiences
+                </span>
               </p>
             </div>
           </div>
