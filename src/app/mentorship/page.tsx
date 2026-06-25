@@ -19,8 +19,8 @@ export default function MentorshipPage() {
             Role Models
           </p>
           <h1 className="font-serif text-6xl sm:text-7xl font-black text-white leading-tight mb-6">
-            Connect with Women Who Inspire,{" "}
-            <span className="text-[#FF7477]">Encourage, and Empower</span>
+            Connect with Women{" "}
+            <span className="text-[#FF7477]">Who Inspire, Encourage, and Empower</span>
           </h1>
           <p className="text-[#9B9B9B] text-xl max-w-2xl mx-auto leading-relaxed">
             The people around you shape what you believe is possible. Herizon
