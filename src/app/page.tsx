@@ -118,7 +118,7 @@ export default function HomePage() {
             Our Mission
           </p>
           <div className="max-w-2xl mx-auto space-y-5 text-lg text-[#9B9B9B] leading-relaxed">
-            <p>
+            <p className="font-black text-[#1A1A1A] text-xl sm:text-2xl">
               HERizon exists to help girls discover what&rsquo;s possible.
             </p>
             <p>
