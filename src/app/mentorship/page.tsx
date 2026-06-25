@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Mentorship — HERizon Society",
+  title: "Mentorship — Herizon Society",
   description:
     "Connect with women leaders, entrepreneurs, and business professionals who inspire confidence and expand what's possible for girls ages 12–18.",
 };
@@ -23,7 +23,7 @@ export default function MentorshipPage() {
             <span className="text-[#FF7477]">Show the Way</span>
           </h1>
           <p className="text-[#9B9B9B] text-xl max-w-2xl mx-auto leading-relaxed">
-            The people around you shape what you believe is possible. HERizon
+            The people around you shape what you believe is possible. Herizon
             connects girls with mentors who&rsquo;ve been there — women who are
             living proof that her future is limitless.
           </p>
@@ -48,7 +48,7 @@ export default function MentorshipPage() {
                 possible for herself.
               </p>
               <p>
-                At HERizon, mentorship isn&rsquo;t a checkbox. It&rsquo;s a
+                At Herizon, mentorship isn&rsquo;t a checkbox. It&rsquo;s a
                 core part of who we are. Every event is designed to create
                 genuine, lasting connections between girls and the women who
                 inspire them.
@@ -76,12 +76,12 @@ export default function MentorshipPage() {
         </div>
       </section>
 
-      {/* The HERizon Brand Promise */}
+      {/* The Herizon Brand Promise */}
       <section className="bg-[#FF7477] py-20">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center text-white mb-12">
             <p className="text-white/70 text-xs font-semibold uppercase tracking-widest mb-4">
-              The HERizon Promise
+              The Herizon Promise
             </p>
             <h2 className="font-serif text-4xl font-black leading-tight">
               Every Event Leaves Girls With…

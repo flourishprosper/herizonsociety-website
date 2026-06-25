@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "About Us — HERizon Society",
+  title: "About Us — Herizon Society",
   description:
-    "HERizon exists to help girls discover what's possible. Learn about our mission, vision, and the six core values that guide everything we do.",
+    "Herizon exists to help girls discover what's possible. Learn about our mission, vision, and the six core values that guide everything we do.",
 };
 
 const coreValues = [
@@ -113,7 +113,7 @@ export default function AboutPage() {
             Expanding Horizons. Building Confidence.
           </p>
           <p className="text-[#9B9B9B] text-xl max-w-2xl mx-auto leading-relaxed">
-            HERizon Society is a community for girls ages 12–18 built on
+            Herizon Society is a community for girls ages 12–18 built on
             mentorship, leadership, entrepreneurship, and real-world experiences
             that expand what&rsquo;s possible.
           </p>
@@ -132,7 +132,7 @@ export default function AboutPage() {
             </h2>
             <div className="space-y-5 text-[#2D2D2D] leading-relaxed">
               <p>
-                HERizon exists to help girls discover what&rsquo;s possible.
+                Herizon exists to help girls discover what&rsquo;s possible.
                 Through mentorship, leadership, entrepreneurship, community
                 experiences, and real-world exposure, we inspire girls to build
                 confidence, develop life skills, and pursue opportunities they
@@ -163,7 +163,7 @@ export default function AboutPage() {
                 they change everything.
               </blockquote>
               <p className="text-[#9B9B9B] text-sm uppercase tracking-wider">
-                — HERizon Society
+                — Herizon Society
               </p>
             </div>
             <div className="bg-[#FF7477] rounded-3xl p-8 text-white">
@@ -214,7 +214,7 @@ export default function AboutPage() {
               Six Core Values. One Mission.
             </h2>
             <p className="text-[#9B9B9B] mt-4 max-w-xl mx-auto">
-              Every experience at HERizon is built on these six values — the
+              Every experience at Herizon is built on these six values — the
               foundation that creates truly confident, connected young leaders.
             </p>
           </div>
@@ -282,7 +282,7 @@ export default function AboutPage() {
         <div className="max-w-2xl mx-auto px-6">
           <h2 className="font-serif text-4xl font-black text-[#1A1A1A] mb-6">
             Ready to Expand Her{" "}
-            <span className="text-[#FF7477]">HERizon</span>?
+            <span className="text-[#FF7477]">Herizon</span>?
           </h2>
           <p className="text-[#9B9B9B] mb-8 leading-relaxed">
             Join us at an upcoming event and give the girl in your life access

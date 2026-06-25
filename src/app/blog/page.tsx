@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Blog — HERizon Society",
+  title: "Blog — Herizon Society",
   description:
-    "Read the HERizon Society blog for insights on confidence, leadership, mentorship, and empowering the girls ages 12–18 in your life.",
+    "Read the Herizon Society blog for insights on confidence, leadership, mentorship, and empowering the girls ages 12–18 in your life.",
 };
 
 const posts = [
@@ -55,7 +55,7 @@ const posts = [
   },
   {
     slug: "navigating-adolescence",
-    title: "Navigating Adolescence: Challenges for Girls and How HERizon Can Help",
+    title: "Navigating Adolescence: Challenges for Girls and How Herizon Can Help",
     category: "Leadership",
     excerpt:
       "Adolescence throws a lot at young girls. Here's how structured empowerment programs provide the anchors they need to stay steady.",
@@ -111,7 +111,7 @@ export default function BlogPage() {
             Resources & Insights
           </p>
           <h1 className="font-serif text-6xl sm:text-7xl font-black text-[#1A1A1A] leading-tight mb-6">
-            The HERizon <span className="text-[#FF7477]">Blog</span>
+            The Herizon <span className="text-[#FF7477]">Blog</span>
           </h1>
           <p className="text-[#9B9B9B] text-xl leading-relaxed">
             Real insights on confidence, leadership, mentorship, and raising
@@ -199,7 +199,7 @@ export default function BlogPage() {
           </h2>
           <p className="text-white/80 mb-8">
             Join our newsletter for weekly insights on confidence, parenting
-            empowered girls, and upcoming HERizon events.
+            empowered girls, and upcoming Herizon events.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
             <input

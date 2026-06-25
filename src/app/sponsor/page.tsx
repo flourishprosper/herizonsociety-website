@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Be a Sponsor — HERizon Society",
+  title: "Be a Sponsor — Herizon Society",
   description:
-    "Sponsor a HERizon Society event and help create the mentorship, leadership experiences, and community that girls ages 12–18 deserve.",
+    "Sponsor a Herizon Society event and help create the mentorship, leadership experiences, and community that girls ages 12–18 deserve.",
 };
 
 const tiers = [
@@ -77,7 +77,7 @@ export default function SponsorPage() {
             Be a <span className="text-[#FF7477]">Sponsor</span>
           </h1>
           <p className="text-[#9B9B9B] text-xl max-w-2xl mx-auto leading-relaxed">
-            At HERizon Society, we believe what surrounds a girl shapes who
+            At Herizon Society, we believe what surrounds a girl shapes who
             she becomes. When girls have access to mentors, real experiences,
             and a community that sees their potential, they begin to see it
             themselves. But we can&rsquo;t build this alone.
@@ -109,7 +109,7 @@ export default function SponsorPage() {
             <p className="text-[#9B9B9B] leading-relaxed mb-8">
               We are inviting passionate women, leaders, business owners,
               mentors, and community supporters to help us build the
-              experiences girls ages 12–18 deserve. Sponsoring HERizon Society
+              experiences girls ages 12–18 deserve. Sponsoring Herizon Society
               is more than brand visibility — it&rsquo;s a direct investment
               in the next generation of confident, connected leaders.
             </p>

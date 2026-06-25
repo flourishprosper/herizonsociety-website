@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Workshops — HERizon Society",
+  title: "Workshops — Herizon Society",
   description:
-    "Monthly HERizon workshops for girls ages 12–18. Confidence, leadership, mentorship, and real-world experiences in a supportive community setting.",
+    "Monthly Herizon workshops for girls ages 12–18. Confidence, leadership, mentorship, and real-world experiences in a supportive community setting.",
 };
 
 const sessions = [
@@ -68,7 +68,7 @@ export default function WorkshopsPage() {
             Monthly Programs
           </p>
           <h1 className="font-serif text-6xl sm:text-7xl font-black text-white leading-tight mb-6">
-            HERizon Workshops
+            Herizon Workshops
           </h1>
           <p className="text-white/80 text-xl max-w-2xl mx-auto leading-relaxed">
             Monthly workshops for girls ages 12–18 where real experiences,
@@ -90,7 +90,7 @@ export default function WorkshopsPage() {
             </h2>
             <div className="space-y-4 text-[#2D2D2D] leading-relaxed">
               <p>
-                Each HERizon Workshop brings together a small group of girls
+                Each Herizon Workshop brings together a small group of girls
                 ages 12–18 for a focused, intentional experience. These
                 aren&rsquo;t lectures — they&rsquo;re hands-on, honest, and
                 built around what girls in this age group actually need.
@@ -172,7 +172,7 @@ export default function WorkshopsPage() {
           </h2>
           <p className="text-[#9B9B9B] text-lg leading-relaxed mb-10 max-w-xl mx-auto">
             Spots are limited by design — so each girl gets the attention and
-            experience she deserves. Register for the next HERizon Workshop today.
+            experience she deserves. Register for the next Herizon Workshop today.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

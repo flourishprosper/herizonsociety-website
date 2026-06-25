@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "LeadHER Referral Squad — HERizon Society",
+  title: "LeadHER Referral Squad — Herizon Society",
   description:
-    "Join the HERizon LeadHER Referral Squad. Invite girls ages 12–18 to a HERizon event and earn exclusive merch for growing the community.",
+    "Join the Herizon LeadHER Referral Squad. Invite girls ages 12–18 to a Herizon event and earn exclusive merch for growing the community.",
 };
 
 const tiers = [
@@ -12,14 +12,14 @@ const tiers = [
     friends: 3,
     reward: "Exclusive LeadHER T-Shirt",
     icon: "👕",
-    desc: "Bring 3 girls to a HERizon event and earn our exclusive LeadHER tee.",
+    desc: "Bring 3 girls to a Herizon event and earn our exclusive LeadHER tee.",
     color: "bg-[#FAF8F5] border-[#E8E6E2]",
   },
   {
     friends: 5,
     reward: "LeadHER T-Shirt + Swag Bag",
     icon: "🎒",
-    desc: "Bring 5 girls and earn the T-Shirt AND a full HERizon Swag Bag packed with exclusive goodies.",
+    desc: "Bring 5 girls and earn the T-Shirt AND a full Herizon Swag Bag packed with exclusive goodies.",
     color: "bg-[#FF7477]/10 border-[#FF7477]/30",
     featured: true,
   },
@@ -27,7 +27,7 @@ const tiers = [
     friends: 8,
     reward: "T-Shirt + Swag Bag + Hoodie",
     icon: "🧥",
-    desc: "Bring 8 girls — the full squad. T-Shirt, Swag Bag, AND an exclusive HERizon Hoodie. You’re officially a LeadHER.",
+    desc: "Bring 8 girls — the full squad. T-Shirt, Swag Bag, AND an exclusive Herizon Hoodie. You’re officially a LeadHER.",
     color: "bg-[#1A1A1A] border-[#1A1A1A]",
     dark: true,
   },
@@ -36,7 +36,7 @@ const tiers = [
 const steps = [
   { step: "01", title: "Fill Out the Form", desc: "Register below and get your unique referral link instantly." },
   { step: "02", title: "Share With Friends", desc: "Send your link to friends, post on social media, or text it to your squad." },
-  { step: "03", title: "Girls Register", desc: "When girls register for a HERizon event using your link, they count toward your milestone." },
+  { step: "03", title: "Girls Register", desc: "When girls register for a Herizon event using your link, they count toward your milestone." },
   { step: "04", title: "Earn Your Rewards", desc: "Hit your milestone and your exclusive merch will be waiting for you at the event." },
 ];
 
@@ -57,7 +57,7 @@ export default function ReferralPage() {
           <p className="text-[#9B9B9B] text-xl max-w-2xl mx-auto leading-relaxed">
             The best communities grow through the people in them. Get your
             referral link, invite girls who need this, and earn exclusive
-            rewards for expanding the HERizon circle.
+            rewards for expanding the Herizon circle.
           </p>
         </div>
       </section>

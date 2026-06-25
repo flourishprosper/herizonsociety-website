@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Volunteer — HERizon Society",
+  title: "Volunteer — Herizon Society",
   description:
-    "Give your time and talents to help girls ages 12–18 discover what's possible. Volunteer with HERizon Society.",
+    "Give your time and talents to help girls ages 12–18 discover what's possible. Volunteer with Herizon Society.",
 };
 
 const roles = [
@@ -12,7 +12,7 @@ const roles = [
     icon: "🎤",
     title: "Event Volunteer",
     description:
-      "Help coordinate, set up, and run HERizon events in your area. Be the energy that makes each experience unforgettable.",
+      "Help coordinate, set up, and run Herizon events in your area. Be the energy that makes each experience unforgettable.",
   },
   {
     icon: "👩‍🏫",
@@ -30,7 +30,7 @@ const roles = [
     icon: "📸",
     title: "Content & Creative",
     description:
-      "Help us capture and share the HERizon story — photography, video, social media, or content creation.",
+      "Help us capture and share the Herizon story — photography, video, social media, or content creation.",
   },
   {
     icon: "📋",
@@ -42,7 +42,7 @@ const roles = [
     icon: "💼",
     title: "Corporate & Community",
     description:
-      "Connect HERizon with local businesses, community organizations, and sponsors who share our mission.",
+      "Connect Herizon with local businesses, community organizations, and sponsors who share our mission.",
   },
 ];
 
@@ -62,7 +62,7 @@ export default function VolunteerPage() {
             <span className="text-[#FF7477]">the Next Generation</span>
           </h1>
           <p className="text-[#9B9B9B] text-xl max-w-2xl mx-auto leading-relaxed">
-            Volunteering with HERizon is one of the most direct ways to invest
+            Volunteering with Herizon is one of the most direct ways to invest
             in a girl&rsquo;s future. Your time, skills, and presence make a
             lasting impact.
           </p>
@@ -81,7 +81,7 @@ export default function VolunteerPage() {
             </h2>
             <p className="text-[#9B9B9B] mt-4 max-w-xl mx-auto">
               No matter your skills or schedule, there&rsquo;s a place for you
-              in the HERizon community.
+              in the Herizon community.
             </p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">

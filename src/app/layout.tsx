@@ -17,23 +17,23 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "HERizon Society — A Community for Girls 12–18",
+  title: "Herizon Society — A Community for Girls 12–18",
   description:
-    "HERizon Society is a community for girls ages 12–18 designed to build confidence, inspire leadership, and expand what's possible through mentorship, real-world experiences, and meaningful connections.",
+    "Herizon Society is a community for girls ages 12–18 designed to build confidence, inspire leadership, and expand what's possible through mentorship, real-world experiences, and meaningful connections.",
   keywords: [
     "girls community ages 12-18",
     "teen girls empowerment",
     "girls leadership programs",
     "mentorship for teen girls",
     "girls confidence community",
-    "HERizon Society",
+    "Herizon Society",
   ],
   openGraph: {
-    title: "HERizon Society — A Community for Girls 12–18",
+    title: "Herizon Society — A Community for Girls 12–18",
     description:
       "A community for girls ages 12–18 built on confidence, leadership, and meaningful connection.",
     url: "https://herizonsociety.com",
-    siteName: "HERizon Society",
+    siteName: "Herizon Society",
     locale: "en_US",
     type: "website",
   },

@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Events & Conferences — HERizon Society",
+  title: "Events & Conferences — Herizon Society",
   description:
-    "Find an upcoming HERizon Society event near you. Conferences and experiences for girls ages 12–18 across Southern California.",
+    "Find an upcoming Herizon Society event near you. Conferences and experiences for girls ages 12–18 across Southern California.",
 };
 
 const upcomingEvents = [
@@ -27,7 +27,7 @@ const upcomingEvents = [
     fullDate: "Date TBA",
     venue: "Venue to be announced",
     description:
-      "Bringing the HERizon community to San Diego — mentors, speakers, and real experiences designed for teen girls.",
+      "Bringing the Herizon community to San Diego — mentors, speakers, and real experiences designed for teen girls.",
     status: "coming-soon",
   },
   {
@@ -62,7 +62,7 @@ const whatToExpect = [
   {
     icon: "🔥",
     title: "Breakthrough Experience",
-    desc: "A signature HERizon moment designed to shatter the limiting beliefs holding every girl back.",
+    desc: "A signature Herizon moment designed to shatter the limiting beliefs holding every girl back.",
   },
   {
     icon: "🎤",
@@ -150,7 +150,7 @@ export default function EventsPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
-              What Happens at a HERizon Conference
+              What Happens at a Herizon Conference
             </p>
             <h2 className="font-serif text-4xl font-black text-[#1A1A1A]">
               A Full Day That Changes Everything
@@ -183,7 +183,7 @@ export default function EventsPage() {
               Help Us Grow
             </p>
             <h2 className="font-serif text-3xl font-black text-white">
-              Want to Bring HERizon to Your City?
+              Want to Bring Herizon to Your City?
             </h2>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 shrink-0">

@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Partner Programs — HERizon Society",
+  title: "Partner Programs — Herizon Society",
   description:
-    "HERizon Society partners with mentors, coaches, speakers, and leaders who are committed to expanding what's possible for girls ages 12–18.",
+    "Herizon Society partners with mentors, coaches, speakers, and leaders who are committed to expanding what's possible for girls ages 12–18.",
 };
 
 const partnerTypes = [
@@ -66,7 +66,7 @@ export default function PartnersPage() {
             Partner <span className="text-[#FF7477]">Programs</span>
           </h1>
           <p className="text-[#9B9B9B] text-xl max-w-2xl mx-auto leading-relaxed">
-            HERizon Society is stronger because of the remarkable women and
+            Herizon Society is stronger because of the remarkable women and
             organizations who believe in expanding what’s possible for girls ages 12–18.
           </p>
         </div>
@@ -138,7 +138,7 @@ export default function PartnersPage() {
       <section className="bg-[#FF7477] py-24 text-center">
         <div className="max-w-3xl mx-auto px-6">
           <h2 className="font-serif text-4xl sm:text-5xl font-black text-white mb-6">
-            Want to Partner With HERizon?
+            Want to Partner With Herizon?
           </h2>
           <p className="text-white/80 text-lg leading-relaxed mb-10">
             If you&rsquo;re a mentor, coach, speaker, business leader, or

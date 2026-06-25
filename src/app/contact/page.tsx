@@ -1,21 +1,21 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Us — HERizon Society",
+  title: "Contact Us — Herizon Society",
   description:
-    "Get in touch with HERizon Society — for event inquiries, workshop registrations, mentorship, sponsorships, or partnerships for girls ages 12–18.",
+    "Get in touch with Herizon Society — for event inquiries, workshop registrations, mentorship, sponsorships, or partnerships for girls ages 12–18.",
 };
 
 const contactOptions = [
   {
     icon: "📅",
     title: "Events & Conferences",
-    desc: "Ask about upcoming conference dates, ticket availability, or bringing HERizon to your city.",
+    desc: "Ask about upcoming conference dates, ticket availability, or bringing Herizon to your city.",
   },
   {
     icon: "🏫",
     title: "Workshop Bookings",
-    desc: "Book a HERizon Workshop for your school, youth organization, or community group.",
+    desc: "Book a Herizon Workshop for your school, youth organization, or community group.",
   },
   {
     icon: "🤝",
@@ -25,7 +25,7 @@ const contactOptions = [
   {
     icon: "🌟",
     title: "Partnerships",
-    desc: "Coaches, therapists, speakers — reach out to explore a partnership with HERizon Society.",
+    desc: "Coaches, therapists, speakers — reach out to explore a partnership with Herizon Society.",
   },
 ];
 

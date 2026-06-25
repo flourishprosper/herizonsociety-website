@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Confidence Conversations — HERizon Society",
+  title: "Confidence Conversations — Herizon Society",
   description:
-    "Watch and explore HERizon Society's Confidence Conversations — real talks on leadership, mentorship, confidence, mental health, and expanding what's possible for girls ages 12–18.",
+    "Watch and explore Herizon Society's Confidence Conversations — real talks on leadership, mentorship, confidence, mental health, and expanding what's possible for girls ages 12–18.",
 };
 
 const topics = [

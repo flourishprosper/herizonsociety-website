@@ -70,7 +70,7 @@ export default function HomePage() {
               </span>
             </h1>
             <p className="text-[#9B9B9B] text-lg leading-relaxed max-w-md mb-10">
-              At HERizon, we believe confidence changes everything. Our mission
+              At Herizon, we believe confidence changes everything. Our mission
               is to help girls discover their strengths, believe in themselves,
               and realize what they&rsquo;re capable of. Through mentorship,
               entrepreneurship, education, leadership, and real-world
@@ -119,7 +119,7 @@ export default function HomePage() {
           </p>
           <div className="max-w-2xl mx-auto space-y-5 text-lg text-[#9B9B9B] leading-relaxed">
             <p className="font-black text-[#1A1A1A] text-xl sm:text-2xl">
-              HERizon exists to help girls discover what&rsquo;s possible.
+              Herizon exists to help girls discover what&rsquo;s possible.
             </p>
             <p>
               Through mentorship, leadership, entrepreneurship, community
@@ -175,7 +175,7 @@ export default function HomePage() {
                 Mark Your Calendar
               </p>
               <h2 className="font-serif text-4xl font-black text-white leading-tight">
-                Upcoming HERizon Events
+                Upcoming Herizon Events
               </h2>
             </div>
             <Link
@@ -219,8 +219,8 @@ export default function HomePage() {
               Real Experiences. Real Mentors. Real Change.
             </h2>
             <p className="text-[#9B9B9B] text-lg leading-relaxed mb-6">
-              Every HERizon event leaves girls with a new connection, a new
-              perspective, a new opportunity, and greater confidence. HERizon
+              Every Herizon event leaves girls with a new connection, a new
+              perspective, a new opportunity, and greater confidence. Herizon
               isn&rsquo;t just a conference — it&rsquo;s a living, breathing
               community where girls connect with women who have walked ahead of
               them.
@@ -262,7 +262,7 @@ export default function HomePage() {
             <span className="text-[#FF7477]">they change everything.</span>&rdquo;
           </blockquote>
           <p className="text-[#9B9B9B] text-sm uppercase tracking-wider">
-            — HERizon Society
+            — Herizon Society
           </p>
         </div>
       </section>
@@ -279,7 +279,7 @@ export default function HomePage() {
                 Help Us Expand Her Horizon
               </h2>
               <p className="text-[#9B9B9B] leading-relaxed mb-8">
-                HERizon Society grows through the women, leaders, and businesses
+                Herizon Society grows through the women, leaders, and businesses
                 who believe in the next generation. Sponsor an event, become a
                 mentor, or volunteer your time. Every action sends a message to
                 a young girl:{" "}

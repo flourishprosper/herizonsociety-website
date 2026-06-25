@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Apply — HERizon Society",
+  title: "Apply — Herizon Society",
   description:
-    "Apply to attend a HERizon Society event. For girls ages 12–18 ready to expand their horizons, build confidence, and discover what's possible.",
+    "Apply to attend a Herizon Society event. For girls ages 12–18 ready to expand their horizons, build confidence, and discover what's possible.",
 };
 
 export default function ApplyPage() {
@@ -23,7 +23,7 @@ export default function ApplyPage() {
             <span className="text-[#FF7477]">Starts Here</span>
           </h1>
           <p className="text-[#9B9B9B] text-xl max-w-2xl mx-auto leading-relaxed">
-            Ready to expand your horizons? Apply to attend an upcoming HERizon
+            Ready to expand your horizons? Apply to attend an upcoming Herizon
             event and take the first step toward building the confidence,
             connections, and opportunities that will shape your future.
           </p>
@@ -41,7 +41,7 @@ export default function ApplyPage() {
               Every Event Delivers
             </h2>
             <p className="text-[#9B9B9B] mt-4 max-w-xl mx-auto">
-              This is more than a conference. Every HERizon experience is
+              This is more than a conference. Every Herizon experience is
               designed around four outcomes.
             </p>
           </div>
@@ -97,7 +97,7 @@ export default function ApplyPage() {
             </h2>
             <div className="space-y-4 text-[#2D2D2D] leading-relaxed">
               <p>
-                HERizon is for girls who feel like there&rsquo;s more out
+                Herizon is for girls who feel like there&rsquo;s more out
                 there for them — even if they&rsquo;re not sure what it looks
                 like yet.
               </p>
