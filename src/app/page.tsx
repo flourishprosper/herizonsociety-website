@@ -215,8 +215,10 @@ export default function HomePage() {
             <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
               More Than an Event
             </p>
-            <h2 className="font-serif text-4xl sm:text-5xl font-black text-[#1A1A1A] leading-tight mb-6">
-              Real Experiences. Real Mentors. Real Change.
+            <h2 className="font-serif text-4xl sm:text-5xl font-black text-[#1A1A1A] leading-snug mb-6">
+              Real Experiences.<br />
+              Real Mentors.<br />
+              Real Change.
             </h2>
             <p className="text-[#9B9B9B] text-lg leading-relaxed mb-6">
               Every Herizon event leaves girls with a new connection, a new
