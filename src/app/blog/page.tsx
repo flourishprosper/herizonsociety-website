@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Blog — HERizon Society",
   description:
-    "Read the HERizon Society blog for insights on confidence building, self-defence, mindset, and empowering the young girls in your life.",
+    "Read the HERizon Society blog for insights on confidence, leadership, mentorship, and empowering the girls ages 12–18 in your life.",
 };
 
 const posts = [
@@ -13,16 +13,16 @@ const posts = [
     title: "Top 10 Confidence-Building Activities for Young Girls",
     category: "Mindset",
     excerpt:
-      "From journaling to board-breaking, here are the activities that consistently help girls ages 8–13 build lasting, unshakeable self-belief.",
+      "From journaling to mentor conversations, here are the activities that consistently help girls ages 12–18 build lasting, unshakeable self-belief.",
     readTime: "5 min read",
     date: "November 2024",
   },
   {
     slug: "how-self-defense-boosts-confidence",
     title: "How Self-Defence Training Boosts Confidence in Young Girls",
-    category: "Self Defence",
+    category: "Leadership",
     excerpt:
-      "There's something that shifts in a girl when she learns she can protect herself. Explore the proven connection between self-defence and self-belief.",
+      "There’s something that shifts in a girl when she does something that scared her. Explore the connection between real-world experiences and lasting self-belief.",
     readTime: "4 min read",
     date: "November 2024",
   },
@@ -31,7 +31,7 @@ const posts = [
     title: "Why Growth Mindset Is Essential for Tweens: A Guide for Parents",
     category: "Mental Health",
     excerpt:
-      "The tween years are pivotal. Here's why growth mindset work during ages 8–13 can shape a girl's entire relationship with challenge and failure.",
+      "The teen years are pivotal. Here’s why growth mindset work during ages 12–18 can shape a girl’s entire relationship with challenge, failure, and her own identity.",
     readTime: "6 min read",
     date: "August 2024",
   },
@@ -49,7 +49,7 @@ const posts = [
     title: "Mindfulness Techniques Every Girl Should Learn for Better Mental Health",
     category: "Mental Health",
     excerpt:
-      "Simple, effective mindfulness tools adapted for girls ages 8–13 — including breathing exercises, body scans, and gratitude practices.",
+      "Simple, effective mindfulness tools adapted for teen girls ages 12–18 — including breathing exercises, boundary-setting practices, and gratitude rituals.",
     readTime: "4 min read",
     date: "November 2024",
   },
@@ -72,7 +72,7 @@ const posts = [
     date: "August 2024",
   },
   {
-    slug: "role-of-fitness-in-confidence",
+    slug: "role-of-mentorship-in-confidence",
     title: "The Role of Fitness in Building Confidence in Young Girls",
     category: "Health & Fitness",
     excerpt:
@@ -93,10 +93,10 @@ const posts = [
 
 const categoryColors: Record<string, string> = {
   Mindset: "bg-[#F7836D]/10 text-[#F7836D]",
-  "Self Defence": "bg-[#1A1A1A]/10 text-[#1A1A1A]",
+  Leadership: "bg-[#1A1A1A]/10 text-[#1A1A1A]",
   "Mental Health": "bg-purple-100 text-purple-700",
   "Health & Fitness": "bg-green-100 text-green-700",
-  Leadership: "bg-blue-100 text-blue-700",
+  Mentorship: "bg-blue-100 text-blue-700",
 };
 
 export default function BlogPage() {
@@ -114,8 +114,8 @@ export default function BlogPage() {
             The HERizon <span className="text-[#F7836D]">Blog</span>
           </h1>
           <p className="text-[#9B9B9B] text-xl leading-relaxed">
-            Real insights on confidence, self-defence, mindset, fitness, and
-            raising the next generation of unstoppable young women.
+            Real insights on confidence, leadership, mentorship, and raising
+            the next generation of unstoppable young women ages 12–18.
           </p>
         </div>
       </section>
@@ -166,7 +166,7 @@ export default function BlogPage() {
                 <div className="bg-[#F0EFEC] aspect-video flex items-center justify-center">
                   <span className="text-5xl">
                     {post.category === "Mindset" ? "🧠"
-                      : post.category === "Self Defence" ? "🥋"
+                      : post.category === "Leadership" ? "🏆"
                       : post.category === "Mental Health" ? "💛"
                       : post.category === "Health & Fitness" ? "🏃"
                       : "🌟"}

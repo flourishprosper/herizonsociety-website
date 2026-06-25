@@ -4,56 +4,56 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Workshops — HERizon Society",
   description:
-    "Monthly HERizon Confidence Club workshops for girls ages 8–13. Combining self-defence, mindset training, and self-care in a supportive community.",
+    "Monthly HERizon workshops for girls ages 12–18. Confidence, leadership, mentorship, and real-world experiences in a supportive community setting.",
 };
 
 const sessions = [
   {
-    theme: "Self-Defence & Spa Day",
+    theme: "Own Your Voice — Public Speaking & Presence",
     tag: "Current Month",
     tagColor: "bg-[#F7836D] text-white",
     desc:
-      "Girls start with an age-appropriate self-defence training session — learning skills to feel stronger and safer. After training, they wind down with a relaxing spa experience including nail stickers, face masks, and mindfulness tools to manage stress and anxiety.",
+      "One of the most powerful things a young woman can do is speak — clearly, confidently, and without apology. This workshop gives girls a safe space to find their voice, practice speaking under pressure, and walk away owning their presence in any room.",
     takeaways: [
-      "Practical self-defence moves",
-      "Situational awareness skills",
-      "Breathing & mindfulness techniques",
-      "Self-care isn't selfish — it's essential",
+      "Structuring a clear, confident message",
+      "Body language & stage presence",
+      "Handling nerves & self-doubt in the moment",
+      "Exercises for girls to practice at home",
     ],
   },
   {
-    theme: "I Am Powerful — Mindset Workshop",
+    theme: "Confidence from the Inside Out",
     tag: "Coming Next",
     tagColor: "bg-[#1A1A1A] text-white",
     desc:
-      "A deep dive into the power of I Am statements, gratitude journaling, and identifying the negative thoughts that hold girls back. Includes the famous board-breaking exercise.",
+      "A deep dive into the mindset work that creates lasting confidence. Girls explore their self-talk, identify limiting beliefs, and build a personal toolkit for showing up as their most powerful self — even on the hard days.",
     takeaways: [
       "I Am statements practice",
-      "Gratitude journal setup",
-      "Recognizing negative self-talk",
-      "Board-breaking confidence ritual",
+      "Identifying & reframing limiting beliefs",
+      "Building a daily confidence practice",
+      "The courage to be seen & take up space",
     ],
   },
   {
-    theme: "Move & Groove — Fitness & Body Image",
+    theme: "Mentorship Circle — Real Talk with Real Leaders",
     tag: "Upcoming",
     tagColor: "bg-[#F0EFEC] text-[#2D2D2D]",
     desc:
-      "An upbeat session exploring the joy of movement, healthy relationships with food, and body positivity. We make fitness fun and show girls their bodies are capable of incredible things.",
+      "An intimate small-group format where girls sit with accomplished women mentors for honest, unfiltered conversation about career, confidence, failure, and what they wish someone had told them at 16.",
     takeaways: [
-      "Body positivity conversation",
-      "Fun fitness circuit",
-      "Finding movement you love",
-      "Food as fuel, not fear",
+      "How to ask for mentorship",
+      "Building meaningful professional relationships",
+      "Navigating failure & rejection with resilience",
+      "The questions worth asking a mentor",
     ],
   },
 ];
 
 const benefits = [
-  { icon: "💪", title: "Physical Strength", desc: "Real skills that make girls feel capable and safe." },
-  { icon: "🧠", title: "Mental Resilience", desc: "Tools to manage anxiety, self-doubt, and peer pressure." },
-  { icon: "👭", title: "Lifelong Friendships", desc: "A community of girls who lift each other up." },
-  { icon: "✨", title: "Unshakeable Self-Belief", desc: "The kind of confidence that follows them everywhere." },
+  { icon: "🎤", title: "Voice & Presence", desc: "Tools that help girls speak up and take up the space they deserve." },
+  { icon: "🧠", title: "Mindset Mastery", desc: "Practical tools to manage self-doubt, anxiety, and limiting beliefs." },
+  { icon: "👩‍🏫", title: "Real Mentors", desc: "Access to women leaders who have walked the path ahead." },
+  { icon: "👭", title: "Peer Community", desc: "A circle of girls who challenge and lift each other up." },
 ];
 
 export default function WorkshopsPage() {
@@ -68,43 +68,42 @@ export default function WorkshopsPage() {
             Monthly Programs
           </p>
           <h1 className="font-serif text-6xl sm:text-7xl font-black text-white leading-tight mb-6">
-            HERizon Confidence Club
+            HERizon Workshops
           </h1>
           <p className="text-white/80 text-xl max-w-2xl mx-auto leading-relaxed">
-            A monthly workshop where girls ages 8–13 grow in confidence, make
-            lasting friendships, and learn practical skills — in the most
-            supportive space they&rsquo;ll ever step into.
+            Monthly workshops for girls ages 12–18 where real experiences,
+            honest mentorship, and a powerful community meet. Every session is
+            designed to build something that lasts.
           </p>
         </div>
       </section>
 
-      {/* About the Club */}
+      {/* About the Workshops */}
       <section className="bg-[#FAF8F5] py-24">
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-4">
-              What Is the Confidence Club?
+              What Are the Workshops?
             </p>
             <h2 className="font-serif text-4xl sm:text-5xl font-black text-[#1A1A1A] leading-tight mb-6">
               Where Girls Become Their Best Selves
             </h2>
             <div className="space-y-4 text-[#2D2D2D] leading-relaxed">
               <p>
-                Give your daughter a space where she can grow in confidence,
-                make new friends, and learn valuable life skills. Our Confidence
-                Club is designed especially for girls ages 8–13 to build
-                community, develop self-belief, and learn practical self-defence
-                in a supportive and empowering environment.
+                Each HERizon Workshop brings together a small group of girls
+                ages 12–18 for a focused, intentional experience. These
+                aren&rsquo;t lectures — they&rsquo;re hands-on, honest, and
+                built around what girls in this age group actually need.
               </p>
               <p>
-                Each month brings a new theme — from self-defence and spa days
-                to mindset workshops and fitness challenges. Every session is
-                thoughtfully crafted to build on the last, giving girls a
-                toolkit for life.
+                Every month brings a new theme, a new mentor or speaker, and a
+                new set of tools girls can take home. Over time, the cumulative
+                effect is profound: a girl who knows who she is, what she
+                stands for, and how to lead.
               </p>
               <p className="font-medium text-[#1A1A1A]">
-                Our goal: show girls that taking care of themselves matters —
-                because self-care isn&rsquo;t selfish, it&rsquo;s essential.
+                Because confidence isn&rsquo;t built in a day — it&rsquo;s
+                built in the work you do every month.
               </p>
             </div>
           </div>
@@ -128,7 +127,7 @@ export default function WorkshopsPage() {
               Workshop Sessions
             </p>
             <h2 className="font-serif text-4xl font-black text-[#1A1A1A]">
-              Each Month, a New Adventure
+              Each Month, Something New
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
@@ -145,7 +144,7 @@ export default function WorkshopsPage() {
                 <div className="p-8">
                   <p className="text-[#2D2D2D] text-sm leading-relaxed mb-6">{session.desc}</p>
                   <p className="text-[#F7836D] text-xs font-semibold uppercase tracking-widest mb-3">
-                    Girls Will Learn
+                    Girls Walk Away With
                   </p>
                   <ul className="space-y-2">
                     {session.takeaways.map((t) => (
@@ -169,11 +168,11 @@ export default function WorkshopsPage() {
             Reserve Your Spot
           </p>
           <h2 className="font-serif text-4xl sm:text-5xl font-black text-white leading-tight mb-6">
-            Ready to Join the Club?
+            Ready to Join the Community?
           </h2>
           <p className="text-[#9B9B9B] text-lg leading-relaxed mb-10 max-w-xl mx-auto">
-            Spots fill fast. Register your daughter for the next HERizon
-            Confidence Club session today.
+            Spots are limited by design — so each girl gets the attention and
+            experience she deserves. Register for the next HERizon Workshop today.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

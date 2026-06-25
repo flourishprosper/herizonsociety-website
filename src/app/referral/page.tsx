@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "LeadHER Referral Squad — HERizon Society",
   description:
-    "Join the HERizon LeadHER Referral Squad. Invite your friends to a HERizon Confidence Conference and earn exclusive merch rewards.",
+    "Join the HERizon LeadHER Referral Squad. Invite girls ages 12–18 to a HERizon event and earn exclusive merch for growing the community.",
 };
 
 const tiers = [
@@ -12,14 +12,14 @@ const tiers = [
     friends: 3,
     reward: "Exclusive LeadHER T-Shirt",
     icon: "👕",
-    desc: "Bring 3 friends to a HERizon Confidence Conference and earn our exclusive LeadHER tee.",
+    desc: "Bring 3 girls to a HERizon event and earn our exclusive LeadHER tee.",
     color: "bg-[#FAF8F5] border-[#E8E6E2]",
   },
   {
     friends: 5,
     reward: "LeadHER T-Shirt + Swag Bag",
     icon: "🎒",
-    desc: "Bring 5 friends and you earn the T-Shirt AND a full HERizon Swag Bag packed with goodies.",
+    desc: "Bring 5 girls and earn the T-Shirt AND a full HERizon Swag Bag packed with exclusive goodies.",
     color: "bg-[#F7836D]/10 border-[#F7836D]/30",
     featured: true,
   },
@@ -27,7 +27,7 @@ const tiers = [
     friends: 8,
     reward: "T-Shirt + Swag Bag + Hoodie",
     icon: "🧥",
-    desc: "Bring 8 friends — the full squad bonus. T-Shirt, Swag Bag, AND an exclusive HERizon Hoodie.",
+    desc: "Bring 8 girls — the full squad. T-Shirt, Swag Bag, AND an exclusive HERizon Hoodie. You’re officially a LeadHER.",
     color: "bg-[#1A1A1A] border-[#1A1A1A]",
     dark: true,
   },
@@ -36,7 +36,7 @@ const tiers = [
 const steps = [
   { step: "01", title: "Fill Out the Form", desc: "Register below and get your unique referral link instantly." },
   { step: "02", title: "Share With Friends", desc: "Send your link to friends, post on social media, or text it to your squad." },
-  { step: "03", title: "Friends Register", desc: "When your friends register for a HERizon Conference using your link, they count." },
+  { step: "03", title: "Girls Register", desc: "When girls register for a HERizon event using your link, they count toward your milestone." },
   { step: "04", title: "Earn Your Rewards", desc: "Hit your milestone and your exclusive merch will be waiting for you at the event." },
 ];
 
@@ -55,8 +55,9 @@ export default function ReferralPage() {
             Be a <span className="text-[#F7836D]">LeadHER</span>
           </h1>
           <p className="text-[#9B9B9B] text-xl max-w-2xl mx-auto leading-relaxed">
-            Confidence is contagious. Get your referral link, invite all your
-            friends, and win exclusive prizes just by sharing what you love.
+            The best communities grow through the people in them. Get your
+            referral link, invite girls who need this, and earn exclusive
+            rewards for expanding the HERizon circle.
           </p>
         </div>
       </section>
@@ -132,8 +133,8 @@ export default function ReferralPage() {
             Get Your Referral Link
           </h2>
           <p className="text-white/80 text-lg mb-10 max-w-xl mx-auto leading-relaxed">
-            Fill out the form below and we&rsquo;ll send you your unique
-            referral link. Start sharing and start earning.
+            Fill out the form below and we&rsquo;ll send your unique referral
+            link. Start sharing, grow the community, and start earning.
           </p>
           <div className="bg-white rounded-3xl p-10 max-w-xl mx-auto text-left">
             <form className="space-y-5" action="/contact" method="get">

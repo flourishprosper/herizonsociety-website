@@ -4,49 +4,49 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Confidence Conversations — HERizon Society",
   description:
-    "Watch and explore HERizon Society's Confidence Conversations — real talks on self-defence, body image, mental health, community leadership, and daily confidence practices.",
+    "Watch and explore HERizon Society's Confidence Conversations — real talks on leadership, mentorship, confidence, mental health, and expanding what's possible for girls ages 12–18.",
 };
 
 const topics = [
   {
-    title: "Self-Defence: Escaping the Rear Choke",
-    category: "Self Defence",
-    emoji: "🥋",
-    desc: "A practical, age-appropriate walkthrough of one of the most important self-defence moves a girl can learn — with tips on awareness, prevention, and action.",
-  },
-  {
-    title: "Community Leadership",
+    title: "Finding Your Voice: How to Speak Up When It Matters",
     category: "Leadership",
-    emoji: "🏆",
-    desc: "What does it look like when young women lead in their communities? We talk about service, voice, and the power of showing up for others.",
+    emoji: "🎤",
+    desc: "A real conversation about the moments that require courage to speak up — in a classroom, a boardroom, or just in a group of friends. Practical tools every girl needs.",
   },
   {
-    title: "Body Image: Loving the Skin You're In",
+    title: "What No One Tells You About Being a Teenage Girl",
+    category: "Mentorship",
+    emoji: "💬",
+    desc: "A mentor-led honest conversation about the things women wish someone had told them at 15 — the real stuff about confidence, comparison, and becoming yourself.",
+  },
+  {
+    title: "Body Image in the Age of Social Media",
     category: "Mental Health",
     emoji: "💛",
-    desc: "An honest conversation about body image, media pressure, and how to develop a healthy, loving relationship with your own body.",
+    desc: "An honest conversation about body image, comparison culture, and how girls ages 12–18 can build a healthy relationship with themselves in a world designed to make them feel not enough.",
   },
   {
-    title: "Daily Practice for Epic Confidence",
+    title: "The Daily Practice of Confidence",
     category: "Mindset",
     emoji: "⭐",
-    desc: "The small daily habits that add up to unshakeable self-belief — from morning affirmations to evening reflections and everything in between.",
+    desc: "The small, consistent habits that compound into unshakeable self-belief — tools specifically built for teenage girls navigating school, social life, and becoming themselves.",
   },
   {
-    title: "Busting Through Your Insecurities",
-    category: "Mindset",
+    title: "How to Actually Set (and Hit) Big Goals",
+    category: "Leadership",
     emoji: "🔥",
-    desc: "Our famous board-breaking exercise, deconstructed. How to identify your biggest insecurity, write it down, and literally break through it.",
+    desc: "Goal-setting without the fluff. A practical guide for teen girls on how to set goals that matter, build accountability systems, and push through when it gets hard.",
   },
   {
-    title: "Finding Support When You're Struggling",
-    category: "Mental Health",
+    title: "How to Find a Mentor (and Be One)",
+    category: "Mentorship",
     emoji: "🤝",
-    desc: "Real talk about how to ask for help, who to turn to, and why reaching out is one of the bravest things you can do.",
+    desc: "The art of building relationships with people who are ahead of you — and how even a 16-year-old can be a mentor to someone who needs her.",
   },
 ];
 
-const categories = ["All", "Self Defence", "Mindset", "Mental Health", "Leadership"];
+const categories = ["All", "Leadership", "Mindset", "Mental Health", "Mentorship"];
 
 export default function ConversationsPage() {
   return (
@@ -63,8 +63,8 @@ export default function ConversationsPage() {
           </h1>
           <p className="text-[#9B9B9B] text-xl max-w-2xl mx-auto leading-relaxed">
             Real talks for real girls. Explore our library of conversations on
-            self-defence, mental health, body image, leadership, and the daily
-            practice of being your most confident self.
+            leadership, mentorship, mental health, and what it takes to become
+            the most confident, expansive version of yourself.
           </p>
         </div>
       </section>

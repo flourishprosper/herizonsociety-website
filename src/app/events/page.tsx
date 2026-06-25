@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Events & Conferences — HERizon Society",
   description:
-    "Find an upcoming HERizon Society Confidence Conference for girls near you. Inspiring events in cities across Southern California.",
+    "Find an upcoming HERizon Society event near you. Conferences and experiences for girls ages 12–18 across Southern California.",
 };
 
 const upcomingEvents = [
@@ -16,7 +16,7 @@ const upcomingEvents = [
     fullDate: "Date TBA",
     venue: "Venue to be announced",
     description:
-      "Our flagship LA confidence conference — a full day of mindset workshops, self-defence, fitness, and community for girls ages 8–13.",
+      "Our flagship LA event — a full day of keynote speakers, mentorship, leadership workshops, and community for girls ages 12–18.",
     status: "coming-soon",
   },
   {
@@ -27,7 +27,7 @@ const upcomingEvents = [
     fullDate: "Date TBA",
     venue: "Venue to be announced",
     description:
-      "Bringing the HERizon energy to San Diego — join hundreds of girls for a day that will change how they see themselves.",
+      "Bringing the HERizon community to San Diego — mentors, speakers, and real experiences designed for teen girls.",
     status: "coming-soon",
   },
   {
@@ -38,7 +38,7 @@ const upcomingEvents = [
     fullDate: "Date TBA",
     venue: "Venue to be announced",
     description:
-      "The OC conference brings together young women ready to step into their confidence and lead with heart.",
+      "The OC conference brings together girls 12–18 ready to step into their confidence, find their mentors, and lead with heart.",
     status: "coming-soon",
   },
 ];
@@ -52,17 +52,17 @@ const whatToExpect = [
   {
     icon: "🥋",
     title: "Self-Defence Training",
-    desc: "Hands-on, age-appropriate self-defence drills led by certified instructors.",
+    desc: "Hands-on leadership workshops where girls practice public speaking, goal-setting, and real decision-making.",
   },
   {
     icon: "💪",
-    title: "Fitness & Movement",
-    desc: "Fun, energizing movement sessions that show girls how powerful their bodies truly are.",
+    title: "Leadership in Action",
+    desc: "Real-world challenges and experiences that stretch girls beyond their comfort zones.",
   },
   {
     icon: "🔥",
-    title: "Board-Breaking Ceremony",
-    desc: "The iconic moment — every girl breaks through a board and the insecurity written on it.",
+    title: "Breakthrough Experience",
+    desc: "A signature HERizon moment designed to shatter the limiting beliefs holding every girl back.",
   },
   {
     icon: "🎤",
@@ -91,7 +91,7 @@ export default function EventsPage() {
           </h1>
           <p className="text-[#9B9B9B] text-xl max-w-2xl mx-auto leading-relaxed">
             One day. Life-changing confidence. Our Confidence Conferences for
-            girls ages 8–13 are coming to cities across Southern California.
+            girls ages 12–18 are coming to cities across Southern California.
           </p>
         </div>
       </section>

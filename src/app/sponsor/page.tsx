@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Be a Sponsor — HERizon Society",
   description:
-    "Sponsor a HERizon Society Confidence Conference and help create life-changing experiences for the next generation of confident young women.",
+    "Sponsor a HERizon Society event and help create the mentorship, leadership experiences, and community that girls ages 12–18 deserve.",
 };
 
 const tiers = [
@@ -77,10 +77,10 @@ export default function SponsorPage() {
             Be a <span className="text-[#F7836D]">Sponsor</span>
           </h1>
           <p className="text-[#9B9B9B] text-xl max-w-2xl mx-auto leading-relaxed">
-            At HERizon Society, we believe confidence changes everything. When
-            girls are surrounded by strong women who encourage and believe in
-            them, they begin to believe in themselves too. But we can&rsquo;t
-            do it alone.
+            At HERizon Society, we believe what surrounds a girl shapes who
+            she becomes. When girls have access to mentors, real experiences,
+            and a community that sees their potential, they begin to see it
+            themselves. But we can&rsquo;t build this alone.
           </p>
         </div>
       </section>
@@ -89,9 +89,9 @@ export default function SponsorPage() {
       <section className="bg-[#F7836D] py-16">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <p className="font-serif text-3xl sm:text-4xl font-black text-white leading-snug">
-            Our 2026 conferences are designed to ignite courage, leadership,
-            resilience, and connection in girls through powerful experiences,
-            mentorship, movement, and meaningful conversations.
+            Our 2026 events are designed to build confidence, inspire
+            leadership, and expand what’s possible — through mentorship,
+            real-world experiences, and the connections that change everything.
           </p>
         </div>
       </section>
@@ -108,11 +108,10 @@ export default function SponsorPage() {
             </h2>
             <p className="text-[#9B9B9B] leading-relaxed mb-8">
               We are inviting passionate women, leaders, business owners,
-              mentors, and community supporters to help us create a
-              life-changing experience for the next generation. Sponsoring
-              HERizon Society is more than advertising — it&rsquo;s a
-              commitment to building a more confident, resilient generation of
-              young women.
+              mentors, and community supporters to help us build the
+              experiences girls ages 12–18 deserve. Sponsoring HERizon Society
+              is more than brand visibility — it&rsquo;s a direct investment
+              in the next generation of confident, connected leaders.
             </p>
             <ul className="space-y-4">
               {reasons.map((r) => (
@@ -205,7 +204,7 @@ export default function SponsorPage() {
           </h2>
           <p className="text-[#9B9B9B] mb-8">
             Reach out and let&rsquo;s talk about how your sponsorship can
-            transform the lives of young girls in our community.
+            expand what’s possible for the girls in our community.
           </p>
           <Link
             href="/contact"

@@ -15,8 +15,8 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-[#9B9B9B] text-sm leading-relaxed max-w-xs">
-              Igniting confidence in young women through mindset, fitness, and
-              self-defence. Building the leaders of tomorrow — today.
+              A community for girls ages 12–18 built on confidence, leadership,
+              and meaningful connection. Expanding what’s possible — together.
             </p>
             <div className="flex gap-4 mt-6">
               <a

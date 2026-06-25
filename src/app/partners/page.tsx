@@ -4,14 +4,14 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Partner Programs — HERizon Society",
   description:
-    "HERizon Society partners with wellness coaches, therapists, mentors, and community leaders to bring the best expertise to our girls.",
+    "HERizon Society partners with mentors, coaches, speakers, and leaders who are committed to expanding what's possible for girls ages 12–18.",
 };
 
 const partnerTypes = [
   {
     icon: "🧘",
-    type: "Wellness & Mindset Coaches",
-    desc: "Certified coaches who guide girls through emotional intelligence, gratitude practices, and personal growth frameworks.",
+    type: "Mindset & Life Coaches",
+    desc: "Certified coaches who guide girls through emotional intelligence, identity work, and the personal growth frameworks that actually stick.",
   },
   {
     icon: "🩺",
@@ -21,22 +21,22 @@ const partnerTypes = [
   {
     icon: "🎤",
     type: "Speakers & Mentors",
-    desc: "Inspiring women leaders who share their stories of resilience, confidence, and impact on conference stages and online.",
+    desc: "Women leaders who share their real stories — of resilience, reinvention, and impact — with girls who need to hear that it’s possible.",
   },
   {
-    icon: "🏃",
-    type: "Fitness & Movement Experts",
-    desc: "Personal trainers, yoga instructors, and wellness leaders who bring joyful, body-positive movement to our programs.",
+    icon: "🏢",
+    type: "Business & Career Leaders",
+    desc: "Entrepreneurs, executives, and professionals who give girls a real look at what’s possible and how to get there.",
   },
   {
     icon: "🥋",
-    type: "Martial Arts Instructors",
-    desc: "Certified martial arts practitioners who lead our self-defence curriculum and demonstrate strength through discipline.",
+    type: "Wellness & Mental Health Professionals",
+    desc: "Licensed therapists and wellness practitioners who contribute resources and workshops on mental health, resilience, and self-care for teen girls.",
   },
   {
     icon: "🏢",
     type: "Community Organizations",
-    desc: "Non-profits, schools, and youth organizations that share our mission and help us reach more girls across Southern California.",
+    desc: "Schools, non-profits, and youth organizations that share our mission and help us reach the girls who need this community most.",
   },
 ];
 
@@ -67,7 +67,7 @@ export default function PartnersPage() {
           </h1>
           <p className="text-[#9B9B9B] text-xl max-w-2xl mx-auto leading-relaxed">
             HERizon Society is stronger because of the remarkable women and
-            organizations who partner with us to make our programs world-class.
+            organizations who believe in expanding what’s possible for girls ages 12–18.
           </p>
         </div>
       </section>
@@ -141,9 +141,9 @@ export default function PartnersPage() {
             Want to Partner With HERizon?
           </h2>
           <p className="text-white/80 text-lg leading-relaxed mb-10">
-            If you&rsquo;re a coach, therapist, speaker, instructor, or
-            organization aligned with our mission of empowering young girls —
-            we&rsquo;d love to hear from you.
+            If you&rsquo;re a mentor, coach, speaker, business leader, or
+            organization aligned with our mission of building confident young
+            leaders — we&rsquo;d love to hear from you.
           </p>
           <Link
             href="/contact"

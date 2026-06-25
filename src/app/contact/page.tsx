@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Contact Us — HERizon Society",
   description:
-    "Get in touch with HERizon Society — for event inquiries, workshop registrations, sponsorships, or partnerships.",
+    "Get in touch with HERizon Society — for event inquiries, workshop registrations, mentorship, sponsorships, or partnerships for girls ages 12–18.",
 };
 
 const contactOptions = [
@@ -15,7 +15,7 @@ const contactOptions = [
   {
     icon: "🏫",
     title: "Workshop Bookings",
-    desc: "Book the Confidence Club for your school, community center, or private group.",
+    desc: "Book a HERizon Workshop for your school, youth organization, or community group.",
   },
   {
     icon: "🤝",
@@ -44,8 +44,8 @@ export default function ContactPage() {
             Get In <span className="text-[#F7836D]">Touch</span>
           </h1>
           <p className="text-[#9B9B9B] text-xl max-w-xl mx-auto leading-relaxed">
-            Whether you want to register for a workshop, ask about sponsorship,
-            or just say hi — our inbox is always open.
+            Whether you want to register a girl for an event, explore mentorship,
+            ask about sponsorship, or just say hi — we’re here.
           </p>
         </div>
       </section>
