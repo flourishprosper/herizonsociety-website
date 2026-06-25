@@ -257,9 +257,9 @@ export default function HomePage() {
       <section className="bg-[#1A1A1A] py-24">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <blockquote className="font-serif text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-tight mb-8">
-            &ldquo;When girls know who they are and what they&rsquo;re capable
-            of, they{" "}
-            <span className="text-[#FF7477]">change everything.</span>&rdquo;
+            &ldquo;When girls know who they are and what they&rsquo;re capable of,
+            <br />
+            <span className="text-[#FF7477]">they change everything.</span>&rdquo;
           </blockquote>
           <p className="text-[#9B9B9B] text-sm uppercase tracking-wider">
             — HERizon Society
