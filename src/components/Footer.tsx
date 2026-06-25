@@ -77,7 +77,7 @@ export default function Footer() {
             </h3>
             <ul className="space-y-3 text-sm">
               {[
-                { label: "Apply Now", href: "/apply" },
+                { label: "Join Now", href: "/apply" },
                 { label: "Be a Sponsor", href: "/sponsor" },
                 { label: "Volunteer", href: "/volunteer" },
                 { label: "Contact Us", href: "/contact" },

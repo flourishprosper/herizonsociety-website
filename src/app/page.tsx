@@ -82,7 +82,7 @@ export default function HomePage() {
                 href="/apply"
                 className="bg-[#FF7477] text-white font-semibold px-8 py-4 rounded-full hover:bg-[#E85F62] transition-colors text-center"
               >
-                Apply Now
+                Join Now
               </Link>
               <Link
                 href="/events"
