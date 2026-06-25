@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Events & Conferences — Herizon Society",
+  title: "Events & Conferences | Herizon Society",
   description:
     "Find an upcoming Herizon Society event near you. Conferences and experiences for girls ages 12–18 across Southern California.",
 };
@@ -16,7 +16,7 @@ const upcomingEvents = [
     fullDate: "Date TBA",
     venue: "Venue to be announced",
     description:
-      "Our flagship LA event — a full day of keynote speakers, mentorship, leadership workshops, and community for girls ages 12–18.",
+      "Our flagship LA event: a full day of keynote speakers, mentorship, leadership workshops, and community for girls ages 12–18.",
     status: "coming-soon",
   },
   {
@@ -27,7 +27,7 @@ const upcomingEvents = [
     fullDate: "Date TBA",
     venue: "Venue to be announced",
     description:
-      "Bringing the Herizon community to San Diego — mentors, speakers, and real experiences designed for teen girls.",
+      "Bringing the Herizon community to San Diego with mentors, speakers, and real experiences designed for teen girls.",
     status: "coming-soon",
   },
   {
@@ -72,7 +72,7 @@ const whatToExpect = [
   {
     icon: "👯",
     title: "Community & Connection",
-    desc: "Girls connect with peers who uplift them — friendships that last beyond the event.",
+    desc: "Girls connect with peers who uplift them and build friendships that last beyond the event.",
   },
 ];
 

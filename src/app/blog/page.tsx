@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Blog — Herizon Society",
+  title: "Blog | Herizon Society",
   description:
     "Read the Herizon Society blog for insights on confidence, leadership, mentorship, and empowering the girls ages 12–18 in your life.",
 };
@@ -49,7 +49,7 @@ const posts = [
     title: "Mindfulness Techniques Every Girl Should Learn for Better Mental Health",
     category: "Mental Health",
     excerpt:
-      "Simple, effective mindfulness tools adapted for teen girls ages 12–18 — including breathing exercises, boundary-setting practices, and gratitude rituals.",
+      "Simple, effective mindfulness tools adapted for teen girls ages 12–18, including breathing exercises, boundary-setting practices, and gratitude rituals.",
     readTime: "4 min read",
     date: "November 2024",
   },

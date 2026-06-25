@@ -223,7 +223,7 @@ export default function HomePage() {
             <p className="text-[#9B9B9B] text-lg leading-relaxed mb-6">
               Every Herizon event leaves girls with a new connection, a new
               perspective, a new opportunity, and greater confidence. Herizon
-              isn&rsquo;t just a conference — it&rsquo;s a living, breathing
+              isn&rsquo;t just a conference. It&rsquo;s a living, breathing
               community where girls connect with women who have walked ahead of
               them.
             </p>
@@ -264,7 +264,7 @@ export default function HomePage() {
             <span className="text-[#FF7477]">they change everything.</span>&rdquo;
           </blockquote>
           <p className="text-[#9B9B9B] text-sm uppercase tracking-wider">
-            — Herizon Society
+            Herizon Society
           </p>
         </div>
       </section>

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Gallery — Herizon Society",
+  title: "Gallery | Herizon Society",
   description:
     "See the energy, confidence, and community at Herizon Society events. Photos from our events, workshops, and experiences.",
 };
@@ -22,7 +22,7 @@ export default function GalleryPage() {
             <span className="text-[#FF7477]">Magic</span>
           </h1>
           <p className="text-[#9B9B9B] text-xl max-w-2xl mx-auto leading-relaxed">
-            Photos and moments from Herizon events — the connections made, the
+            Photos and moments from Herizon events: the connections made, the
             confidence built, and the horizons expanded.
           </p>
         </div>

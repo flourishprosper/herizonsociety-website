@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Mentorship — Herizon Society",
+  title: "Mentorship | Herizon Society",
   description:
     "Connect with women leaders, entrepreneurs, and business professionals who inspire confidence and expand what's possible for girls ages 12–18.",
 };
@@ -24,7 +24,7 @@ export default function MentorshipPage() {
           </h1>
           <p className="text-[#9B9B9B] text-xl max-w-2xl mx-auto leading-relaxed">
             The people around you shape what you believe is possible. Herizon
-            connects girls with mentors who&rsquo;ve been there — women who are
+            connects girls with mentors who&rsquo;ve been there, women who are
             living proof that her future is limitless.
           </p>
         </div>
@@ -43,8 +43,8 @@ export default function MentorshipPage() {
             <div className="space-y-5 text-[#2D2D2D] leading-relaxed">
               <p>
                 A mentor can change everything. One conversation with a woman
-                who has navigated the real world — built a business, led a
-                team, overcome setbacks — can reshape what a girl believes is
+                who has navigated the real world, built a business, led a
+                team, and overcome setbacks, can reshape what a girl believes is
                 possible for herself.
               </p>
               <p>

@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Us — Herizon Society",
+  title: "Contact Us | Herizon Society",
   description:
-    "Get in touch with Herizon Society — for event inquiries, workshop registrations, mentorship, sponsorships, or partnerships for girls ages 12–18.",
+    "Get in touch with Herizon Society for event inquiries, workshop registrations, mentorship, sponsorships, or partnerships for girls ages 12–18.",
 };
 
 const contactOptions = [
@@ -25,7 +25,7 @@ const contactOptions = [
   {
     icon: "🌟",
     title: "Partnerships",
-    desc: "Coaches, therapists, speakers — reach out to explore a partnership with Herizon Society.",
+    desc: "Coaches, therapists, and speakers are welcome to reach out and explore a partnership with Herizon Society.",
   },
 ];
 
@@ -45,7 +45,7 @@ export default function ContactPage() {
           </h1>
           <p className="text-[#9B9B9B] text-xl max-w-xl mx-auto leading-relaxed">
             Whether you want to register a girl for an event, explore mentorship,
-            ask about sponsorship, or just say hi — we’re here.
+            ask about sponsorship, or just say hi. We're here.
           </p>
         </div>
       </section>
@@ -203,8 +203,8 @@ export default function ContactPage() {
                 When Will We Reply?
               </h3>
               <p className="text-[#9B9B9B] text-sm leading-relaxed">
-                We typically respond within 1–2 business days. For urgent
-                matters — like an event coming up soon — reach out on Instagram
+                We typically respond within 1-2 business days. For urgent
+                matters, like an event coming up soon, reach out on Instagram
                 for a faster response.
               </p>
             </div>

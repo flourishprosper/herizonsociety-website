@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Partner Programs — Herizon Society",
+  title: "Partner Programs Herizon Society",
   description:
     "Herizon Society partners with mentors, coaches, speakers, and leaders who are committed to expanding what's possible for girls ages 12–18.",
 };
@@ -21,7 +21,7 @@ const partnerTypes = [
   {
     icon: "🎤",
     type: "Speakers & Mentors",
-    desc: "Women leaders who share their real stories — of resilience, reinvention, and impact — with girls who need to hear that it’s possible.",
+    desc: "Women leaders who share their real stories of resilience, reinvention, and impact with girls who need to hear that it’s possible.",
   },
   {
     icon: "🏢",
@@ -43,7 +43,7 @@ const partnerTypes = [
 const currentPartner = {
   name: "Inspired Soul Sessions",
   tagline: "Soulful Alignment & Transformation",
-  bio: "Our partner is a Soulful Alignment & Transformation Coach, Integrative Therapist, Intuitive Mentor, Author, and Speaker. With decades of exploring energetic principles, spiritual growth, and counselling, she brings a passion for awakening the latent potential within each girl to truly become the fullest expression of herself — stretching beyond limitations and opening hearts and minds to something greater.",
+  bio: "Our partner is a Soulful Alignment & Transformation Coach, Integrative Therapist, Intuitive Mentor, Author, and Speaker. With decades of exploring energetic principles, spiritual growth, and counselling, she brings a passion for awakening the latent potential within each girl to truly become the fullest expression of herself stretching beyond limitations and opening hearts and minds to something greater.",
   expertise: [
     "Letting go of old paradigms",
     "Healing, forgiving, and growing",
@@ -143,7 +143,7 @@ export default function PartnersPage() {
           <p className="text-white/80 text-lg leading-relaxed mb-10">
             If you&rsquo;re a mentor, coach, speaker, business leader, or
             organization aligned with our mission of building confident young
-            leaders — we&rsquo;d love to hear from you.
+            leaders we&rsquo;d love to hear from you.
           </p>
           <Link
             href="/contact"

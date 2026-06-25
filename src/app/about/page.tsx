@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "About Us — Herizon Society",
+  title: "About Us | Herizon Society",
   description:
     "Herizon exists to help girls discover what's possible. Learn about our mission, vision, and the six core values that guide everything we do.",
 };
@@ -13,7 +13,7 @@ const coreValues = [
     title: "Confidence",
     icon: "💡",
     description:
-      "Helping girls believe in themselves. Real confidence isn't handed to you — it's built through the right experiences, the right language, and the right community.",
+      "Helping girls believe in themselves. Real confidence isn't handed to you. It's built through the right experiences, the right language, and the right community.",
     concepts: [
       "I Am statements & personal affirmations",
       "Recognizing & reframing self-doubt",
@@ -27,7 +27,7 @@ const coreValues = [
     title: "Courage",
     icon: "🦁",
     description:
-      "Encouraging girls to step outside their comfort zones. Growth lives just beyond the edge of comfortable — we help girls get there.",
+      "Encouraging girls to step outside their comfort zones. Growth lives just beyond the edge of comfortable. We help girls get there.",
     concepts: [
       "Stepping into uncomfortable growth",
       "Trying new things fearlessly",
@@ -55,7 +55,7 @@ const coreValues = [
     title: "Leadership",
     icon: "🏆",
     description:
-      "Developing tomorrow's leaders. Leadership isn't a title — it's a way of showing up. We help girls find their voice and step into any room ready to lead.",
+      "Developing tomorrow's leaders. Leadership isn't a title. It's a way of showing up. We help girls find their voice and step into any room ready to lead.",
     concepts: [
       "Public speaking & using your voice",
       "Goal-setting & personal accountability",
@@ -147,7 +147,7 @@ export default function AboutPage() {
               </p>
               <p>
                 We created a space where teenage girls aren&rsquo;t just talked{" "}
-                <em>at</em> — they&rsquo;re mentored, challenged, celebrated,
+                <em>at.</em> They&rsquo;re mentored, challenged, celebrated,
                 and connected to women who have already walked the path ahead of
                 them.
               </p>
@@ -163,7 +163,7 @@ export default function AboutPage() {
                 they change everything.
               </blockquote>
               <p className="text-[#9B9B9B] text-sm uppercase tracking-wider">
-                — Herizon Society
+                Herizon Society
               </p>
             </div>
             <div className="bg-[#FF7477] rounded-3xl p-8 text-white">
@@ -214,7 +214,7 @@ export default function AboutPage() {
               Six Core Values. One Mission.
             </h2>
             <p className="text-[#9B9B9B] mt-4 max-w-xl mx-auto">
-              Every experience at Herizon is built on these six values — the
+              Every experience at Herizon is built on these six values, and the
               foundation that creates truly confident, connected young leaders.
             </p>
           </div>

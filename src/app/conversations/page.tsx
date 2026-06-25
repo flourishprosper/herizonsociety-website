@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Confidence Conversations — Herizon Society",
+  title: "Confidence Conversations Herizon Society",
   description:
-    "Watch and explore Herizon Society's Confidence Conversations — real talks on leadership, mentorship, confidence, mental health, and expanding what's possible for girls ages 12–18.",
+    "Watch and explore Herizon Society's Confidence Conversations real talks on leadership, mentorship, confidence, mental health, and expanding what's possible for girls ages 12–18.",
 };
 
 const topics = [
@@ -12,13 +12,13 @@ const topics = [
     title: "Finding Your Voice: How to Speak Up When It Matters",
     category: "Leadership",
     emoji: "🎤",
-    desc: "A real conversation about the moments that require courage to speak up — in a classroom, a boardroom, or just in a group of friends. Practical tools every girl needs.",
+    desc: "A real conversation about the moments that require courage to speak up in a classroom, a boardroom, or just in a group of friends. Practical tools every girl needs.",
   },
   {
     title: "What No One Tells You About Being a Teenage Girl",
     category: "Mentorship",
     emoji: "💬",
-    desc: "A mentor-led honest conversation about the things women wish someone had told them at 15 — the real stuff about confidence, comparison, and becoming yourself.",
+    desc: "A mentor-led honest conversation about the things women wish someone had told them at 15 the real stuff about confidence, comparison, and becoming yourself.",
   },
   {
     title: "Body Image in the Age of Social Media",
@@ -30,7 +30,7 @@ const topics = [
     title: "The Daily Practice of Confidence",
     category: "Mindset",
     emoji: "⭐",
-    desc: "The small, consistent habits that compound into unshakeable self-belief — tools specifically built for teenage girls navigating school, social life, and becoming themselves.",
+    desc: "The small, consistent habits that compound into unshakeable self-belief tools specifically built for teenage girls navigating school, social life, and becoming themselves.",
   },
   {
     title: "How to Actually Set (and Hit) Big Goals",
@@ -42,7 +42,7 @@ const topics = [
     title: "How to Find a Mentor (and Be One)",
     category: "Mentorship",
     emoji: "🤝",
-    desc: "The art of building relationships with people who are ahead of you — and how even a 16-year-old can be a mentor to someone who needs her.",
+    desc: "The art of building relationships with people who are ahead of you and how even a 16-year-old can be a mentor to someone who needs her.",
   },
 ];
 

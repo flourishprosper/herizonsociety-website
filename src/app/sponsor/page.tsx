@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Be a Sponsor — Herizon Society",
+  title: "Be a Sponsor | Herizon Society",
   description:
-    "Sponsor a Herizon Society event and help create the mentorship, leadership experiences, and community that girls ages 12–18 deserve.",
+    "Sponsor a Herizon Society event and help create the mentorship, leadership experiences, and community that girls ages 12-18 deserve.",
 };
 
 const tiers = [
@@ -90,7 +90,7 @@ export default function SponsorPage() {
         <div className="max-w-4xl mx-auto px-6 text-center">
           <p className="font-serif text-3xl sm:text-4xl font-black text-white leading-snug">
             Our 2026 events are designed to build confidence, inspire
-            leadership, and expand what’s possible — through mentorship,
+            leadership, and expand what's possible through mentorship,
             real-world experiences, and the connections that change everything.
           </p>
         </div>
@@ -109,8 +109,8 @@ export default function SponsorPage() {
             <p className="text-[#9B9B9B] leading-relaxed mb-8">
               We are inviting passionate women, leaders, business owners,
               mentors, and community supporters to help us build the
-              experiences girls ages 12–18 deserve. Sponsoring Herizon Society
-              is more than brand visibility — it&rsquo;s a direct investment
+              experiences girls ages 12-18 deserve. Sponsoring Herizon Society
+              is more than brand visibility. It&rsquo;s a direct investment
               in the next generation of confident, connected leaders.
             </p>
             <ul className="space-y-4">
@@ -204,7 +204,7 @@ export default function SponsorPage() {
           </h2>
           <p className="text-[#9B9B9B] mb-8">
             Reach out and let&rsquo;s talk about how your sponsorship can
-            expand what’s possible for the girls in our community.
+            expand what's possible for the girls in our community.
           </p>
           <Link
             href="/contact"

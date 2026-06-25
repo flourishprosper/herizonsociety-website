@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Volunteer — Herizon Society",
+  title: "Volunteer | Herizon Society",
   description:
     "Give your time and talents to help girls ages 12–18 discover what's possible. Volunteer with Herizon Society.",
 };
@@ -18,7 +18,7 @@ const roles = [
     icon: "👩‍🏫",
     title: "Workshop Facilitator",
     description:
-      "Lead a workshop on a topic you know well — entrepreneurship, career paths, personal development, or your area of expertise.",
+      "Lead a workshop on a topic you know well: entrepreneurship, career paths, personal development, or your area of expertise.",
   },
   {
     icon: "🤝",
@@ -30,7 +30,7 @@ const roles = [
     icon: "📸",
     title: "Content & Creative",
     description:
-      "Help us capture and share the Herizon story — photography, video, social media, or content creation.",
+      "Help us capture and share the Herizon story through photography, video, social media, or content creation.",
   },
   {
     icon: "📋",

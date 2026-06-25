@@ -2,18 +2,18 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Workshops — Herizon Society",
+  title: "Workshops Herizon Society",
   description:
     "Monthly Herizon workshops for girls ages 12–18. Confidence, leadership, mentorship, and real-world experiences in a supportive community setting.",
 };
 
 const sessions = [
   {
-    theme: "Own Your Voice — Public Speaking & Presence",
+    theme: "Own Your Voice Public Speaking & Presence",
     tag: "Current Month",
     tagColor: "bg-[#FF7477] text-white",
     desc:
-      "One of the most powerful things a young woman can do is speak — clearly, confidently, and without apology. This workshop gives girls a safe space to find their voice, practice speaking under pressure, and walk away owning their presence in any room.",
+      "One of the most powerful things a young woman can do is speak clearly, confidently, and without apology. This workshop gives girls a safe space to find their voice, practice speaking under pressure, and walk away owning their presence in any room.",
     takeaways: [
       "Structuring a clear, confident message",
       "Body language & stage presence",
@@ -26,7 +26,7 @@ const sessions = [
     tag: "Coming Next",
     tagColor: "bg-[#1A1A1A] text-white",
     desc:
-      "A deep dive into the mindset work that creates lasting confidence. Girls explore their self-talk, identify limiting beliefs, and build a personal toolkit for showing up as their most powerful self — even on the hard days.",
+      "A deep dive into the mindset work that creates lasting confidence. Girls explore their self-talk, identify limiting beliefs, and build a personal toolkit for showing up as their most powerful self even on the hard days.",
     takeaways: [
       "I Am statements practice",
       "Identifying & reframing limiting beliefs",
@@ -35,7 +35,7 @@ const sessions = [
     ],
   },
   {
-    theme: "Mentorship Circle — Real Talk with Real Leaders",
+    theme: "Mentorship Circle Real Talk with Real Leaders",
     tag: "Upcoming",
     tagColor: "bg-[#F0EFEC] text-[#2D2D2D]",
     desc:
@@ -92,7 +92,7 @@ export default function WorkshopsPage() {
               <p>
                 Each Herizon Workshop brings together a small group of girls
                 ages 12–18 for a focused, intentional experience. These
-                aren&rsquo;t lectures — they&rsquo;re hands-on, honest, and
+                aren&rsquo;t lectures they&rsquo;re hands-on, honest, and
                 built around what girls in this age group actually need.
               </p>
               <p>
@@ -102,7 +102,7 @@ export default function WorkshopsPage() {
                 stands for, and how to lead.
               </p>
               <p className="font-medium text-[#1A1A1A]">
-                Because confidence isn&rsquo;t built in a day — it&rsquo;s
+                Because confidence isn&rsquo;t built in a day it&rsquo;s
                 built in the work you do every month.
               </p>
             </div>
@@ -171,7 +171,7 @@ export default function WorkshopsPage() {
             Ready to Join the Community?
           </h2>
           <p className="text-[#9B9B9B] text-lg leading-relaxed mb-10 max-w-xl mx-auto">
-            Spots are limited by design — so each girl gets the attention and
+            Spots are limited by design so each girl gets the attention and
             experience she deserves. Register for the next Herizon Workshop today.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

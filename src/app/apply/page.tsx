@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Apply — Herizon Society",
+  title: "Apply | Herizon Society",
   description:
     "Apply to attend a Herizon Society event. For girls ages 12–18 ready to expand their horizons, build confidence, and discover what's possible.",
 };
@@ -98,7 +98,7 @@ export default function ApplyPage() {
             <div className="space-y-4 text-[#2D2D2D] leading-relaxed">
               <p>
                 Herizon is for girls who feel like there&rsquo;s more out
-                there for them — even if they&rsquo;re not sure what it looks
+                there for them, even if they&rsquo;re not sure what it looks
                 like yet.
               </p>
               <p>
@@ -110,7 +110,7 @@ export default function ApplyPage() {
               {[
                 "Girls ages 12–18",
                 "Parents, guardians, and educators are welcome to attend",
-                "No experience or background required — just a willingness to grow",
+                "No experience or background required, just a willingness to grow",
                 "All backgrounds, all goals, all dreams welcome",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3 text-sm text-[#2D2D2D]">
