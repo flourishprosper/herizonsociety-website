@@ -69,16 +69,11 @@ export default function HomePage() {
             <span className="inline-block text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-6 border border-[#FF7477]/40 px-3 py-1 rounded-full">
               For Girls Ages 12–18
             </span>
-            <h1 className="font-serif text-6xl sm:text-7xl lg:text-8xl font-black leading-[0.9] text-white mb-4">
-              YOUR
+            <h1 className="font-serif text-5xl sm:text-6xl lg:text-7xl font-black leading-tight text-white mb-8">
+              Expanding Horizons.
               <br />
-              <span className="text-[#FF7477]">HER</span>IZON
-              <br />
-              IS NOW.
+              <span className="text-[#FF7477]">Building Confidence.</span>
             </h1>
-            <p className="text-[#FF7477] text-sm font-semibold uppercase tracking-widest mb-8">
-              Expanding Horizons. Building Confidence.
-            </p>
             <p className="text-[#9B9B9B] text-lg leading-relaxed max-w-md mb-10">
               HERizon exists to help girls discover what&rsquo;s possible. Through
               mentorship, leadership, entrepreneurship, and real-world experiences,
