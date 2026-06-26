@@ -237,19 +237,34 @@ export default function HomePage() {
           </div>
           <div className="grid grid-cols-2 gap-4">
             {[
-              { icon: "🎤", label: "Keynote Speakers" },
-              { icon: "👩‍🏫", label: "1:1 Mentorship" },
-              { icon: "🌍", label: "Real-World Experiences" },
-              { icon: "👯", label: "Lifelong Sisterhood" },
+              {
+                icon: "🤝",
+                label: "Meaningful Mentorship",
+                description: "Connect with inspiring women who encourage, guide, and help girls see what’s possible.",
+              },
+              {
+                icon: "🌱",
+                label: "Personal Growth",
+                description: "Build confidence, resilience, and leadership through real-world experiences.",
+              },
+              {
+                icon: "💡",
+                label: "New Opportunities",
+                description: "Explore careers, entrepreneurship, volunteerism, and experiences that expand horizons.",
+              },
+              {
+                icon: "💜",
+                label: "Lasting Community",
+                description: "Develop friendships and become part of a supportive network that continues beyond every event.",
+              },
             ].map((item) => (
               <div
                 key={item.label}
-                className="bg-white rounded-2xl p-6 text-center card-hover shadow-sm border border-[#E8E6E2]"
+                className="bg-white rounded-2xl p-6 text-left card-hover shadow-sm border border-[#E8E6E2]"
               >
                 <span className="text-4xl block mb-3">{item.icon}</span>
-                <p className="text-sm font-semibold text-[#1A1A1A]">
-                  {item.label}
-                </p>
+                <p className="text-sm font-bold text-[#1A1A1A] mb-2">{item.label}</p>
+                <p className="text-xs text-[#9B9B9B] leading-relaxed">{item.description}</p>
               </div>
             ))}
           </div>
