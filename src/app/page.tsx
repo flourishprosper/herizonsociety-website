@@ -32,6 +32,7 @@ const stats = [
   { value: "San Gabriel Valley", label: "Launching Our First Chapter" },
   { value: "Ages 12–18", label: "Girls We Empower" },
   { value: "5 Pillars", label: "Confidence • Leadership • Connection • Opportunity • Community" },
+  { value: "One Mission", label: "Helping Girls Discover What’s Possible" },
 ];
 
 export default function HomePage() {
