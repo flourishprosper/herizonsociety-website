@@ -187,7 +187,7 @@ export default function HomePage() {
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
             {[
-              { city: "Los Angeles", date: "Fall 2026", venue: "TBA" },
+              { city: "Glendora", date: "September 19, 2026", venue: "TBA" },
               { city: "San Diego", date: "Winter 2026", venue: "TBA" },
               { city: "Orange County", date: "Spring 2027", venue: "TBA" },
             ].map((event) => (
