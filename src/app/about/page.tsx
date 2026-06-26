@@ -34,21 +34,21 @@ const coreValues = [
     title: "Leadership",
     icon: "🏆",
     description:
-      "Leadership isn't a title — it's a way of showing up. We help girls find their voice and step into any room ready to lead.",
+      "Leadership isn't a title. It's a way of showing up. We help girls find their voice and step into any room ready to lead.",
   },
   {
     number: "05",
     title: "Opportunity",
     icon: "🌟",
     description:
-      "We open doors girls didn't even know existed — from careers and entrepreneurship to experiences that expand their vision of what's possible.",
+      "We open doors girls didn't even know existed, from careers and entrepreneurship to experiences that expand their vision of what's possible.",
   },
   {
     number: "06",
     title: "Kindness",
     icon: "💛",
     description:
-      "We build a community where every girl feels celebrated, seen, and safe — lifting each other up is how we all rise together.",
+      "We build a community where every girl feels celebrated, seen, and safe. Lifting each other up is how we all rise together.",
   },
 ];
 
@@ -69,7 +69,7 @@ export default function AboutPage() {
             <span className="text-[#FF7477]">What&rsquo;s Possible.</span>
           </h1>
           <p className="text-[#9B9B9B] text-xl max-w-2xl mx-auto leading-relaxed">
-            We&rsquo;re building the community we wish we&rsquo;d had &mdash; a
+            We&rsquo;re building the community we wish we&rsquo;d had, a
             place where girls ages 12&ndash;18 discover their strengths, find
             their voice, and step boldly into their future.
           </p>
@@ -105,7 +105,7 @@ export default function AboutPage() {
           <div className="space-y-6 text-[#4A4A4A] leading-relaxed text-lg">
             <p>
               Like so many girls, we spent our teenage years figuring life out
-              as we went &mdash; learning through trial and error, searching for
+              as we went. We learned through trial and error, searching for
               role models, discovering confidence one challenge at a time.
               Looking back, we often wonder how different those years might have
               been if we&rsquo;d had mentors, a supportive community, and
@@ -134,7 +134,7 @@ export default function AboutPage() {
           </div>
 
           <p className="text-center font-serif text-2xl font-bold text-[#FF7477]">
-            At Herizon, we&rsquo;re creating that community &mdash;<br />one girl at a time.
+            At Herizon, we&rsquo;re creating that community. One girl at a time.
           </p>
         </div>
       </section>
@@ -183,7 +183,7 @@ export default function AboutPage() {
               they change everything.
             </blockquote>
             <p className="text-[#9B9B9B] text-xs font-semibold uppercase tracking-widest">
-              — Herizon Society
+              Herizon Society
             </p>
           </div>
         </div>
@@ -214,7 +214,7 @@ export default function AboutPage() {
             </p>
             <p>
               Because when one girl discovers her potential, the impact reaches
-              far beyond her &mdash; it strengthens families, communities, and
+              far beyond her. It strengthens families, communities, and
               future generations.
             </p>
           </div>
@@ -243,7 +243,7 @@ export default function AboutPage() {
               Six Core Values. One Mission.
             </h2>
             <p className="text-[#9B9B9B] mt-4 max-w-xl mx-auto">
-              Everything we do flows from these values &mdash; they&rsquo;re
+              Everything we do flows from these values. They&rsquo;re
               the foundation of every experience, every connection, and every
               girl we serve.
             </p>
