@@ -318,11 +318,12 @@ export default function HomePage() {
                 </Link>
               </div>
             </div>
-            <div className="text-center">
-              <p className="font-serif text-2xl sm:text-3xl font-black text-[#1A1A1A] leading-snug">
+            <div className="bg-[#FAF8F5] rounded-3xl p-10 text-center border border-[#E8E6E2]">
+              <div className="text-4xl mb-5">🌸</div>
+              <p className="text-[#1A1A1A] text-base leading-relaxed font-medium max-w-sm mx-auto">
                 Our vision is to build a community where every girl has access
                 to mentors, meaningful opportunities, and the{" "}
-                <span className="text-[#FF7477]">
+                <span className="text-[#FF7477] font-semibold">
                   confidence to pursue a future without limits.
                 </span>
               </p>
