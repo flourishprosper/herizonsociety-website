@@ -70,30 +70,18 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Get Involved */}
+          {/* Contact */}
           <div>
             <h3 className="text-xs font-semibold uppercase tracking-widest text-[#9B9B9B] mb-5">
-              Get Involved
+              Say Hello
             </h3>
-            <ul className="space-y-3 text-sm">
-              {[
-                { label: "Join Now", href: "/apply" },
-                { label: "Contact Us", href: "/contact" },
-              ].map((link) => (
-                <li key={link.href}>
-                  <Link
-                    href={link.href}
-                    className="text-[#9B9B9B] hover:text-white transition-colors"
-                  >
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-            <div className="mt-6 text-sm text-[#9B9B9B]">
-              <p className="font-medium text-white mb-1">Contact Us</p>
-              <p>hello@herizonsociety.com</p>
-            </div>
+            <p className="text-[#9B9B9B] text-sm mb-4">hello@herizonsociety.com</p>
+            <Link
+              href="/apply"
+              className="inline-block bg-[#FF7477] text-white text-sm font-semibold px-5 py-2.5 rounded-full hover:bg-[#E85F62] transition-colors"
+            >
+              Join Now
+            </Link>
           </div>
         </div>
 
