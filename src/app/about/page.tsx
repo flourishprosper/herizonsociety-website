@@ -352,22 +352,17 @@ export default function AboutPage() {
             <span className="text-[#FF7477]">Something Bigger?</span>
           </h2>
           <p className="text-[#9B9B9B] text-lg mb-10 leading-relaxed">
-            Join us at an upcoming event and give the girl in your life access
-            to the community, mentorship, and experiences that will shape who
-            she becomes.
+            Whether you&rsquo;re a parent, mentor, volunteer, or community
+            partner, there&rsquo;s a place for you at Herizon. Join us at an
+            upcoming event and help create a future where every girl has the
+            confidence to discover what&rsquo;s possible.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="/apply"
+              href="/events"
               className="bg-[#FF7477] text-white font-semibold px-10 py-4 rounded-full hover:bg-[#E85F62] transition-colors"
             >
-              Join Now
-            </Link>
-            <Link
-              href="/events"
-              className="border border-white/30 text-white font-semibold px-10 py-4 rounded-full hover:border-white/60 transition-colors"
-            >
-              Find an Event
+              Explore Upcoming Events
             </Link>
           </div>
         </div>
