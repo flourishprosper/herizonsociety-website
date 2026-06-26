@@ -288,6 +288,60 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* ── MEET THE FOUNDERS ──────────────────────────────────── */}
+      <section className="bg-[#FAF8F5] py-28">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
+              The Women Behind Herizon
+            </p>
+            <h2 className="font-serif text-4xl sm:text-5xl font-black text-[#1A1A1A] leading-tight">
+              Meet the Founders
+            </h2>
+            <p className="text-[#9B9B9B] mt-4 max-w-xl mx-auto">
+              Herizon was born from lived experience and a shared belief that
+              every girl deserves a community that believes in her.
+            </p>
+          </div>
+          <div className="grid sm:grid-cols-2 gap-10 max-w-4xl mx-auto">
+            {/* Founder 1 */}
+            <div className="bg-white rounded-3xl border border-[#E8E6E2] overflow-hidden">
+              <div className="bg-[#1A1A1A] h-64 flex items-center justify-center">
+                <span className="text-7xl">👩🏽</span>
+              </div>
+              <div className="p-8">
+                <h3 className="font-serif text-2xl font-black text-[#1A1A1A] mb-1">
+                  Founder Name
+                </h3>
+                <p className="text-[#FF7477] text-sm font-semibold uppercase tracking-widest mb-4">
+                  Co-Founder
+                </p>
+                <p className="text-[#9B9B9B] text-sm leading-relaxed">
+                  Bio coming soon.
+                </p>
+              </div>
+            </div>
+            {/* Founder 2 */}
+            <div className="bg-white rounded-3xl border border-[#E8E6E2] overflow-hidden">
+              <div className="bg-[#1A1A1A] h-64 flex items-center justify-center">
+                <span className="text-7xl">👩🏼</span>
+              </div>
+              <div className="p-8">
+                <h3 className="font-serif text-2xl font-black text-[#1A1A1A] mb-1">
+                  Founder Name
+                </h3>
+                <p className="text-[#FF7477] text-sm font-semibold uppercase tracking-widest mb-4">
+                  Co-Founder
+                </p>
+                <p className="text-[#9B9B9B] text-sm leading-relaxed">
+                  Bio coming soon.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ── CTA ─────────────────────────────────────────── */}
       <section className="bg-[#1A1A1A] py-28 text-center relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-[#1A1A1A] via-[#2D2D2D] to-[#1A1A1A]" />
