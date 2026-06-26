@@ -120,6 +120,52 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Our Story */}
+      <section className="bg-white py-24">
+        <div className="max-w-3xl mx-auto px-6">
+          <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4 text-center">
+            Our Story
+          </p>
+          <h2 className="font-serif text-4xl sm:text-5xl font-black text-[#1A1A1A] leading-tight mb-4 text-center">
+            We&rsquo;re Building the Community We Wish We&rsquo;d Had.
+          </h2>
+          <p className="text-[#FF7477] text-sm font-semibold uppercase tracking-widest mb-10 text-center">
+            Expanding Horizons. Building Confidence.
+          </p>
+          <div className="space-y-6 text-[#2D2D2D] leading-relaxed text-lg">
+            <p>
+              Herizon began with a simple conversation between two women who asked the same question:
+            </p>
+            <p className="font-serif text-2xl font-bold text-[#1A1A1A] text-center py-4">
+              &ldquo;What if we&rsquo;d had this growing up?&rdquo;
+            </p>
+            <p>
+              Like so many girls, we spent our teenage years figuring life out as we went. We learned through trial and error, searched for role models, and discovered confidence one challenge at a time. Looking back, we often wonder how different those years might have been if we&rsquo;d had mentors, a supportive community, and opportunities to explore who we could become.
+            </p>
+            <p>
+              We know what it&rsquo;s like to question yourself, wonder if you&rsquo;re on the right path, and wish someone had been there to encourage you, open a door, or simply remind you that you&rsquo;re capable of more than you realize.
+            </p>
+            <p className="font-semibold text-[#1A1A1A]">
+              That&rsquo;s why we created Herizon.
+            </p>
+            <p>
+              We&rsquo;re building the community we wish we&rsquo;d had. A place where girls ages 12–18 can build confidence, connect with inspiring women, develop leadership skills, explore new opportunities, and discover what&rsquo;s possible for their future.
+            </p>
+            <p className="font-semibold text-[#1A1A1A]">
+              Because growing up shouldn&rsquo;t mean figuring everything out alone.
+            </p>
+            <div className="border-l-4 border-[#FF7477] pl-6 space-y-2 my-8">
+              <p>Every girl deserves guidance.</p>
+              <p>Every girl deserves encouragement.</p>
+              <p>Every girl deserves someone who believes in her before she fully believes in herself.</p>
+            </div>
+            <p className="font-semibold text-[#1A1A1A] text-center text-xl">
+              At Herizon, we&rsquo;re creating that community, one girl at a time.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Mission + Vision */}
       <section className="bg-[#FAF8F5] py-24">
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
