@@ -211,14 +211,34 @@ export default function AboutPage() {
                 Herizon Society
               </p>
             </div>
-            <div className="bg-[#FF7477] rounded-3xl p-8 text-white">
-              <p className="text-white/70 text-xs font-semibold uppercase tracking-widest mb-3">
+            <div className="bg-[#FF7477] rounded-3xl p-8 text-white space-y-4">
+              <p className="text-white/70 text-xs font-semibold uppercase tracking-widest">
                 Our Vision
               </p>
               <p className="font-serif text-xl font-bold leading-snug">
-                To become the leading community for young women, creating local
-                chapters across the country that connect girls with mentors,
-                entrepreneurs, business leaders, and life-changing experiences.
+                A Future Where Every Girl Knows What&rsquo;s Possible.
+              </p>
+              <p className="text-white/85 text-sm leading-relaxed">
+                We envision a future where every girl has access to inspiring
+                mentors, meaningful opportunities, and a community that believes
+                in her potential.
+              </p>
+              <p className="text-white/85 text-sm leading-relaxed">
+                Herizon begins in the San Gabriel Valley, but our vision reaches
+                far beyond one city. We hope to build a movement that connects
+                girls with women who encourage, guide, and inspire them to dream
+                bigger, lead with confidence, and create lives filled with purpose.
+              </p>
+              <p className="text-white/85 text-sm leading-relaxed">
+                Because when one girl discovers her potential, the impact reaches
+                far beyond her. It strengthens families, communities, and future
+                generations.
+              </p>
+              <p className="text-white font-semibold text-sm leading-relaxed">
+                We&rsquo;re not just creating events. We&rsquo;re building a
+                community. We&rsquo;re opening doors. We&rsquo;re expanding
+                horizons, and helping the next generation grow into confident
+                leaders who know they belong wherever their dreams take them.
               </p>
             </div>
           </div>
