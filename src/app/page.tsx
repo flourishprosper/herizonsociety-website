@@ -31,7 +31,7 @@ const brandPillars = [
 const stats = [
   { value: "One Mission", label: "Helping Girls Discover What’s Possible" },
   { value: "5 Pillars", label: "Confidence • Leadership • Connection • Opportunity • Community" },
-  { value: "Ages 12–18", label: "Girls We Empower" },
+  { value: "Ages", subtitle: "12–18", label: "Girls We Empower" },
   { value: "San Gabriel Valley", label: "Launching Our First Chapter" },
 ];
 
@@ -99,9 +99,15 @@ export default function HomePage() {
                 key={s.label}
                 className="bg-white/5 border border-white/10 rounded-2xl p-8 text-center"
               >
-                <div className="font-serif text-5xl font-black text-[#FF7477] mb-2">
+                <div className="font-serif text-5xl font-black text-[#FF7477] leading-tight">
                   {s.value}
                 </div>
+                {s.subtitle && (
+                  <div className="font-serif text-5xl font-black text-[#FF7477] mb-2">
+                    {s.subtitle}
+                  </div>
+                )}
+                {!s.subtitle && <div className="mb-2" />}
                 <div className="text-sm text-[#9B9B9B] uppercase tracking-wider">
                   {s.label}
                 </div>
@@ -188,8 +194,8 @@ export default function HomePage() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
             {[
               { city: "Glendora", date: "September 19, 2026", venue: "TBA" },
-              { city: "San Diego", date: "Winter 2026", venue: "TBA" },
-              { city: "Orange County", date: "Spring 2027", venue: "TBA" },
+              { city: "Pasadena", date: "Winter 2026", venue: "TBA" },
+              { city: "San Dimas", date: "Spring 2027", venue: "TBA" },
             ].map((event) => (
               <div
                 key={event.city}
