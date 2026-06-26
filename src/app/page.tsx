@@ -319,12 +319,11 @@ export default function HomePage() {
               </div>
             </div>
             <div className="text-center">
-              <div className="font-serif text-8xl leading-none mb-4">✨</div>
-              <p className="text-[#9B9B9B] text-lg font-medium">
-                Our vision: local chapters across the country connecting girls
-                with{" "}
+              <p className="font-serif text-2xl sm:text-3xl font-black text-[#1A1A1A] leading-snug">
+                Our vision is to build a community where every girl has access
+                to mentors, meaningful opportunities, and the{" "}
                 <span className="text-[#FF7477]">
-                  mentors and life-changing experiences
+                  confidence to pursue a future without limits.
                 </span>
               </p>
             </div>
