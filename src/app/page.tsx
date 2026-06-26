@@ -52,24 +52,24 @@ export default function HomePage() {
         <div className="absolute right-0 top-0 w-[600px] h-[600px] rounded-full bg-[#FF7477] opacity-10 blur-3xl translate-x-1/4 -translate-y-1/4 pointer-events-none" />
         <div className="absolute left-0 bottom-0 w-[400px] h-[400px] rounded-full bg-[#FF7477] opacity-5 blur-3xl -translate-x-1/2 translate-y-1/2 pointer-events-none" />
 
-        <div className="relative max-w-7xl mx-auto px-6 py-24 grid lg:grid-cols-2 gap-16 items-center">
+        <div className="relative max-w-7xl mx-auto px-6 py-16 sm:py-24 grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
           <div>
             <span className="inline-block text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-6 border border-[#FF7477]/40 px-3 py-1 rounded-full">
               For Girls Ages 12–18
             </span>
-            <h1 className="font-serif font-black leading-tight mb-8">
-              <span className="block text-6xl sm:text-7xl lg:text-8xl tracking-tight">
+            <h1 className="font-serif font-black leading-tight mb-6">
+              <span className="block text-4xl sm:text-7xl lg:text-8xl tracking-tight">
                 <span className="text-[#FF7477]">HER</span>
                 <span className="text-white">IZON</span>
               </span>
-              <span className="block text-4xl sm:text-5xl lg:text-6xl text-white mt-2">
+              <span className="block text-xl sm:text-4xl lg:text-6xl text-white mt-2">
                 Expanding Horizons.
               </span>
-              <span className="block text-4xl sm:text-5xl lg:text-6xl text-[#FF7477]">
+              <span className="block text-xl sm:text-4xl lg:text-6xl text-[#FF7477]">
                 Building Confidence.
               </span>
             </h1>
-            <p className="text-[#9B9B9B] text-lg leading-relaxed max-w-md mb-10">
+            <p className="text-[#9B9B9B] text-sm sm:text-lg leading-relaxed max-w-md mb-8">
               At Herizon, we believe confidence changes everything. Our mission
               is to help girls discover their strengths, believe in themselves,
               and realize what they&rsquo;re capable of. Through mentorship,
@@ -93,16 +93,16 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 gap-2 sm:gap-4">
             {stats.map((s) => (
               <div
                 key={s.label}
-                className="bg-white/5 border border-white/10 rounded-2xl p-8 text-center"
+                className="bg-white/5 border border-white/10 rounded-2xl p-4 sm:p-8 text-center"
               >
-                <div className="font-serif text-5xl font-black text-[#FF7477] mb-2">
+                <div className="font-serif text-xl sm:text-4xl font-black text-[#FF7477] mb-1 leading-tight">
                   {s.value}
                 </div>
-                <div className="text-sm text-[#9B9B9B] uppercase tracking-wider">
+                <div className="text-[9px] sm:text-xs text-[#9B9B9B] uppercase tracking-wide leading-snug">
                   {s.label}
                 </div>
               </div>
@@ -235,7 +235,7 @@ export default function HomePage() {
               Discover Herizon
             </Link>
           </div>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 gap-2 sm:gap-4">
             {[
               {
                 icon: "🤝",
