@@ -15,9 +15,8 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-[#9B9B9B] text-sm leading-relaxed max-w-xs">
-              Expanding Horizons. Building Confidence. A community for girls
-              ages 12–18 built on mentorship, leadership, and real-world
-              experiences that expand what&rsquo;s possible.
+              📍 Based in Glendora, California<br />
+              🌎 Serving the San Gabriel Valley
             </p>
             <div className="flex gap-4 mt-6">
               <a
