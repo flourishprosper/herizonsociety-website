@@ -170,27 +170,22 @@ export default function AboutPage() {
               Our Mission
             </p>
             <h2 className="font-serif text-4xl sm:text-5xl font-black text-[#1A1A1A] leading-tight mb-8">
-              Expanding Horizons.<br />Building Confidence.
+              Every Girl Deserves to Believe in Herself.
             </h2>
             <div className="space-y-5 text-[#4A4A4A] leading-relaxed text-lg">
               <p>
-                Herizon empowers girls ages 12&ndash;18 to discover their
-                strengths, build confidence, and pursue a future without limits.
+                Herizon exists to help girls build the confidence to pursue
+                their dreams, discover their potential, and create a future
+                without limits.
               </p>
               <p>
-                Through mentorship, leadership, entrepreneurship, education, and
-                meaningful community experiences, we help girls develop the
-                skills, relationships, and self-belief they need to navigate
-                life with confidence and purpose.
+                We believe confidence is built through encouragement, meaningful
+                experiences, positive role models, and a community that reminds
+                every girl she belongs, her voice matters, and she&rsquo;s
+                capable of incredible things.
               </p>
-              <p>
-                We believe confidence isn&rsquo;t something girls are born with.
-                It&rsquo;s something they build through encouragement,
-                opportunity, and experience. Our mission is to make sure every
-                girl who joins Herizon leaves{" "}
-                <strong className="text-[#1A1A1A]">
-                  believing in herself a little more than she did before.
-                </strong>
+              <p className="font-semibold text-[#1A1A1A]">
+                That&rsquo;s the mission behind everything we do.
               </p>
             </div>
           </div>
