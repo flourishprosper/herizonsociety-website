@@ -245,28 +245,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Impact Numbers */}
-      <section className="bg-[#FF7477] py-20">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center text-white">
-            {[
-              { val: "500+", label: "Girls in Community" },
-              { val: "10+", label: "Events Hosted" },
-              { val: "12–18", label: "Ages We Serve" },
-              { val: "2026", label: "Digital Platform Launch" },
-            ].map((s) => (
-              <div key={s.label}>
-                <div className="font-serif text-5xl font-black mb-2">
-                  {s.val}
-                </div>
-                <div className="text-white/70 text-xs uppercase tracking-widest">
-                  {s.label}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+
 
       {/* Six Core Values */}
       <section className="bg-white py-24">
