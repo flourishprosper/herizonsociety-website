@@ -294,27 +294,27 @@ export default function HomePage() {
                 Join the Movement
               </p>
               <h2 className="font-serif text-4xl font-black text-[#1A1A1A] leading-tight mb-6">
-                Help Us Expand Her Horizon
+                Invest in the Next Generation
               </h2>
               <p className="text-[#9B9B9B] leading-relaxed mb-8">
-                Herizon Society grows through the women, leaders, and businesses
-                who believe in the next generation. Sponsor an event, become a
-                mentor, or volunteer your time. Every action sends a message to
-                a young girl:{" "}
-                <em>you are worth investing in.</em>
+                Herizon grows because of people who believe every girl deserves
+                the opportunity to discover her potential. Whether you become a
+                mentor, volunteer at an event, or sponsor our mission, your
+                support helps create life-changing experiences and lasting
+                confidence.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
-                  href="/sponsor"
+                  href="/mentorship"
                   className="bg-[#FF7477] text-white font-semibold px-8 py-4 rounded-full hover:bg-[#E85F62] transition-colors text-center"
                 >
-                  Become a Sponsor
+                  Become a Mentor
                 </Link>
                 <Link
                   href="/volunteer"
                   className="border border-[#E8E6E2] text-[#1A1A1A] font-semibold px-8 py-4 rounded-full hover:border-[#1A1A1A] transition-colors text-center"
                 >
-                  Volunteer
+                  Partner With Herizon
                 </Link>
               </div>
             </div>
