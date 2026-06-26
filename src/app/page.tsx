@@ -29,10 +29,10 @@ const brandPillars = [
 ];
 
 const stats = [
-  { value: "500+", label: "Girls in Community" },
-  { value: "10+", label: "Events Hosted" },
-  { value: "12–18", label: "Ages We Serve" },
-  { value: "6", label: "Core Values" },
+  { value: "12–18", label: "Girls We Empower" },
+  { value: "4 Pillars", label: "Mentorship • Leadership • Entrepreneurship • Community" },
+  { value: "1 Mission", label: "Building Confident Girls" },
+  { value: "Unlimited", label: "Potential" },
 ];
 
 export default function HomePage() {
