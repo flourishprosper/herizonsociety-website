@@ -196,10 +196,14 @@ export default function AboutPage() {
             <div className="font-serif text-8xl font-black text-[#FF7477] opacity-30 leading-none mb-4">
               &ldquo;
             </div>
-            <blockquote className="font-serif text-2xl font-bold text-white leading-snug mb-8">
-              When girls know who they are and what they&rsquo;re capable of,
-              they change everything.
+            <blockquote className="font-serif text-2xl font-bold text-white leading-snug mb-6">
+              Confidence changes everything.
             </blockquote>
+            <p className="text-white/80 text-sm leading-relaxed mb-6">
+              Every decision we make, every program we create, and every
+              experience we offer is designed to help girls believe in
+              themselves and discover what&rsquo;s possible.
+            </p>
             <p className="text-[#9B9B9B] text-xs font-semibold uppercase tracking-widest">
               Herizon Society
             </p>
