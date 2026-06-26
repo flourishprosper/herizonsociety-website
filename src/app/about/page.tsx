@@ -90,66 +90,37 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* ── OUR STORY ───────────────────────────────────── */}
+      {/* ── ABOUT / STORY ────────────────────────────────── */}
       <section className="bg-white py-28">
         <div className="max-w-3xl mx-auto px-6">
           <div className="text-center mb-12">
             <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
-              Our Story
+              About Herizon
             </p>
-            <h2 className="font-serif text-4xl sm:text-5xl font-black text-[#1A1A1A] leading-tight">
-              We&rsquo;re Building the Community<br />We Wish We&rsquo;d Had.
+            <h2 className="font-serif text-4xl sm:text-5xl font-black text-[#1A1A1A] leading-tight mb-4">
+              Helping Girls Discover What&rsquo;s Possible
             </h2>
+            <p className="text-[#FF7477] text-sm font-semibold uppercase tracking-widest">
+              Expanding Horizons. Building Confidence.
+            </p>
           </div>
-
           <div className="space-y-6 text-[#4A4A4A] leading-relaxed text-lg">
             <p>
-              Herizon began with a simple conversation between two women who
-              asked the same question:
-            </p>
-          </div>
-
-          {/* Pull Quote */}
-          <div className="my-12 text-center">
-            <span className="font-serif text-3xl sm:text-4xl font-black text-[#1A1A1A]">
-              &ldquo;What if we&rsquo;d had this growing up?&rdquo;
-            </span>
-          </div>
-
-          <div className="space-y-6 text-[#4A4A4A] leading-relaxed text-lg">
-            <p>
-              Like so many girls, we spent our teenage years figuring life out
-              as we went. We learned through trial and error, searching for
-              role models, discovering confidence one challenge at a time.
-              Looking back, we often wonder how different those years might have
-              been if we&rsquo;d had mentors, a supportive community, and
-              opportunities to explore who we could become.
+              Growing up doesn&rsquo;t come with a roadmap, and no girl should
+              have to figure it all out alone.
             </p>
             <p>
-              We know what it&rsquo;s like to question yourself, wonder if
-              you&rsquo;re on the right path, and wish someone had been there
-              to encourage you, open a door, or simply remind you that
-              you&rsquo;re capable of more than you realize.
+              Herizon was created to help girls discover their strengths, build
+              confidence, and realize there&rsquo;s no limit to what they&rsquo;re
+              capable of. Through mentorship, leadership, real-world experiences,
+              and a supportive community, we give girls the encouragement and
+              opportunities to dream bigger, believe in themselves, and step
+              confidently into their future.
             </p>
-            <p className="font-semibold text-[#1A1A1A] text-xl">
-              That&rsquo;s why we created Herizon.
-            </p>
-            <p>
-              Because growing up shouldn&rsquo;t mean figuring everything out
-              alone.
+            <p className="font-semibold text-[#1A1A1A] text-xl text-center pt-4">
+              For girls ages 12&ndash;18.
             </p>
           </div>
-
-          {/* Three statements */}
-          <div className="my-12 border-l-4 border-[#FF7477] pl-8 space-y-4">
-            <p className="text-[#1A1A1A] font-medium text-lg">Every girl deserves guidance.</p>
-            <p className="text-[#1A1A1A] font-medium text-lg">Every girl deserves encouragement.</p>
-            <p className="text-[#1A1A1A] font-medium text-lg">Every girl deserves someone who believes in her before she fully believes in herself.</p>
-          </div>
-
-          <p className="text-center font-serif text-2xl font-bold text-[#FF7477]">
-            At Herizon, we&rsquo;re creating that community. One girl at a time.
-          </p>
         </div>
       </section>
 
