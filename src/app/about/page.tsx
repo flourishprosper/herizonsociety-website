@@ -311,7 +311,7 @@ export default function AboutPage() {
               </div>
               <div className="p-8">
                 <h3 className="font-serif text-2xl font-black text-[#1A1A1A] mb-1">
-                  Founder Name
+                  Rene Babich
                 </h3>
                 <p className="text-[#FF7477] text-sm font-semibold uppercase tracking-widest mb-4">
                   Co-Founder
@@ -328,7 +328,7 @@ export default function AboutPage() {
               </div>
               <div className="p-8">
                 <h3 className="font-serif text-2xl font-black text-[#1A1A1A] mb-1">
-                  Founder Name
+                  Ryan Guerra
                 </h3>
                 <p className="text-[#FF7477] text-sm font-semibold uppercase tracking-widest mb-4">
                   Co-Founder
