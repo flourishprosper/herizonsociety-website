@@ -308,13 +308,13 @@ export default function HomePage() {
                   href="/mentorship"
                   className="bg-[#FF7477] text-white font-semibold px-8 py-4 rounded-full hover:bg-[#E85F62] transition-colors text-center"
                 >
-                  Become a Mentor
+                  🫧 Become a Sponsor
                 </Link>
                 <Link
                   href="/volunteer"
                   className="border border-[#E8E6E2] text-[#1A1A1A] font-semibold px-8 py-4 rounded-full hover:border-[#1A1A1A] transition-colors text-center"
                 >
-                  Partner With Herizon
+                  🧡 Volunteer
                 </Link>
               </div>
             </div>
