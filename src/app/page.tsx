@@ -99,15 +99,9 @@ export default function HomePage() {
                 key={s.label}
                 className="bg-white/5 border border-white/10 rounded-2xl p-8 text-center"
               >
-                <div className="font-serif text-5xl font-black text-[#FF7477] leading-tight">
+                <div className="font-serif text-5xl font-black text-[#FF7477] mb-2">
                   {s.value}
                 </div>
-                {s.subtitle && (
-                  <div className="font-serif text-5xl font-black text-[#FF7477] mb-2">
-                    {s.subtitle}
-                  </div>
-                )}
-                {!s.subtitle && <div className="mb-2" />}
                 <div className="text-sm text-[#9B9B9B] uppercase tracking-wider">
                   {s.label}
                 </div>
