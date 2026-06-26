@@ -65,22 +65,28 @@ export default function AboutPage() {
             About Herizon
           </p>
           <h1 className="font-serif text-5xl sm:text-6xl lg:text-7xl font-black text-white leading-tight mb-4">
-            We&rsquo;re Building the Community<br />
-            <span className="text-[#FF7477]">We Wish We&rsquo;d Had.</span>
+            Helping Girls Discover<br />
+            <span className="text-[#FF7477]">What&rsquo;s Possible</span>
           </h1>
-          <p className="text-[#FF7477]/80 text-sm font-semibold uppercase tracking-widest mb-6">
+          <p className="text-[#FF7477]/80 text-sm font-semibold uppercase tracking-widest mb-8">
             Expanding Horizons. Building Confidence.
           </p>
-          <p className="text-[#9B9B9B] text-xl max-w-2xl mx-auto leading-relaxed mb-4">
-            Growing up doesn&rsquo;t come with a roadmap, and no girl should
-            have to figure it all out alone. Herizon is a community where girls
-            build confidence, discover their strengths, connect with inspiring
-            mentors, and gain the experiences that help them see what&rsquo;s
-            possible.
-          </p>
-          <p className="text-[#FF7477] font-semibold text-lg">
-            For girls ages 12&ndash;18.
-          </p>
+          <div className="space-y-4 text-[#9B9B9B] text-xl max-w-2xl mx-auto leading-relaxed">
+            <p>
+              Growing up doesn&rsquo;t come with a roadmap, and no girl should
+              have to figure it all out alone.
+            </p>
+            <p>
+              Herizon is a community where girls ages 12&ndash;18 build
+              confidence, discover their strengths, connect with inspiring
+              mentors, and gain meaningful experiences that help them see
+              what&rsquo;s possible for their future.
+            </p>
+            <p className="text-white font-medium">
+              We&rsquo;re here to help every girl believe in herself, find her
+              voice, and step boldly into whatever comes next.
+            </p>
+          </div>
         </div>
       </section>
 
