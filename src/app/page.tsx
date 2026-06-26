@@ -221,10 +221,10 @@ export default function HomePage() {
               Real Change.
             </h2>
             <p className="text-[#9B9B9B] text-lg leading-relaxed mb-6">
-              Every HERizon experience is designed to leave girls with something
+              Every Herizon experience is designed to leave girls with something
               meaningful: a new connection, a fresh perspective, greater
               confidence, and the belief that their future is full of
-              possibilities. HERizon isn&rsquo;t just an event. It&rsquo;s a
+              possibilities. Herizon isn&rsquo;t just an event. It&rsquo;s a
               community where girls are inspired, encouraged, and supported by
               women who&rsquo;ve walked the path before them.
             </p>
@@ -232,7 +232,7 @@ export default function HomePage() {
               href="/mentorship"
               className="inline-flex bg-[#1A1A1A] text-white font-semibold px-8 py-4 rounded-full hover:bg-[#2D2D2D] transition-colors"
             >
-              Discover HERizon
+              Discover Herizon
             </Link>
           </div>
           <div className="grid grid-cols-2 gap-4">
