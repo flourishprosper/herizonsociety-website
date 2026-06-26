@@ -239,23 +239,23 @@ export default function HomePage() {
             {[
               {
                 icon: "🤝",
-                label: "Meaningful Mentorship",
-                description: "Connect with inspiring women who encourage, guide, and help girls see what’s possible.",
+                label: "Connect",
+                description: "Build meaningful relationships with mentors and other girls.",
               },
               {
                 icon: "🌱",
-                label: "Personal Growth",
-                description: "Build confidence, resilience, and leadership through real-world experiences.",
+                label: "Grow",
+                description: "Develop confidence, leadership, and life skills through real experiences.",
               },
               {
                 icon: "💡",
-                label: "New Opportunities",
-                description: "Explore careers, entrepreneurship, volunteerism, and experiences that expand horizons.",
+                label: "Explore",
+                description: "Discover new opportunities, careers, and possibilities for your future.",
               },
               {
-                icon: "💜",
-                label: "Lasting Community",
-                description: "Develop friendships and become part of a supportive network that continues beyond every event.",
+                icon: "⭐",
+                label: "Lead",
+                description: "Leave every Herizon experience ready to make a difference in your school, community, and beyond.",
               },
             ].map((item) => (
               <div
