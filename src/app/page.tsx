@@ -232,7 +232,7 @@ export default function HomePage() {
               href="/mentorship"
               className="inline-flex bg-[#1A1A1A] text-white font-semibold px-8 py-4 rounded-full hover:bg-[#2D2D2D] transition-colors"
             >
-              Explore Mentorship
+              Discover HERizon
             </Link>
           </div>
           <div className="grid grid-cols-2 gap-4">
