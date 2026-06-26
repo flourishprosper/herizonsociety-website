@@ -29,8 +29,7 @@ const brandPillars = [
 ];
 
 const stats = [
-  { value: "1 Mission", label: "Building Confident Girls" },
-  { value: "Unlimited", label: "Potential" },
+  { value: "San Gabriel Valley", label: "Launching Our First Chapter" },
   { value: "Ages 12–18", label: "Girls We Empower" },
   { value: "5 Pillars", label: "Confidence • Leadership • Connection • Opportunity • Community" },
 ];
