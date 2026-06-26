@@ -30,7 +30,7 @@ const brandPillars = [
 
 const stats = [
   { value: "12–18", label: "Girls We Empower" },
-  { value: "4 Pillars", label: "Mentorship • Leadership • Entrepreneurship • Community" },
+  { value: "5 Pillars", label: "Confidence • Leadership • Connection • Opportunity • Community" },
   { value: "1 Mission", label: "Building Confident Girls" },
   { value: "Unlimited", label: "Potential" },
 ];
