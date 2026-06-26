@@ -10,7 +10,6 @@ const navLinks = [
   { label: "Get Involved", href: "/mentorship" },
   { label: "Programs", href: "/volunteer" },
   { label: "Gallery", href: "/gallery" },
-  { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/contact" },
 ];
 
