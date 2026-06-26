@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "About Us | Herizon Society",
   description:
-    "Herizon exists to help girls discover what's possible. Learn about our mission, vision, and the six core values that guide everything we do.",
+    "Learn who we are, why we started Herizon, and the mission and values that guide everything we do.",
 };
 
 const coreValues = [
@@ -103,19 +103,16 @@ export default function AboutPage() {
         <div className="absolute top-0 right-0 w-96 h-96 rounded-full bg-[#FF7477] opacity-10 blur-3xl" />
         <div className="relative max-w-4xl mx-auto px-6">
           <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
-            Our Story
+            About Herizon
           </p>
-          <h1 className="font-serif text-6xl sm:text-7xl font-black text-white leading-tight mb-4">
+          <h1 className="font-serif text-6xl sm:text-7xl font-black text-white leading-tight mb-6">
             Helping Girls See What&rsquo;s{" "}
             <span className="text-[#FF7477]">Possible</span>
           </h1>
-          <p className="text-[#FF7477]/70 text-sm font-semibold uppercase tracking-widest mb-6">
-            Expanding Horizons. Building Confidence.
-          </p>
           <p className="text-[#9B9B9B] text-xl max-w-2xl mx-auto leading-relaxed">
-            Herizon Society is a community for girls ages 12–18 built on
-            mentorship, leadership, entrepreneurship, and real-world experiences
-            that expand what&rsquo;s possible.
+            We&rsquo;re building the community we wish we&rsquo;d had — a place
+            where girls ages 12&ndash;18 can build confidence, find their voice,
+            and discover what&rsquo;s possible for their future.
           </p>
         </div>
       </section>
@@ -126,12 +123,9 @@ export default function AboutPage() {
           <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4 text-center">
             Our Story
           </p>
-          <h2 className="font-serif text-4xl sm:text-5xl font-black text-[#1A1A1A] leading-tight mb-4 text-center">
+          <h2 className="font-serif text-4xl sm:text-5xl font-black text-[#1A1A1A] leading-tight mb-10 text-center">
             We&rsquo;re Building the Community We Wish We&rsquo;d Had.
           </h2>
-          <p className="text-[#FF7477] text-sm font-semibold uppercase tracking-widest mb-10 text-center">
-            Expanding Horizons. Building Confidence.
-          </p>
           <div className="space-y-6 text-[#2D2D2D] leading-relaxed text-lg">
             <p>
               Herizon began with a simple conversation between two women who asked the same question:
@@ -149,7 +143,7 @@ export default function AboutPage() {
               That&rsquo;s why we created Herizon.
             </p>
             <p>
-              We&rsquo;re building the community we wish we&rsquo;d had. A place where girls ages 12–18 can build confidence, connect with inspiring women, develop leadership skills, explore new opportunities, and discover what&rsquo;s possible for their future.
+              We&rsquo;re building the community we wish we&rsquo;d had — a place where girls ages 12&ndash;18 can build confidence, connect with inspiring women, develop leadership skills, explore new opportunities, and discover what&rsquo;s possible for their future.
             </p>
             <p className="font-semibold text-[#1A1A1A]">
               Because growing up shouldn&rsquo;t mean figuring everything out alone.
@@ -166,7 +160,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Mission + Vision */}
+      {/* Our Mission */}
       <section className="bg-[#FAF8F5] py-24">
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
           <div>
@@ -178,7 +172,7 @@ export default function AboutPage() {
             </h2>
             <div className="space-y-5 text-[#2D2D2D] leading-relaxed">
               <p>
-                Herizon empowers girls ages 12–18 to discover their strengths,
+                Herizon empowers girls ages 12&ndash;18 to discover their strengths,
                 build confidence, and pursue a future without limits.
               </p>
               <p>
@@ -198,54 +192,56 @@ export default function AboutPage() {
               </p>
             </div>
           </div>
-          <div className="space-y-6">
-            <div className="bg-white rounded-3xl border border-[#E8E6E2] p-10">
-              <div className="font-serif text-7xl font-black text-[#F0EFEC] mb-4">
-                &ldquo;
-              </div>
-              <blockquote className="font-serif text-2xl font-bold text-[#1A1A1A] leading-snug mb-6">
-                When girls know who they are and what they&rsquo;re capable of,
-                they change everything.
-              </blockquote>
-              <p className="text-[#9B9B9B] text-sm uppercase tracking-wider">
-                Herizon Society
-              </p>
+          <div className="bg-white rounded-3xl border border-[#E8E6E2] p-10">
+            <div className="font-serif text-7xl font-black text-[#F0EFEC] mb-4">
+              &ldquo;
             </div>
-            <div className="bg-[#FF7477] rounded-3xl p-8 text-white space-y-4">
-              <p className="text-white/70 text-xs font-semibold uppercase tracking-widest">
-                Our Vision
-              </p>
-              <p className="font-serif text-xl font-bold leading-snug">
-                A Future Where Every Girl Knows What&rsquo;s Possible.
-              </p>
-              <p className="text-white/85 text-sm leading-relaxed">
-                We envision a future where every girl has access to inspiring
-                mentors, meaningful opportunities, and a community that believes
-                in her potential.
-              </p>
-              <p className="text-white/85 text-sm leading-relaxed">
-                Herizon begins in the San Gabriel Valley, but our vision reaches
-                far beyond one city. We hope to build a movement that connects
-                girls with women who encourage, guide, and inspire them to dream
-                bigger, lead with confidence, and create lives filled with purpose.
-              </p>
-              <p className="text-white/85 text-sm leading-relaxed">
-                Because when one girl discovers her potential, the impact reaches
-                far beyond her. It strengthens families, communities, and future
-                generations.
-              </p>
-              <p className="text-white font-semibold text-sm leading-relaxed">
-                We&rsquo;re not just creating events. We&rsquo;re building a
-                community. We&rsquo;re opening doors. We&rsquo;re expanding
-                horizons, and helping the next generation grow into confident
-                leaders who know they belong wherever their dreams take them.
-              </p>
-            </div>
+            <blockquote className="font-serif text-2xl font-bold text-[#1A1A1A] leading-snug mb-6">
+              When girls know who they are and what they&rsquo;re capable of,
+              they change everything.
+            </blockquote>
+            <p className="text-[#9B9B9B] text-sm uppercase tracking-wider">
+              Herizon Society
+            </p>
           </div>
         </div>
       </section>
 
-
+      {/* Our Vision */}
+      <section className="bg-[#FF7477] py-24">
+        <div className="max-w-3xl mx-auto px-6 text-center text-white">
+          <p className="text-white/70 text-xs font-semibold uppercase tracking-widest mb-4">
+            Our Vision
+          </p>
+          <h2 className="font-serif text-4xl sm:text-5xl font-black leading-tight mb-10">
+            A Future Where Every Girl Knows What&rsquo;s Possible.
+          </h2>
+          <div className="space-y-5 text-white/90 text-lg leading-relaxed text-left">
+            <p>
+              We envision a future where every girl has access to inspiring
+              mentors, meaningful opportunities, and a community that believes
+              in her potential.
+            </p>
+            <p>
+              Herizon begins in the San Gabriel Valley, but our vision reaches
+              far beyond one city. We hope to build a movement that connects
+              girls with women who encourage, guide, and inspire them to dream
+              bigger, lead with confidence, and create lives filled with purpose.
+            </p>
+            <p>
+              Because when one girl discovers her potential, the impact reaches
+              far beyond her. It strengthens families, communities, and future
+              generations.
+            </p>
+            <p className="font-semibold text-white text-center text-xl pt-4">
+              We&rsquo;re not just creating events. We&rsquo;re building a
+              community. We&rsquo;re opening doors. We&rsquo;re expanding
+              horizons — and helping the next generation grow into confident
+              leaders who know they belong wherever their dreams take them.
+            </p>
+          </div>
+        </div>
+      </section>
 
       {/* Six Core Values */}
       <section className="bg-white py-24">
@@ -258,7 +254,7 @@ export default function AboutPage() {
               Six Core Values. One Mission.
             </h2>
             <p className="text-[#9B9B9B] mt-4 max-w-xl mx-auto">
-              Every experience at Herizon is built on these six values, and the
+              Every experience at Herizon is built on these six values — the
               foundation that creates truly confident, connected young leaders.
             </p>
           </div>
@@ -325,8 +321,8 @@ export default function AboutPage() {
       <section className="bg-[#FAF8F5] py-24 text-center">
         <div className="max-w-2xl mx-auto px-6">
           <h2 className="font-serif text-4xl font-black text-[#1A1A1A] mb-6">
-            Ready to Expand Her{" "}
-            <span className="text-[#FF7477]">Herizon</span>?
+            Ready to Be Part of Something{" "}
+            <span className="text-[#FF7477]">Bigger</span>?
           </h2>
           <p className="text-[#9B9B9B] mb-8 leading-relaxed">
             Join us at an upcoming event and give the girl in your life access
