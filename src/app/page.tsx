@@ -221,11 +221,12 @@ export default function HomePage() {
               Real Change.
             </h2>
             <p className="text-[#9B9B9B] text-lg leading-relaxed mb-6">
-              Every Herizon event leaves girls with a new connection, a new
-              perspective, a new opportunity, and greater confidence. Herizon
-              isn&rsquo;t just a conference. It&rsquo;s a living, breathing
-              community where girls connect with women who have walked ahead of
-              them.
+              Every HERizon experience is designed to leave girls with something
+              meaningful: a new connection, a fresh perspective, greater
+              confidence, and the belief that their future is full of
+              possibilities. HERizon isn&rsquo;t just an event. It&rsquo;s a
+              community where girls are inspired, encouraged, and supported by
+              women who&rsquo;ve walked the path before them.
             </p>
             <Link
               href="/mentorship"
