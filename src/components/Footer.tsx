@@ -51,11 +51,12 @@ export default function Footer() {
             </h3>
             <ul className="space-y-3 text-sm">
               {[
-                { label: "About Us", href: "/about" },
+                { label: "About", href: "/about" },
                 { label: "Events", href: "/events" },
-                { label: "Mentorship", href: "/mentorship" },
+                { label: "Get Involved", href: "/mentorship" },
+                { label: "Programs", href: "/volunteer" },
                 { label: "Gallery", href: "/gallery" },
-                { label: "Blog", href: "/blog" },
+                { label: "Contact", href: "/contact" },
               ].map((link) => (
                 <li key={link.href}>
                   <Link
@@ -77,8 +78,6 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               {[
                 { label: "Join Now", href: "/apply" },
-                { label: "Be a Sponsor", href: "/sponsor" },
-                { label: "Volunteer", href: "/volunteer" },
                 { label: "Contact Us", href: "/contact" },
               ].map((link) => (
                 <li key={link.href}>
