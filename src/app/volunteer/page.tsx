@@ -103,6 +103,32 @@ export default function VolunteerPage() {
         </div>
       </section>
 
+      {/* Sponsors */}
+      <section className="bg-[#FAF8F5] py-24">
+        <div className="max-w-7xl mx-auto px-6 text-center">
+          <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
+            Our Sponsors
+          </p>
+          <h2 className="font-serif text-4xl sm:text-5xl font-black text-[#1A1A1A] leading-tight mb-4">
+            Proudly Supported By
+          </h2>
+          <p className="text-[#9B9B9B] max-w-xl mx-auto mb-16">
+            We&rsquo;re grateful for the businesses and organizations who believe in the next generation of girls.
+          </p>
+          {/* Logo grid — logos coming soon */}
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8 items-center justify-items-center">
+            {[1, 2, 3, 4].map((i) => (
+              <div
+                key={i}
+                className="w-40 h-20 bg-white border-2 border-dashed border-[#E8E6E2] rounded-2xl flex items-center justify-center text-[#C8C6C2] text-sm"
+              >
+                Logo {i}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="bg-[#FF7477] py-24 text-center">
         <div className="max-w-2xl mx-auto px-6">
