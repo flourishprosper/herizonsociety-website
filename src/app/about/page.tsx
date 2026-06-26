@@ -174,28 +174,27 @@ export default function AboutPage() {
               Our Mission
             </p>
             <h2 className="font-serif text-4xl sm:text-5xl font-black text-[#1A1A1A] leading-tight mb-6">
-              We Help Girls Discover What&rsquo;s Possible
+              Expanding Horizons. Building Confidence.
             </h2>
             <div className="space-y-5 text-[#2D2D2D] leading-relaxed">
               <p>
-                Herizon exists to help girls discover what&rsquo;s possible.
-                Through mentorship, leadership, entrepreneurship, community
-                experiences, and real-world exposure, we inspire girls to build
-                confidence, develop life skills, and pursue opportunities they
-                may never have imagined.
+                Herizon empowers girls ages 12–18 to discover their strengths,
+                build confidence, and pursue a future without limits.
               </p>
               <p>
-                Our goal is simple:{" "}
+                Through mentorship, leadership, entrepreneurship, education, and
+                meaningful community experiences, we help girls develop the
+                skills, relationships, and self-belief they need to navigate
+                life with confidence and purpose.
+              </p>
+              <p>
+                We believe confidence isn&rsquo;t something girls are born with.
+                It&rsquo;s something they build through encouragement,
+                opportunity, and experience. Our mission is to make sure every
+                girl who joins Herizon leaves{" "}
                 <strong>
-                  to help every girl leave believing her future is bigger than
-                  she thought.
+                  believing in herself a little more than she did before.
                 </strong>
-              </p>
-              <p>
-                We created a space where teenage girls aren&rsquo;t just talked{" "}
-                <em>at.</em> They&rsquo;re mentored, challenged, celebrated,
-                and connected to women who have already walked the path ahead of
-                them.
               </p>
             </div>
           </div>
