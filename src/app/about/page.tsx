@@ -13,42 +13,35 @@ const coreValues = [
     title: "Confidence",
     icon: "💡",
     description:
-      "Real confidence isn't handed to you. It's built through the right experiences, the right language, and the right community.",
+      "Helping girls believe in themselves deeply and unapologetically. Real confidence isn't handed to you. It's built through encouragement, experience, and community.",
   },
   {
     number: "02",
-    title: "Courage",
-    icon: "🦁",
-    description:
-      "Growth lives just beyond the edge of comfortable. We help girls step outside their comfort zones and discover what they're truly capable of.",
-  },
-  {
-    number: "03",
-    title: "Community",
-    icon: "🤝",
-    description:
-      "The people around you shape what you believe is possible. We create lifelong friendships and meaningful connections that go beyond every event.",
-  },
-  {
-    number: "04",
     title: "Leadership",
     icon: "🏆",
     description:
-      "Leadership isn't a title. It's a way of showing up. We help girls find their voice and step into any room ready to lead.",
+      "Developing the voice, vision, and courage to lead with intention. We help girls find their voice and step into any room ready to lead.",
   },
   {
-    number: "05",
+    number: "03",
+    title: "Connection",
+    icon: "🤝",
+    description:
+      "Building relationships with mentors and peers that last beyond the event. The people around you shape what you believe is possible.",
+  },
+  {
+    number: "04",
     title: "Opportunity",
     icon: "🌟",
     description:
-      "We open doors girls didn't even know existed, from careers and entrepreneurship to experiences that expand their vision of what's possible.",
+      "Opening doors to careers, businesses, and experiences girls never imagined. We help girls discover possibilities they didn't know existed.",
   },
   {
-    number: "06",
-    title: "Kindness",
-    icon: "💛",
+    number: "05",
+    title: "Community",
+    icon: "💜",
     description:
-      "We build a community where every girl feels celebrated, seen, and safe. Lifting each other up is how we all rise together.",
+      "Creating a lifelong sisterhood rooted in shared values and mutual support. A place where every girl belongs and every voice matters.",
   },
 ];
 
@@ -262,7 +255,7 @@ export default function AboutPage() {
               What We Stand For
             </p>
             <h2 className="font-serif text-4xl sm:text-5xl font-black text-[#1A1A1A] leading-tight">
-              Six Core Values. One Mission.
+              Five Pillars. One Mission.
             </h2>
             <p className="text-[#9B9B9B] mt-4 max-w-xl mx-auto">
               Everything we do flows from these values. They&rsquo;re
