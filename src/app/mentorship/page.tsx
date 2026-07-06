@@ -16,16 +16,17 @@ export default function MentorshipPage() {
         <div className="absolute top-0 right-0 w-96 h-96 rounded-full bg-[#FF7477] opacity-10 blur-3xl" />
         <div className="relative max-w-4xl mx-auto px-6">
           <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
-            Role Models
+            Join the Movement
           </p>
           <h1 className="font-serif text-6xl sm:text-7xl font-black text-white leading-tight mb-6">
-            Connect with Women{" "}
-            <span className="text-[#FF7477]">Who Inspire, Encourage, and Empower</span>
+            Together, We&rsquo;re Building the Community{" "}
+            <span className="text-[#FF7477]">We Wish We&rsquo;d Had.</span>
           </h1>
           <p className="text-[#9B9B9B] text-xl max-w-2xl mx-auto leading-relaxed">
-            The people around you shape what you believe is possible. Herizon
-            connects girls with mentors who&rsquo;ve been there, women who are
-            living proof that her future is limitless.
+            Every girl deserves people who believe in her, encourage her, and
+            remind her of what&rsquo;s possible. Whether you become a mentor,
+            volunteer, sponsor, or community partner, you have the opportunity
+            to help shape the confidence and future of the next generation.
           </p>
         </div>
       </section>
