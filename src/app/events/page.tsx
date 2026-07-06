@@ -194,10 +194,13 @@ export default function EventsPage() {
             <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
               The Herizon Experience
             </p>
-            <h2 className="font-serif text-4xl font-black text-[#1A1A1A]">
+            <h2 className="font-serif text-4xl font-black text-[#1A1A1A] mb-6">
               More Than an Event.
               A Community Where Girls Grow.
             </h2>
+            <p className="text-[#9B9B9B] text-lg max-w-2xl mx-auto leading-relaxed">
+              Every Herizon experience is thoughtfully designed to help girls build confidence, form meaningful friendships, and connect with inspiring mentors. Whether it&rsquo;s your first event or your tenth, you&rsquo;ll become part of a community that encourages growth, leadership, and lifelong connection.
+            </p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {whatToExpect.map((item) => (
