@@ -192,10 +192,11 @@ export default function EventsPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
-              What Happens at a Herizon Conference
+              The Herizon Experience
             </p>
             <h2 className="font-serif text-4xl font-black text-[#1A1A1A]">
-              A Full Day That Changes Everything
+              More Than an Event.
+              It’s the Beginning of Something Bigger.
             </h2>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
