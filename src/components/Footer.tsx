@@ -55,7 +55,6 @@ export default function Footer() {
                 { label: "Events", href: "/events" },
                 { label: "Get Involved", href: "/mentorship" },
                 { label: "How It Works", href: "/workshops" },
-                { label: "Stories", href: "/gallery" },
                 { label: "Contact", href: "/contact" },
               ].map((link) => (
                 <li key={link.href}>
