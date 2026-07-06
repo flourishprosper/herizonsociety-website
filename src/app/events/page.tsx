@@ -26,12 +26,15 @@ const upcomingEvents = [
   {
     id: "pasadena-winter-2026",
     city: "🎤 Find Your Voice",
+    subtitle: "Herizon Experience",
     state: "Pasadena, California",
     date: "Winter 2026",
-    fullDate: "Date TBA",
-    venue: "Venue to be announced",
+    fullDate: "Date & Location Coming Soon",
+    venue: "",
     description:
-      "Bringing the Herizon community to Pasadena with mentors, speakers, and real experiences designed for teen girls.",
+      "Find Your Voice is a Herizon experience designed to help girls build confidence, express themselves with courage, and discover the strength of their unique voice.",
+    description2:
+      "Through inspiring women, interactive experiences, and meaningful conversations, girls will leave feeling empowered to speak up, lead with confidence, and embrace who they are.",
     status: "coming-soon",
   },
   {
