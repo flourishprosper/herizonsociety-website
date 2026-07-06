@@ -55,34 +55,34 @@ const upcomingEvents = [
 
 const whatToExpect = [
   {
-    icon: "🧠",
-    title: "Mindset Workshops",
-    desc: "Interactive sessions on self-belief, gratitude, busting through insecurities, and I Am statements.",
+    icon: "🌸",
+    title: "Connect",
+    desc: "Meet new friends, inspiring women, and mentors who encourage every girl to believe in herself.",
   },
   {
-    icon: "🥋",
-    title: "Self-Defence Training",
-    desc: "Hands-on leadership workshops where girls practice public speaking, goal-setting, and real decision-making.",
-  },
-  {
-    icon: "💪",
-    title: "Leadership in Action",
-    desc: "Real-world challenges and experiences that stretch girls beyond their comfort zones.",
-  },
-  {
-    icon: "🔥",
-    title: "Breakthrough Experience",
-    desc: "A signature Herizon moment designed to shatter the limiting beliefs holding every girl back.",
+    icon: "💗",
+    title: "Build Confidence",
+    desc: "Interactive experiences designed to help girls recognize their strengths and step outside their comfort zone.",
   },
   {
     icon: "🎤",
-    title: "Keynote Speakers",
-    desc: "Inspiring women leaders share their stories of confidence, resilience, and impact.",
+    title: "Hear Inspiring Stories",
+    desc: "Learn from women who have overcome challenges, pursued big dreams, and are passionate about giving back.",
   },
   {
-    icon: "👯",
-    title: "Community & Connection",
-    desc: "Girls connect with peers who uplift them and build friendships that last beyond the event.",
+    icon: "🌱",
+    title: "Discover New Possibilities",
+    desc: "Explore careers, leadership opportunities, entrepreneurship, and experiences that expand what’s possible.",
+  },
+  {
+    icon: "🤝",
+    title: "Grow Together",
+    desc: "Participate in hands-on activities, conversations, and experiences that build lasting confidence and meaningful friendships.",
+  },
+  {
+    icon: "✨",
+    title: "Leave Inspired",
+    desc: "Every Herizon experience is designed so girls leave feeling more confident, more connected, and excited about what’s ahead.",
   },
 ];
 
