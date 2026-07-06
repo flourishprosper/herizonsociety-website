@@ -64,7 +64,7 @@ const tiers = [
     title: "Lifelong Community",
     subtitle: "Once Herizon, always Herizon",
     lines: ["Friendships.", "Support.", "Network."],
-    desc: "The friendships and connections girls make at Herizon don't end when the gathering does. They carry them forward, for life."
+    desc: "The friendships and connections girls make at Herizon don't end when the gathering does. They carry them forward, for life.",
     bg: "bg-[#FAF8F5]",
     accent: "text-[#FF7477]",
   },
