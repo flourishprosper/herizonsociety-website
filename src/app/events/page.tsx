@@ -10,8 +10,8 @@ export const metadata: Metadata = {
 const upcomingEvents = [
   {
     id: "glendora-sept-2026",
-    city: "Glendora",
-    state: "CA",
+    city: "🌸 The Bloom Experience",
+    state: "Glendora, California",
     date: "September 19, 2026",
     fullDate: "September 19, 2026",
     venue: "Location Coming Soon",
