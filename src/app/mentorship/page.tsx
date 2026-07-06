@@ -90,6 +90,34 @@ export default function MentorshipPage() {
         </div>
       </section>
 
+      {/* Why Mentorship Matters */}
+      <section className="bg-[#1A1A1A] py-24">
+        <div className="max-w-3xl mx-auto px-6 text-center">
+          <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-6">
+            Why Mentorship Matters
+          </p>
+          <div className="space-y-4 mb-10">
+            <p className="font-serif text-3xl sm:text-4xl font-black text-white leading-snug">
+              One encouraging conversation.
+            </p>
+            <p className="font-serif text-3xl sm:text-4xl font-black text-white leading-snug">
+              One positive role model.
+            </p>
+            <p className="font-serif text-3xl sm:text-4xl font-black text-white leading-snug">
+              One person who believes in you.
+            </p>
+          </div>
+          <p className="text-[#FF7477] text-xl font-semibold mb-8">
+            Sometimes that&rsquo;s all it takes to change a girl&rsquo;s life.
+          </p>
+          <p className="text-[#9B9B9B] text-lg leading-relaxed">
+            Herizon connects girls with women who lead by example, encourage
+            with compassion, and remind every girl that she&rsquo;s capable of
+            incredible things.
+          </p>
+        </div>
+      </section>
+
       {/* Why Mentorship */}
       <section className="bg-[#FAF8F5] py-24">
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
