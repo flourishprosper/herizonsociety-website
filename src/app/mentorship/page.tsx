@@ -93,27 +93,33 @@ export default function MentorshipPage() {
       {/* Why Mentorship Matters */}
       <section className="bg-[#1A1A1A] py-24">
         <div className="max-w-3xl mx-auto px-6 text-center">
-          <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-6">
+          <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-8">
             Why Mentorship Matters
           </p>
-          <div className="space-y-4 mb-10">
-            <p className="font-serif text-3xl sm:text-4xl font-black text-white leading-snug">
+          <blockquote className="font-serif text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-tight mb-12">
+            &ldquo;Every Girl Deserves Someone Who Believes in Her&hellip;
+            <br />
+            <span className="text-[#FF7477]">&hellip;before she fully believes in herself.&rdquo;</span>
+          </blockquote>
+          <div className="space-y-3 mb-10">
+            <p className="font-serif text-2xl sm:text-3xl font-black text-white leading-snug">
               One encouraging conversation.
             </p>
-            <p className="font-serif text-3xl sm:text-4xl font-black text-white leading-snug">
-              One positive role model.
+            <p className="font-serif text-2xl sm:text-3xl font-black text-white leading-snug">
+              One trusted mentor.
             </p>
-            <p className="font-serif text-3xl sm:text-4xl font-black text-white leading-snug">
-              One person who believes in you.
+            <p className="font-serif text-2xl sm:text-3xl font-black text-white leading-snug">
+              One opportunity.
             </p>
           </div>
           <p className="text-[#FF7477] text-xl font-semibold mb-8">
-            Sometimes that&rsquo;s all it takes to change a girl&rsquo;s life.
+            Sometimes that&rsquo;s all it takes to change the course of a young person&rsquo;s life.
           </p>
           <p className="text-[#9B9B9B] text-lg leading-relaxed">
-            Herizon connects girls with women who lead by example, encourage
-            with compassion, and remind every girl that she&rsquo;s capable of
-            incredible things.
+            When girls are surrounded by people who believe in them, they begin
+            to believe in themselves. That&rsquo;s why every mentor, volunteer,
+            sponsor, and community partner plays such an important role in the
+            Herizon community.
           </p>
         </div>
       </section>
