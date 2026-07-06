@@ -21,8 +21,8 @@ const upcomingEvents = [
   },
   {
     id: "pasadena-winter-2026",
-    city: "Pasadena",
-    state: "CA",
+    city: "🎤 Find Your Voice",
+    state: "Pasadena",
     date: "Winter 2026",
     fullDate: "Date TBA",
     venue: "Venue to be announced",
