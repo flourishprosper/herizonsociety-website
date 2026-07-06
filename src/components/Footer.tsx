@@ -16,7 +16,7 @@ export default function Footer() {
             </div>
             <p className="text-[#9B9B9B] text-sm leading-relaxed max-w-xs">
               📍 Based in Glendora, California<br />
-              🌎 Serving the San Gabriel Valley
+              🌎 Proudly Serving the San Gabriel Valley
             </p>
             <div className="flex gap-4 mt-6">
               <a

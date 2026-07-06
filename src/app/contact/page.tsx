@@ -132,12 +132,14 @@ export default function ContactPage() {
                 </label>
                 <select className="w-full border border-[#E8E6E2] rounded-xl px-4 py-3 text-sm text-[#2D2D2D] focus:outline-none focus:border-[#FF7477] transition-colors bg-white">
                   <option value="">Select a topic</option>
-                  <option value="event">Event / Experience</option>
-                  <option value="program">Program Inquiry</option>
+                  <option value="attend">Attend an Experience</option>
+                  <option value="mentor">Become a Mentor</option>
+                  <option value="volunteer">Volunteer</option>
                   <option value="sponsorship">Sponsorship</option>
                   <option value="partnership">Partnership</option>
-                  <option value="referral">LeadHER Referral Squad</option>
-                  <option value="other">Other</option>
+                  <option value="school">Bring Herizon to My School or Community</option>
+                  <option value="general">General Question</option>
+                  <option value="contact">Contact Info</option>
                 </select>
               </div>
               <div>
@@ -191,8 +193,9 @@ export default function ContactPage() {
                 <div className="flex items-start gap-4">
                   <span className="text-2xl shrink-0">📍</span>
                   <div>
-                    <p className="font-semibold text-[#1A1A1A] text-sm">Based In</p>
-                    <p className="text-[#9B9B9B] text-sm">Southern California, USA</p>
+                    <p className="font-semibold text-[#1A1A1A] text-sm">Serving</p>
+                    <p className="text-[#9B9B9B] text-sm">San Gabriel Valley</p>
+                    <p className="text-[#9B9B9B] text-sm">Expanding throughout Southern California</p>
                   </div>
                 </div>
               </div>
@@ -213,14 +216,15 @@ export default function ContactPage() {
             {/* Quick Links */}
             <div className="bg-[#1A1A1A] rounded-2xl p-8">
               <h3 className="font-serif text-xl font-bold text-white mb-5">
-                Quick Links
+                Explore
               </h3>
               <div className="space-y-3">
                 {[
-                  { label: "Upcoming Events", href: "/events" },
-                  { label: "Programs & Experiences", href: "/workshops" },
-                  { label: "Sponsorship Packages", href: "/sponsor" },
-                  { label: "LeadHER Referral Squad", href: "/referral" },
+                  { label: "Upcoming Experiences", href: "/events" },
+                  { label: "How Herizon Works", href: "/workshops" },
+                  { label: "Become a Mentor", href: "/mentorship" },
+                  { label: "Volunteer", href: "/volunteer" },
+                  { label: "Partner With Us", href: "/sponsor" },
                 ].map((link) => (
                   <a
                     key={link.href}
@@ -234,6 +238,30 @@ export default function ContactPage() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Emotional CTA */}
+      <section className="bg-[#FF7477] py-24">
+        <div className="max-w-3xl mx-auto px-6 text-center">
+          <h2 className="font-serif text-4xl sm:text-5xl font-black text-white leading-tight mb-6">
+            Ready to Start the Conversation?
+          </h2>
+          <p className="text-white/80 text-lg leading-relaxed mb-4">
+            Every meaningful journey begins with a simple hello.
+          </p>
+          <p className="text-white/80 text-lg leading-relaxed mb-10">
+            Whether you&rsquo;re looking to register your daughter, become a
+            mentor, volunteer your time, or partner with Herizon, we&rsquo;d
+            love to connect and learn how we can build something meaningful
+            together.
+          </p>
+          <a
+            href="mailto:hello@herizonsociety.com"
+            className="inline-block bg-white text-[#FF7477] font-bold px-10 py-4 rounded-full hover:bg-[#FAF8F5] transition-colors"
+          >
+            Contact Us
+          </a>
         </div>
       </section>
     </>
