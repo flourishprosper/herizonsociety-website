@@ -70,7 +70,7 @@ export default function AboutPage() {
               have to figure it all out alone.
             </p>
             <p>
-              Herizon is a community where girls ages 12&ndash;18 build
+              Herizon is a community where girls ages 12 to 18 build
               confidence, discover their strengths, connect with inspiring
               mentors, and gain meaningful experiences that help them see
               what&rsquo;s possible for their future.

@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "How It Works | Herizon Society",
   description:
-    "Discover how Herizon works — from Signature Experiences and community gatherings to mentorship, leadership development, real-world experiences, and a lifelong network for girls ages 12–18.",
+    "Discover how Herizon works. From Signature Experiences and community gatherings to mentorship, leadership development, real-world experiences, and a lifelong network for girls ages 12 to 18.",
 };
 
 const tiers = [
@@ -14,7 +14,7 @@ const tiers = [
     title: "Signature Experiences",
     subtitle: "Large quarterly experiences",
     lines: ["Bloom.", "Find Your Voice.", "Lead Forward."],
-    desc: "Our biggest moments. Thoughtfully designed, full-day experiences that inspire, challenge, and bring the entire Herizon community together.",
+    desc: "Our biggest moments together. Full-day experiences designed to inspire, challenge, and bring the whole community into one room.",
     bg: "bg-white",
     accent: "text-[#FF7477]",
   },
@@ -24,7 +24,7 @@ const tiers = [
     title: "Community Gatherings",
     subtitle: "Monthly or bi-weekly meetups",
     lines: [],
-    desc: "Smaller, recurring gatherings where girls connect with peers and mentors, grow together, and build the kind of friendships that last.",
+    desc: "Smaller, more personal gatherings where girls connect with peers and mentors, grow together, and build the kind of friendships that actually last.",
     bg: "bg-[#FAF8F5]",
     accent: "text-[#FF7477]",
   },
@@ -34,7 +34,7 @@ const tiers = [
     title: "Mentorship",
     subtitle: "Relationships with inspiring women",
     lines: [],
-    desc: "Real conversations with real women who've been there. Mentors who encourage, challenge, and remind every girl of what she's capable of.",
+    desc: "Honest conversations with women who have been there. Women who encourage, challenge, and remind every girl that she is more capable than she knows.",
     bg: "bg-white",
     accent: "text-[#FF7477]",
   },
@@ -44,7 +44,7 @@ const tiers = [
     title: "Leadership Development",
     subtitle: "Skills that last a lifetime",
     lines: ["Public speaking.", "Goal setting.", "Communication.", "Confidence."],
-    desc: "Every gathering is an opportunity to develop the skills girls need to lead with intention, speak with courage, and show up as their best selves.",
+    desc: "Every gathering is a chance to practice the skills that matter most. Showing up, speaking up, setting goals, and believing in yourself enough to follow through.",
     bg: "bg-[#FAF8F5]",
     accent: "text-[#FF7477]",
   },
@@ -54,7 +54,7 @@ const tiers = [
     title: "Real-World Experiences",
     subtitle: "Beyond the room",
     lines: ["Business visits.", "Volunteer projects.", "Guest speakers.", "Career exploration."],
-    desc: "Herizon opens doors. Girls get access to the kinds of experiences that expand their worldview and help them see what's truly possible.",
+    desc: "Herizon opens doors. Girls get access to real-world experiences that expand their worldview and help them see what's out there waiting for them.",
     bg: "bg-white",
     accent: "text-[#FF7477]",
   },
@@ -64,7 +64,7 @@ const tiers = [
     title: "Lifelong Community",
     subtitle: "Once Herizon, always Herizon",
     lines: ["Friendships.", "Support.", "Network."],
-    desc: "The connections girls make at Herizon don't end when the gathering does. They become part of a community that grows with them for life.",
+    desc: "The friendships and connections girls make at Herizon don't end when the gathering does. They carry them forward, for life."
     bg: "bg-[#FAF8F5]",
     accent: "text-[#FF7477]",
   },
@@ -90,10 +90,10 @@ export default function WorkshopsPage() {
             How Herizon Works
           </h1>
           <p className="text-white/80 text-xl max-w-2xl mx-auto leading-relaxed">
-            Herizon isn&rsquo;t a single event. It&rsquo;s a journey — built
-            on meaningful experiences, consistent community, and relationships
-            that help girls discover who they are and what they&rsquo;re
-            capable of.
+            Herizon isn&rsquo;t a one-time event. It&rsquo;s a journey built
+            on meaningful experiences, consistent community, and real
+            relationships that help girls discover who they are and what
+            they&rsquo;re capable of.
           </p>
         </div>
       </section>
@@ -109,8 +109,8 @@ export default function WorkshopsPage() {
               A Community Built to Last
             </h2>
             <p className="text-[#9B9B9B] text-lg leading-relaxed max-w-2xl mx-auto">
-              Every layer of Herizon is designed to help girls grow — in
-              confidence, in connection, and in their understanding of what
+              Every layer of Herizon is designed to help girls grow. In
+              confidence. In connection. And in their understanding of what
               they&rsquo;re truly capable of.
             </p>
           </div>

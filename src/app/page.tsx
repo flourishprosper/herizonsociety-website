@@ -219,7 +219,7 @@ export default function HomePage() {
               Your Herizon Journey
             </h2>
             <p className="text-[#9B9B9B] text-lg leading-relaxed max-w-2xl mx-auto">
-              Herizon isn&rsquo;t a one-time event. It&rsquo;s a community you grow with &mdash; through experiences, connections, and relationships that build over time.
+              Herizon isn&rsquo;t a one-time event. It&rsquo;s a community you grow with, through experiences, connections, and relationships that build over time.
             </p>
           </div>
           <div className="space-y-4">
@@ -246,7 +246,7 @@ export default function HomePage() {
                 num: "04",
                 emoji: "👩‍🏫",
                 title: "Mentorship",
-                desc: "Real relationships with real women &mdash; mentors who&rsquo;ve walked the path and are passionate about guiding the next generation.",
+                desc: "Real relationships with real women who have walked the path and are passionate about guiding the next generation.",
               },
               {
                 num: "05",
