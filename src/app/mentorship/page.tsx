@@ -136,17 +136,21 @@ export default function MentorshipPage() {
             </h2>
             <div className="space-y-5 text-[#2D2D2D] leading-relaxed">
               <p>
-                A mentor can change everything. One conversation with a woman
-                who has navigated the real world, built a business, led a
-                team, and overcome setbacks, can reshape what a girl believes is
-                possible for herself.
+                A mentor can change everything. Sometimes all it takes is one
+                conversation, one encouraging voice, or one person who believes
+                in a girl before she fully believes in herself.
               </p>
               <p>
-                At Herizon, mentorship isn&rsquo;t a checkbox. It&rsquo;s a
-                core part of who we are. As girls move through quarterly
-                experiences, monthly meetups, and regular community gatherings,
-                they build genuine, lasting relationships with mentors and peers
-                who will walk with them for life.
+                At Herizon, mentorship isn&rsquo;t just a program. It&rsquo;s
+                the foundation of our community. Through signature experiences,
+                ongoing gatherings, and meaningful relationships, girls connect
+                with women who inspire them, challenge them, and remind them
+                that anything is possible.
+              </p>
+              <p>
+                Our hope is that every girl leaves Herizon with more than
+                memories. She leaves with trusted mentors, lifelong friendships,
+                and a community she can always come back to.
               </p>
             </div>
           </div>
