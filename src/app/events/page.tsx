@@ -12,6 +12,7 @@ const upcomingEvents = [
     id: "glendora-sept-2026",
     city: "🌸 The Bloom Experience",
     state: "Glendora, California",
+    badge: "✨ Founding Event",
     date: "September 19, 2026",
     fullDate: "",
     venue: "",
@@ -127,6 +128,11 @@ export default function EventsPage() {
                 className="bg-white rounded-3xl border border-[#E8E6E2] overflow-hidden card-hover"
               >
                 <div className="bg-[#FF7477] px-8 py-6">
+                  {event.badge && (
+                    <span className="inline-block bg-white/20 text-white text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-3">
+                      {event.badge}
+                    </span>
+                  )}
                   <p className="text-white/70 text-xs uppercase tracking-widest mb-1">
                     {event.date}
                   </p>
