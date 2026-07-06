@@ -329,9 +329,14 @@ export default function AboutPage() {
                   <p>
                     Rene hopes every girl who becomes part of Herizon feels seen, supported, and empowered to pursue her dreams with confidence, knowing she has a community that believes in her every step of the way.
                   </p>
-                  <blockquote className="border-l-2 border-[#FF7477] pl-4 text-[#1A1A1A] font-medium italic mt-4">
-                    &ldquo;Every girl deserves a community that believes in her, encourages her, and reminds her of what&rsquo;s possible.&rdquo;
-                  </blockquote>
+                  <div className="space-y-3 mt-4">
+                    <blockquote className="border-l-2 border-[#FF7477] pl-4 text-[#1A1A1A] font-medium italic">
+                      &ldquo;Every girl deserves a community that believes in her, encourages her, and reminds her of what&rsquo;s possible.&rdquo;
+                    </blockquote>
+                    <blockquote className="border-l-2 border-[#FF7477] pl-4 text-[#1A1A1A] font-medium italic">
+                      &ldquo;Confidence grows when girls know they belong, are supported, and are never walking the journey alone.&rdquo;
+                    </blockquote>
+                  </div>
                 </div>
               </div>
             </div>
