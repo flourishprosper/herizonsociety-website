@@ -316,9 +316,23 @@ export default function AboutPage() {
                 <p className="text-[#FF7477] text-sm font-semibold uppercase tracking-widest mb-4">
                   Co-Founder
                 </p>
-                <p className="text-[#9B9B9B] text-sm leading-relaxed">
-                  Bio coming soon.
-                </p>
+                <div className="space-y-4 text-[#9B9B9B] text-sm leading-relaxed">
+                  <p>
+                    Rene is the Co-Founder of Herizon Society and has spent years investing in young people through coaching, mentorship, and community involvement. She is passionate about helping girls build confidence, believe in themselves, and discover what&rsquo;s possible for their future.
+                  </p>
+                  <p>
+                    As a longtime Glendora resident for more than 20 years, Rene has dedicated much of her time to supporting young people through youth sports and giving back to the community she proudly calls home. She believes every girl deserves positive role models, meaningful opportunities, and a place where she feels encouraged, supported, and empowered to become the best version of herself.
+                  </p>
+                  <p>
+                    Together with her lifelong friend and co-founder, Ryan, Rene created Herizon to build the community they both wish they&rsquo;d had growing up. A place where girls can build confidence, form meaningful friendships, connect with inspiring mentors, and discover their unique strengths.
+                  </p>
+                  <p>
+                    Rene hopes every girl who becomes part of Herizon feels seen, supported, and empowered to pursue her dreams with confidence, knowing she has a community that believes in her every step of the way.
+                  </p>
+                  <blockquote className="border-l-2 border-[#FF7477] pl-4 text-[#1A1A1A] font-medium italic mt-4">
+                    &ldquo;Every girl deserves a community that believes in her, encourages her, and reminds her of what&rsquo;s possible.&rdquo;
+                  </blockquote>
+                </div>
               </div>
             </div>
             {/* Founder 2 */}
