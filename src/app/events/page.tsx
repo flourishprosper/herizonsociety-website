@@ -141,9 +141,7 @@ export default function EventsPage() {
                   <p className="text-[#2D2D2D] text-sm leading-relaxed mb-6">
                     {event.description}
                   </p>
-                  <span className="inline-block bg-[#F0EFEC] text-[#9B9B9B] text-xs font-semibold px-4 py-2 rounded-full uppercase tracking-wide">
-                    Coming Soon
-                  </span>
+
                 </div>
               </div>
             ))}
