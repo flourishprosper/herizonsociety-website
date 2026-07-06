@@ -13,8 +13,8 @@ const upcomingEvents = [
     city: "🌸 The Bloom Experience",
     state: "Glendora, California",
     date: "September 19, 2026",
-    fullDate: "September 19, 2026",
-    venue: "Location Coming Soon",
+    fullDate: "",
+    venue: "",
     description:
       "Be part of the very first Herizon Experience. Designed for girls ages 12–18, this unforgettable day will bring together inspiring women, creative experiences, meaningful conversations, and a supportive community that encourages every girl to dream bigger, build confidence, and discover what’s possible.",
     status: "coming-soon",
@@ -136,8 +136,8 @@ export default function EventsPage() {
                   <p className="text-white/80 text-sm mt-1">{event.state}</p>
                 </div>
                 <div className="p-8">
-                  <p className="text-[#9B9B9B] text-sm mb-2">{event.fullDate}</p>
-                  <p className="text-[#9B9B9B] text-sm mb-4">{event.venue}</p>
+                  {event.fullDate && <p className="text-[#9B9B9B] text-sm mb-2">{event.fullDate}</p>}
+                  {event.venue && <p className="text-[#9B9B9B] text-sm mb-4">{event.venue}</p>}
                   <p className="text-[#2D2D2D] text-sm leading-relaxed mb-6">
                     {event.description}
                   </p>
