@@ -152,10 +152,10 @@ export default function MentorshipPage() {
           </div>
           <div className="grid grid-cols-2 gap-4">
             {[
-              { icon: "👩‍💼", label: "Women Entrepreneurs" },
-              { icon: "🎯", label: "Business Leaders" },
-              { icon: "🎓", label: "Educators & Coaches" },
-              { icon: "🌍", label: "Community Leaders" },
+              { icon: "✨", label: "Women Who\u2019ve Been There" },
+              { icon: "💗", label: "Leaders Who Inspire" },
+              { icon: "🎓", label: "Mentors Who Encourage" },
+              { icon: "🤝", label: "A Community That Cares" },
             ].map((item) => (
               <div
                 key={item.label}
@@ -171,54 +171,23 @@ export default function MentorshipPage() {
         </div>
       </section>
 
-      {/* The Herizon Brand Promise */}
-      <section className="bg-[#FF7477] py-20">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center text-white mb-12">
-            <p className="text-white/70 text-xs font-semibold uppercase tracking-widest mb-4">
-              The Herizon Promise
-            </p>
-            <h2 className="font-serif text-4xl font-black leading-tight">
-              Every Signature Experience Leaves Girls With…
-            </h2>
-          </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {[
-              {
-                icon: "🤝",
-                title: "A New Connection",
-                desc: "A mentor, a peer, or a role model who changes their perspective.",
-              },
-              {
-                icon: "💡",
-                title: "A New Perspective",
-                desc: "A fresh way of seeing their own potential and the world around them.",
-              },
-              {
-                icon: "🚪",
-                title: "A New Opportunity",
-                desc: "A door opened to careers, businesses, or experiences they hadn't considered.",
-              },
-              {
-                icon: "✨",
-                title: "Greater Confidence",
-                desc: "A deeper belief in themselves and their ability to create their future.",
-              },
-            ].map((item) => (
-              <div
-                key={item.title}
-                className="bg-white/15 border border-white/20 rounded-2xl p-6 text-white"
-              >
-                <span className="text-3xl block mb-3">{item.icon}</span>
-                <h3 className="font-serif text-lg font-bold mb-2">
-                  {item.title}
-                </h3>
-                <p className="text-white/70 text-sm leading-relaxed">
-                  {item.desc}
-                </p>
-              </div>
-            ))}
-          </div>
+      {/* The Herizon Promise */}
+      <section className="bg-[#FF7477] py-24">
+        <div className="max-w-4xl mx-auto px-6 text-center">
+          <p className="text-white/70 text-xs font-semibold uppercase tracking-widest mb-8">
+            The Herizon Promise
+          </p>
+          <blockquote className="font-serif text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-tight mb-8">
+            Every Girl Deserves Someone<br />
+            Who Believes in Her&hellip;
+            <br />
+            <span className="text-white/60">&hellip;before she fully</span>
+            <br />
+            <span className="text-white/60">believes in herself.</span>
+          </blockquote>
+          <p className="font-serif text-2xl sm:text-3xl font-black text-white/90">
+            That&rsquo;s the heart of Herizon.
+          </p>
         </div>
       </section>
 
