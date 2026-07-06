@@ -227,14 +227,14 @@ export default function HomePage() {
               {
                 num: "01",
                 emoji: "🌸",
-                title: "Quarterly Signature Experiences",
-                desc: "Big, meaningful events designed to inspire, challenge, and connect girls in an unforgettable way.",
+                title: "Signature Experiences",
+                desc: "Bloom. Find Your Voice. Lead Forward. Big, meaningful events designed to inspire, challenge, and connect girls in an unforgettable way.",
               },
               {
                 num: "02",
                 emoji: "🤝",
-                title: "Monthly Meetups",
-                desc: "Smaller, focused gatherings where girls go deeper &mdash; building skills, sharing stories, and growing together.",
+                title: "Community Gatherings",
+                desc: "Smaller, recurring meetups with mentors, guest speakers, service projects, and social activities.",
               },
               {
                 num: "03",

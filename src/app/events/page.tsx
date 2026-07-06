@@ -124,7 +124,7 @@ export default function EventsPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
-              Quarterly Signature Experiences
+              Signature Experiences
             </p>
             <h2 className="font-serif text-4xl font-black text-[#1A1A1A]">
               Upcoming Experiences
