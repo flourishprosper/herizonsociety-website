@@ -207,7 +207,7 @@ export default function ContactPage() {
                 When Will We Reply?
               </h3>
               <p className="text-[#9B9B9B] text-sm leading-relaxed">
-                We typically respond within 1-2 business days. For urgent
+                We typically respond within 1 business day. For urgent
                 matters, like an event coming up soon, reach out on Instagram
                 for a faster response.
               </p>
