@@ -41,7 +41,7 @@ export default function ApplyPage() {
               Every Event Delivers
             </h2>
             <p className="text-[#9B9B9B] mt-4 max-w-xl mx-auto">
-              This is more than a conference. Every Herizon experience is
+              This is more than an event. Every Herizon experience is
               designed around four outcomes.
             </p>
           </div>

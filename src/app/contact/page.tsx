@@ -3,24 +3,24 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Contact Us | Herizon Society",
   description:
-    "Get in touch with Herizon Society for event inquiries, workshop registrations, mentorship, sponsorships, or partnerships for girls ages 12–18.",
+    "Get in touch with Herizon Society for event inquiries, mentorship, sponsorships, or partnerships for girls ages 12–18.",
 };
 
 const contactOptions = [
   {
     icon: "📅",
-    title: "Events & Conferences",
-    desc: "Ask about upcoming conference dates, ticket availability, or bringing Herizon to your city.",
+    title: "Events & Experiences",
+    desc: "Ask about upcoming event dates, registration, or bringing Herizon to your city.",
   },
   {
     icon: "🏫",
-    title: "Workshop Bookings",
-    desc: "Book a Herizon Workshop for your school, youth organization, or community group.",
+    title: "Program Inquiries",
+    desc: "Bring a Herizon program to your school, youth organization, or community group.",
   },
   {
     icon: "🤝",
     title: "Sponsorships",
-    desc: "Interested in sponsoring a conference? Let&rsquo;s talk about what&rsquo;s right for your business.",
+    desc: "Interested in supporting a Herizon experience? Let&rsquo;s talk about what&rsquo;s right for your business.",
   },
   {
     icon: "🌟",
@@ -131,8 +131,8 @@ export default function ContactPage() {
                 </label>
                 <select className="w-full border border-[#E8E6E2] rounded-xl px-4 py-3 text-sm text-[#2D2D2D] focus:outline-none focus:border-[#FF7477] transition-colors bg-white">
                   <option value="">Select a topic</option>
-                  <option value="event">Event / Conference</option>
-                  <option value="workshop">Workshop Booking</option>
+                  <option value="event">Event / Experience</option>
+                  <option value="program">Program Inquiry</option>
                   <option value="sponsorship">Sponsorship</option>
                   <option value="partnership">Partnership</option>
                   <option value="referral">LeadHER Referral Squad</option>
@@ -217,7 +217,7 @@ export default function ContactPage() {
               <div className="space-y-3">
                 {[
                   { label: "Upcoming Events", href: "/events" },
-                  { label: "Workshop Schedule", href: "/workshops" },
+                  { label: "Programs & Experiences", href: "/workshops" },
                   { label: "Sponsorship Packages", href: "/sponsor" },
                   { label: "LeadHER Referral Squad", href: "/referral" },
                 ].map((link) => (

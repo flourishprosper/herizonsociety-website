@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Gallery | Herizon Society",
   description:
-    "See the energy, confidence, and community at Herizon Society events. Photos from our events, workshops, and experiences.",
+    "See the energy, confidence, and community at Herizon Society events. Photos from our events and experiences.",
 };
 
 export default function GalleryPage() {

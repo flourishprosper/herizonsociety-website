@@ -16,9 +16,9 @@ const roles = [
   },
   {
     icon: "👩‍🏫",
-    title: "Workshop Facilitator",
+    title: "Session Facilitator",
     description:
-      "Lead a workshop on a topic you know well: entrepreneurship, career paths, personal development, or your area of expertise.",
+      "Lead a session on a topic you know well: entrepreneurship, career paths, personal development, or your area of expertise.",
   },
   {
     icon: "🤝",

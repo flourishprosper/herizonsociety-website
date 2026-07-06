@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Events & Conferences | Herizon Society",
+  title: "Events | Herizon Society",
   description:
-    "Find an upcoming Herizon Society event near you. Conferences and experiences for girls ages 12–18 across Southern California.",
+    "Find an upcoming Herizon Society experience near you. A youth program for girls ages 12–18 across Southern California.",
 };
 
 const upcomingEvents = [

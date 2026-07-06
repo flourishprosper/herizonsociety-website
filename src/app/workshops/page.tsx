@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Workshops Herizon Society",
+  title: "Programs | Herizon Society",
   description:
-    "Monthly Herizon workshops for girls ages 12–18. Confidence, leadership, mentorship, and real-world experiences in a supportive community setting.",
+    "Monthly Herizon programs for girls ages 12–18. Confidence, leadership, mentorship, and real-world experiences in a supportive community setting.",
 };
 
 const sessions = [
@@ -13,7 +13,7 @@ const sessions = [
     tag: "Current Month",
     tagColor: "bg-[#FF7477] text-white",
     desc:
-      "One of the most powerful things a young woman can do is speak clearly, confidently, and without apology. This workshop gives girls a safe space to find their voice, practice speaking under pressure, and walk away owning their presence in any room.",
+      "One of the most powerful things a young woman can do is speak clearly, confidently, and without apology. This session gives girls a safe space to find their voice, practice speaking under pressure, and walk away owning their presence in any room.",
     takeaways: [
       "Structuring a clear, confident message",
       "Body language & stage presence",
@@ -68,10 +68,10 @@ export default function WorkshopsPage() {
             Monthly Programs
           </p>
           <h1 className="font-serif text-6xl sm:text-7xl font-black text-white leading-tight mb-6">
-            Herizon Workshops
+            Herizon Programs
           </h1>
           <p className="text-white/80 text-xl max-w-2xl mx-auto leading-relaxed">
-            Monthly workshops for girls ages 12–18 where real experiences,
+            Monthly programs for girls ages 12–18 where real experiences,
             honest mentorship, and a powerful community meet. Every session is
             designed to build something that lasts.
           </p>
@@ -83,16 +83,16 @@ export default function WorkshopsPage() {
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
-              What Are the Workshops?
+              What Are the Programs?
             </p>
             <h2 className="font-serif text-4xl sm:text-5xl font-black text-[#1A1A1A] leading-tight mb-6">
               Where Girls Become Their Best Selves
             </h2>
             <div className="space-y-4 text-[#2D2D2D] leading-relaxed">
               <p>
-                Each Herizon Workshop brings together a small group of girls
+                Each Herizon program brings together a small group of girls
                 ages 12–18 for a focused, intentional experience. These
-                aren&rsquo;t lectures they&rsquo;re hands-on, honest, and
+                aren&rsquo;t lectures — they&rsquo;re hands-on, honest, and
                 built around what girls in this age group actually need.
               </p>
               <p>
@@ -124,7 +124,7 @@ export default function WorkshopsPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
-              Workshop Sessions
+              Program Sessions
             </p>
             <h2 className="font-serif text-4xl font-black text-[#1A1A1A]">
               Each Month, Something New
@@ -172,7 +172,7 @@ export default function WorkshopsPage() {
           </h2>
           <p className="text-[#9B9B9B] text-lg leading-relaxed mb-10 max-w-xl mx-auto">
             Spots are limited by design so each girl gets the attention and
-            experience she deserves. Register for the next Herizon Workshop today.
+            experience she deserves. Register for the next Herizon program today.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

@@ -15,7 +15,7 @@ const tiers = [
     headerBg: "bg-[#FAF8F5]",
     headerText: "text-[#1A1A1A]",
     perks: [
-      "Logo in conference program",
+      "Logo in event program",
       "Social media mention (1 post)",
       "Certificate of sponsorship",
       "Thank you from stage",
@@ -125,9 +125,9 @@ export default function SponsorPage() {
           <div className="bg-white rounded-3xl border border-[#E8E6E2] p-10 text-center">
             <div className="font-serif text-7xl font-black text-[#F0EFEC] mb-2">500+</div>
             <p className="text-[#1A1A1A] font-bold text-xl mb-1">Girls Impacted</p>
-            <p className="text-[#9B9B9B] text-sm mb-8">and growing every conference</p>
+            <p className="text-[#9B9B9B] text-sm mb-8">and growing every experience</p>
             <div className="font-serif text-5xl font-black text-[#F0EFEC] mb-2">10+</div>
-            <p className="text-[#1A1A1A] font-bold text-xl mb-1">Conferences Hosted</p>
+            <p className="text-[#1A1A1A] font-bold text-xl mb-1">Experiences Hosted</p>
             <p className="text-[#9B9B9B] text-sm">across multiple cities</p>
           </div>
         </div>

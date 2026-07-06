@@ -16,7 +16,7 @@ const partnerTypes = [
   {
     icon: "🩺",
     type: "Therapists & Mental Health Professionals",
-    desc: "Licensed professionals who contribute workshops, resources, and support for navigating anxiety, self-esteem, and peer dynamics.",
+    desc: "Licensed professionals who contribute sessions, resources, and support for navigating anxiety, self-esteem, and peer dynamics.",
   },
   {
     icon: "🎤",
@@ -31,7 +31,7 @@ const partnerTypes = [
   {
     icon: "🥋",
     type: "Wellness & Mental Health Professionals",
-    desc: "Licensed therapists and wellness practitioners who contribute resources and workshops on mental health, resilience, and self-care for teen girls.",
+    desc: "Licensed therapists and wellness practitioners who contribute resources and sessions on mental health, resilience, and self-care for teen girls.",
   },
   {
     icon: "🏢",
