@@ -32,8 +32,8 @@ const upcomingEvents = [
   },
   {
     id: "san-dimas-spring-2027",
-    city: "San Dimas",
-    state: "CA",
+    city: "⭐ Lead Forward",
+    state: "San Dimas",
     date: "Spring 2027",
     fullDate: "Date TBA",
     venue: "Venue to be announced",
