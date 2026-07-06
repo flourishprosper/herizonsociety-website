@@ -65,7 +65,7 @@ export default function WorkshopsPage() {
           style={{ backgroundImage: "radial-gradient(circle at 1px 1px, #fff 1px, transparent 0)", backgroundSize: "30px 30px" }} />
         <div className="relative max-w-4xl mx-auto px-6">
           <p className="text-white/70 text-xs font-semibold uppercase tracking-widest mb-4">
-            Monthly Meetups & Community Gatherings
+            How Girls Grow
           </p>
           <h1 className="font-serif text-6xl sm:text-7xl font-black text-white leading-tight mb-6">
             Your Ongoing Community
