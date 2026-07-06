@@ -22,7 +22,7 @@ const upcomingEvents = [
   {
     id: "pasadena-winter-2026",
     city: "🎤 Find Your Voice",
-    state: "Pasadena",
+    state: "Pasadena, California",
     date: "Winter 2026",
     fullDate: "Date TBA",
     venue: "Venue to be announced",
@@ -33,7 +33,7 @@ const upcomingEvents = [
   {
     id: "san-dimas-spring-2027",
     city: "⭐ Lead Forward",
-    state: "San Dimas",
+    state: "San Dimas, California",
     date: "Spring 2027",
     fullDate: "Date TBA",
     venue: "Venue to be announced",
