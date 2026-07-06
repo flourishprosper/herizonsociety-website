@@ -40,12 +40,15 @@ const upcomingEvents = [
   {
     id: "san-dimas-spring-2027",
     city: "⭐ Lead Forward",
+    subtitle: "A Herizon Experience",
     state: "San Dimas, California",
     date: "Spring 2027",
-    fullDate: "Date TBA",
-    venue: "Venue to be announced",
+    fullDate: "Date & Location Coming Soon",
+    venue: "",
     description:
-      "The San Dimas conference brings together girls 12–18 ready to step into their confidence, find their mentors, and lead with heart.",
+      "Leadership isn’t about having all the answers. It’s about having the confidence to take the first step.",
+    description2:
+      "Lead Forward is a Herizon experience where girls will build leadership skills, connect with inspiring mentors, and discover how their unique strengths can make a meaningful difference in the world around them.",
     status: "coming-soon",
   },
 ];
