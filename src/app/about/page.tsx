@@ -331,11 +331,22 @@ export default function AboutPage() {
                   Ryan Guerra
                 </h3>
                 <p className="text-[#FF7477] text-sm font-semibold uppercase tracking-widest mb-4">
-                  Co-Founder
+                  Co-Founder, Herizon Society
                 </p>
-                <p className="text-[#9B9B9B] text-sm leading-relaxed">
-                  Bio coming soon.
-                </p>
+                <div className="space-y-4 text-[#9B9B9B] text-sm leading-relaxed">
+                  <p>
+                    Ryan Guerra is the Co-Founder of Herizon Society and is passionate about helping girls discover their strengths, build lasting confidence, and realize there&rsquo;s no limit to what they can achieve.
+                  </p>
+                  <p>
+                    Throughout her career, Ryan has built businesses, led teams, and created opportunities that bring people together. But Herizon is the project closest to her heart. Inspired by her own experiences growing up, she and her co-founder, Rene, created Herizon to be the community they both wish they&rsquo;d had as teenagers. A place where girls can find mentors, build meaningful friendships, gain real-world experiences, and discover what&rsquo;s possible for their future.
+                  </p>
+                  <p>
+                    Ryan believes that confidence changes everything. Her hope is that every girl who becomes part of Herizon leaves feeling seen, encouraged, and empowered to pursue her dreams with courage and confidence.
+                  </p>
+                  <blockquote className="border-l-2 border-[#FF7477] pl-4 text-[#1A1A1A] font-medium italic mt-4">
+                    &ldquo;Every girl deserves someone who believes in her before she fully believes in herself.&rdquo;
+                  </blockquote>
+                </div>
               </div>
             </div>
           </div>
