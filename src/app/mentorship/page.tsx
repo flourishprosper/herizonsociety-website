@@ -190,7 +190,7 @@ export default function MentorshipPage() {
             <span className="text-white/60">believes in herself.</span>
           </blockquote>
           <p className="font-serif text-2xl sm:text-3xl font-black text-white/90">
-            That&rsquo;s the heart of Herizon.
+            That&rsquo;s the community we&rsquo;re building.
           </p>
         </div>
       </section>
