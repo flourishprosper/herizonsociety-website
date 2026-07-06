@@ -14,9 +14,9 @@ const upcomingEvents = [
     state: "CA",
     date: "September 19, 2026",
     fullDate: "September 19, 2026",
-    venue: "Venue to be announced",
+    venue: "Location Coming Soon",
     description:
-      "A full day of keynote speakers, mentorship, leadership workshops, and community for girls ages 12–18.",
+      "Be part of the very first Herizon Experience. Designed for girls ages 12–18, this unforgettable day will bring together inspiring women, creative experiences, meaningful conversations, and a supportive community that encourages every girl to dream bigger, build confidence, and discover what’s possible.",
     status: "coming-soon",
   },
   {
