@@ -307,6 +307,35 @@ export default function AboutPage() {
             {/* Founder 1 */}
             <div className="bg-white rounded-3xl border border-[#E8E6E2] overflow-hidden">
               <div className="bg-[#1A1A1A] h-64 flex items-center justify-center">
+                <span className="text-7xl">👩🏼</span>
+              </div>
+              <div className="p-8">
+                <h3 className="font-serif text-2xl font-black text-[#1A1A1A] mb-1">
+                  Ryan Guerra
+                </h3>
+                <p className="text-[#FF7477] text-sm font-semibold uppercase tracking-widest mb-4">
+                  Co-Founder
+                </p>
+                <div className="space-y-4 text-[#9B9B9B] text-sm leading-relaxed">
+                  <p>
+                    Ryan Guerra is the Co-Founder of Herizon Society and is passionate about helping girls discover their strengths, build lasting confidence, and realize there&rsquo;s no limit to what they can achieve.
+                  </p>
+                  <p>
+                    Throughout her career, Ryan has built businesses, led teams, and created opportunities that bring people together. But Herizon is the project closest to her heart. Together with her lifelong friend, Rene, she created Herizon to be the community they both wish they&rsquo;d had growing up, a place where girls can find mentors, build meaningful friendships, gain real-world experiences, and discover what&rsquo;s possible for their future.
+                  </p>
+                  <p>
+                    Ryan believes confidence changes everything. Her hope is that every girl who becomes part of Herizon leaves feeling seen, encouraged, and empowered to pursue her dreams with courage and confidence.
+                  </p>
+                  <p className="text-[#1A1A1A] font-medium italic mt-4">
+                    Every girl deserves someone who believes in her before she fully believes in herself.
+                  </p>
+                  <p className="text-[#FF7477] font-semibold text-xs uppercase tracking-widest">— Ryan</p>
+                </div>
+              </div>
+            </div>
+            {/* Founder 2 */}
+            <div className="bg-white rounded-3xl border border-[#E8E6E2] overflow-hidden">
+              <div className="bg-[#1A1A1A] h-64 flex items-center justify-center">
                 <span className="text-7xl">👩🏽</span>
               </div>
               <div className="p-8">
@@ -330,35 +359,6 @@ export default function AboutPage() {
                     And every girl deserves a community that reminds her what&rsquo;s possible.
                   </p>
                   <p className="text-[#FF7477] font-semibold text-xs uppercase tracking-widest">— Rene</p>
-                </div>
-              </div>
-            </div>
-            {/* Founder 2 */}
-            <div className="bg-white rounded-3xl border border-[#E8E6E2] overflow-hidden">
-              <div className="bg-[#1A1A1A] h-64 flex items-center justify-center">
-                <span className="text-7xl">👩🏼</span>
-              </div>
-              <div className="p-8">
-                <h3 className="font-serif text-2xl font-black text-[#1A1A1A] mb-1">
-                  Ryan Guerra
-                </h3>
-                <p className="text-[#FF7477] text-sm font-semibold uppercase tracking-widest mb-4">
-                  Co-Founder
-                </p>
-                <div className="space-y-4 text-[#9B9B9B] text-sm leading-relaxed">
-                  <p>
-                    Ryan Guerra is the Co-Founder of Herizon Society and is passionate about helping girls discover their strengths, build lasting confidence, and realize there&rsquo;s no limit to what they can achieve.
-                  </p>
-                  <p>
-                    Throughout her career, Ryan has built businesses, led teams, and created opportunities that bring people together. But Herizon is the project closest to her heart. Inspired by her own experiences growing up, she and her lifelong friend, Rene, created Herizon to be the community they both wish they&rsquo;d had as teenagers, a place where girls can find mentors, build meaningful friendships, gain real-world experiences, and discover what&rsquo;s possible for their future.
-                  </p>
-                  <p>
-                    Ryan believes confidence changes everything. Her hope is that every girl who becomes part of Herizon leaves feeling seen, encouraged, and empowered to pursue her dreams with courage and confidence.
-                  </p>
-                  <p className="text-[#1A1A1A] font-medium italic mt-4">
-                    Every girl deserves someone who believes in her before she fully believes in herself.
-                  </p>
-                  <p className="text-[#FF7477] font-semibold text-xs uppercase tracking-widest">— Ryan</p>
                 </div>
               </div>
             </div>
