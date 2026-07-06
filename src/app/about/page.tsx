@@ -350,7 +350,7 @@ export default function AboutPage() {
                     Rene Babich is the Co-Founder of Herizon Society and has spent years investing in young people through coaching, mentorship, and community involvement. She is passionate about helping girls build confidence, believe in themselves, and discover what&rsquo;s possible for their future.
                   </p>
                   <p>
-                    As a longtime Glendora resident for more than 20 years, Rene has dedicated much of her time to coaching youth sports and giving back to the community she proudly calls home. Inspired by her own experiences growing up, she and her lifelong friend, Ryan, created Herizon to be the community they both wish they&rsquo;d had as teenagers, a place where girls can build confidence, form meaningful friendships, connect with inspiring mentors, and discover their unique strengths.
+                    A longtime Glendora resident for more than 20 years, Rene has dedicated much of her time to coaching youth sports, supporting local families, and giving back to the community she proudly calls home. Together with her lifelong friend, Ryan, she created Herizon to help girls build confidence, form meaningful friendships, connect with inspiring mentors, and discover their unique strengths.
                   </p>
                   <p>
                     Rene believes every girl deserves to feel seen, encouraged, and supported by a community that believes in her. Her hope is that every girl who becomes part of Herizon leaves knowing she belongs, believes in herself, and feels confident pursuing whatever path lies ahead.
