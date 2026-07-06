@@ -84,15 +84,28 @@ export default function EventsPage() {
         <div className="absolute top-0 right-0 w-96 h-96 rounded-full bg-[#FF7477] opacity-10 blur-3xl" />
         <div className="max-w-4xl mx-auto px-6 text-center relative">
           <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
-            Upcoming Events
+            Events
           </p>
           <h1 className="font-serif text-6xl sm:text-7xl font-black text-white leading-tight mb-6">
-            Find an Event <span className="text-[#FF7477]">Near You</span>
+            More Than an Event.<br />
+            <span className="text-[#FF7477]">It&rsquo;s an Experience.</span>
           </h1>
-          <p className="text-[#9B9B9B] text-xl max-w-2xl mx-auto leading-relaxed">
-            One day. Life-changing confidence. Our Confidence Conferences for
-            girls ages 12–18 are coming to cities across Southern California.
+          <p className="text-[#9B9B9B] text-xl max-w-2xl mx-auto leading-relaxed mb-6">
+            Every Herizon event is designed to help girls build confidence,
+            discover new possibilities, and create meaningful connections that
+            last long after the day is over.
           </p>
+          <p className="text-[#9B9B9B] text-lg max-w-2xl mx-auto leading-relaxed mb-10">
+            Through inspiring speakers, hands-on activities, mentorship,
+            leadership experiences, and community, every event is an opportunity
+            to grow.
+          </p>
+          <Link
+            href="/contact"
+            className="inline-block bg-[#FF7477] text-white font-semibold px-10 py-4 rounded-full hover:bg-[#E85F62] transition-colors"
+          >
+            Register for an Event
+          </Link>
         </div>
       </section>
 
