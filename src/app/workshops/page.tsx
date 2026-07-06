@@ -106,13 +106,18 @@ export default function WorkshopsPage() {
             <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
               The Herizon Journey
             </p>
-            <h2 className="font-serif text-4xl sm:text-5xl font-black text-[#1A1A1A] leading-tight mb-6">
-              A Community Built to Last
+            <h2 className="font-serif text-4xl sm:text-5xl font-black text-[#1A1A1A] leading-tight mb-8">
+              Every Girl&rsquo;s Journey Looks Different.
             </h2>
-            <p className="text-[#9B9B9B] text-lg leading-relaxed max-w-2xl mx-auto">
-              Every layer of Herizon is designed to help girls grow. In
-              confidence. In connection. And in their understanding of what
-              they&rsquo;re truly capable of.
+            <div className="space-y-3 text-[#9B9B9B] text-lg leading-relaxed max-w-2xl mx-auto mb-4">
+              <p>No two girls join Herizon for the same reason.</p>
+              <p>Some come looking for confidence.</p>
+              <p>Some come looking for friendship.</p>
+              <p>Some come looking for direction.</p>
+              <p>Some simply need someone who believes in them.</p>
+            </div>
+            <p className="text-[#1A1A1A] font-semibold text-lg max-w-2xl mx-auto">
+              Wherever she begins, Herizon meets her there.
             </p>
           </div>
 
