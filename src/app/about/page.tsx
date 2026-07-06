@@ -326,9 +326,10 @@ export default function AboutPage() {
                   <p>
                     Rene believes every girl deserves to feel seen, encouraged, and supported by a community that believes in her. Her hope is that every girl who becomes part of Herizon leaves knowing she belongs, believes in herself, and feels confident pursuing whatever path lies ahead.
                   </p>
-                  <blockquote className="border-l-2 border-[#FF7477] pl-4 text-[#1A1A1A] font-medium italic mt-4">
-                    &ldquo;And every girl deserves a community that reminds her what&rsquo;s possible.&rdquo;
-                  </blockquote>
+                  <p className="text-[#1A1A1A] font-medium italic mt-4">
+                    And every girl deserves a community that reminds her what&rsquo;s possible.
+                  </p>
+                  <p className="text-[#FF7477] font-semibold text-xs uppercase tracking-widest">— Rene</p>
                 </div>
               </div>
             </div>
@@ -354,9 +355,10 @@ export default function AboutPage() {
                   <p>
                     Ryan believes confidence changes everything. Her hope is that every girl who becomes part of Herizon leaves feeling seen, encouraged, and empowered to pursue her dreams with courage and confidence.
                   </p>
-                  <blockquote className="border-l-2 border-[#FF7477] pl-4 text-[#1A1A1A] font-medium italic mt-4">
-                    &ldquo;Every girl deserves someone who believes in her before she fully believes in herself.&rdquo;
-                  </blockquote>
+                  <p className="text-[#1A1A1A] font-medium italic mt-4">
+                    Every girl deserves someone who believes in her before she fully believes in herself.
+                  </p>
+                  <p className="text-[#FF7477] font-semibold text-xs uppercase tracking-widest">— Ryan</p>
                 </div>
               </div>
             </div>
