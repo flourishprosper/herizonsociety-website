@@ -9,36 +9,36 @@ export const metadata: Metadata = {
 
 const upcomingEvents = [
   {
-    id: "la-fall-2026",
-    city: "Los Angeles",
+    id: "glendora-sept-2026",
+    city: "Glendora",
     state: "CA",
-    date: "Fall 2026",
-    fullDate: "Date TBA",
+    date: "September 19, 2026",
+    fullDate: "September 19, 2026",
     venue: "Venue to be announced",
     description:
-      "Our flagship LA event: a full day of keynote speakers, mentorship, leadership workshops, and community for girls ages 12–18.",
+      "A full day of keynote speakers, mentorship, leadership workshops, and community for girls ages 12–18.",
     status: "coming-soon",
   },
   {
-    id: "sd-winter-2026",
-    city: "San Diego",
+    id: "pasadena-winter-2026",
+    city: "Pasadena",
     state: "CA",
     date: "Winter 2026",
     fullDate: "Date TBA",
     venue: "Venue to be announced",
     description:
-      "Bringing the Herizon community to San Diego with mentors, speakers, and real experiences designed for teen girls.",
+      "Bringing the Herizon community to Pasadena with mentors, speakers, and real experiences designed for teen girls.",
     status: "coming-soon",
   },
   {
-    id: "oc-spring-2027",
-    city: "Orange County",
+    id: "san-dimas-spring-2027",
+    city: "San Dimas",
     state: "CA",
     date: "Spring 2027",
     fullDate: "Date TBA",
     venue: "Venue to be announced",
     description:
-      "The OC conference brings together girls 12–18 ready to step into their confidence, find their mentors, and lead with heart.",
+      "The San Dimas conference brings together girls 12–18 ready to step into their confidence, find their mentors, and lead with heart.",
     status: "coming-soon",
   },
 ];
@@ -114,10 +114,10 @@ export default function EventsPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
-              2026–2027 Season
+              Mark Your Calendar
             </p>
             <h2 className="font-serif text-4xl font-black text-[#1A1A1A]">
-              Upcoming Conferences
+              Upcoming Events
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
