@@ -90,10 +90,11 @@ export default function WorkshopsPage() {
             How Herizon Works
           </h1>
           <p className="text-white/80 text-xl max-w-2xl mx-auto leading-relaxed">
-            Herizon isn&rsquo;t a one-time event. It&rsquo;s a journey built
-            on meaningful experiences, consistent community, and real
-            relationships that help girls discover who they are and what
-            they&rsquo;re capable of.
+            Herizon is more than a single event. It&rsquo;s a journey of
+            confidence, connection, and growth. Through signature experiences,
+            ongoing community gatherings, mentorship, and real-world
+            opportunities, girls discover who they are, what they&rsquo;re
+            capable of, and the confidence to pursue whatever comes next.
           </p>
         </div>
       </section>
