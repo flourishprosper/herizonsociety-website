@@ -13,7 +13,7 @@ const upcomingEvents = [
     city: "🌸 Bloom",
     subtitle: "The Inaugural Herizon Experience",
     state: "Glendora, California",
-    badge: "✨ Founding Event",
+    badge: "✨ Founding Experience",
     date: "September 19, 2026",
     fullDate: "",
     venue: "",
@@ -101,20 +101,20 @@ export default function EventsPage() {
             <span className="text-[#FF7477]">It&rsquo;s an Experience.</span>
           </h1>
           <p className="text-[#9B9B9B] text-xl max-w-2xl mx-auto leading-relaxed mb-6">
-            Every Herizon event is designed to help girls build confidence,
+            Every Signature Experience is designed to help girls build confidence,
             discover new possibilities, and create meaningful connections that
             last long after the day is over.
           </p>
           <p className="text-[#9B9B9B] text-lg max-w-2xl mx-auto leading-relaxed mb-10">
             Through inspiring speakers, hands-on activities, mentorship,
-            leadership experiences, and community, every event is an opportunity
+            leadership experiences, and community, every Signature Experience is an opportunity
             to grow.
           </p>
           <Link
             href="/contact"
             className="inline-block bg-[#FF7477] text-white font-semibold px-10 py-4 rounded-full hover:bg-[#E85F62] transition-colors"
           >
-            Register for an Event
+            Register for a Signature Experience
           </Link>
         </div>
       </section>
@@ -199,7 +199,7 @@ export default function EventsPage() {
               A Community Where Girls Grow.
             </h2>
             <p className="text-[#9B9B9B] text-lg max-w-2xl mx-auto leading-relaxed">
-              Every Herizon experience is thoughtfully designed to help girls build confidence, form meaningful friendships, and connect with inspiring mentors. Whether it&rsquo;s your first event or your tenth, you&rsquo;ll become part of a community that encourages growth, leadership, and lifelong connection.
+              Every Herizon experience is thoughtfully designed to help girls build confidence, form meaningful friendships, and connect with inspiring mentors. Whether it&rsquo;s your first Signature Experience or your tenth, you&rsquo;ll become part of a community that encourages growth, leadership, and lifelong connection.
             </p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">

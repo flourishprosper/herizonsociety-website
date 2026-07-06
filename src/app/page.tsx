@@ -88,7 +88,7 @@ export default function HomePage() {
                 href="/events"
                 className="border border-white/30 text-white font-semibold px-8 py-4 rounded-full hover:border-white/60 transition-colors text-center"
               >
-                Find an Event
+                Find a Signature Experience
               </Link>
             </div>
           </div>
@@ -219,7 +219,7 @@ export default function HomePage() {
               Your Herizon Journey
             </h2>
             <p className="text-[#9B9B9B] text-lg leading-relaxed max-w-2xl mx-auto">
-              Herizon isn&rsquo;t just an event you attend once. It&rsquo;s a community you grow with &mdash; through experiences, connections, and relationships that build over time.
+              Herizon isn&rsquo;t a one-time event. It&rsquo;s a community you grow with &mdash; through experiences, connections, and relationships that build over time.
             </p>
           </div>
           <div className="space-y-4">
@@ -309,7 +309,7 @@ export default function HomePage() {
               <p className="text-[#9B9B9B] leading-relaxed mb-8">
                 Herizon grows because of people who believe every girl deserves
                 the opportunity to discover her potential. Whether you become a
-                mentor, volunteer at an event, or sponsor our mission, your
+                mentor, volunteer at a Signature Experience, or sponsor our mission, your
                 support helps create life-changing experiences and lasting
                 confidence.
               </p>

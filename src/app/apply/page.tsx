@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Apply | Herizon Society",
   description:
-    "Apply to attend a Herizon Society event. For girls ages 12–18 ready to expand their horizons, build confidence, and discover what's possible.",
+    "Apply to attend a Herizon Signature Experience. For girls ages 12–18 ready to expand their horizons, build confidence, and discover what’s possible.",
 };
 
 export default function ApplyPage() {
@@ -24,7 +24,7 @@ export default function ApplyPage() {
           </h1>
           <p className="text-[#9B9B9B] text-xl max-w-2xl mx-auto leading-relaxed">
             Ready to expand your horizons? Apply to attend an upcoming Herizon
-            event and take the first step toward building the confidence,
+            Signature Experience and take the first step toward building the confidence,
             connections, and opportunities that will shape your future.
           </p>
         </div>
@@ -38,10 +38,10 @@ export default function ApplyPage() {
               What You&rsquo;ll Get
             </p>
             <h2 className="font-serif text-4xl sm:text-5xl font-black text-[#1A1A1A] leading-tight">
-              Every Event Delivers
+              Every Signature Experience Delivers
             </h2>
             <p className="text-[#9B9B9B] mt-4 max-w-xl mx-auto">
-              This is more than an event. Every Herizon experience is
+              Every Herizon Signature Experience is
               designed around four outcomes.
             </p>
           </div>
@@ -126,7 +126,7 @@ export default function ApplyPage() {
               Applications Opening Soon
             </h3>
             <p className="text-[#9B9B9B] leading-relaxed mb-8">
-              We&rsquo;re preparing for our upcoming events. Drop your info and
+              We&rsquo;re preparing for our upcoming Signature Experiences. Drop your info and
               we&rsquo;ll notify you the moment applications open.
             </p>
             <a
@@ -152,10 +152,10 @@ export default function ApplyPage() {
       <section className="bg-[#FF7477] py-16 text-center">
         <div className="max-w-2xl mx-auto px-6">
           <h2 className="font-serif text-3xl font-black text-white mb-4">
-            See Upcoming Events
+            See Upcoming Signature Experiences
           </h2>
           <p className="text-white/80 mb-8">
-            Find an event near you and mark your calendar.
+            Find a Signature Experience near you and mark your calendar.
           </p>
           <Link
             href="/events"

@@ -85,7 +85,7 @@ export default function MentorshipPage() {
               The Herizon Promise
             </p>
             <h2 className="font-serif text-4xl font-black leading-tight">
-              Every Event Leaves Girls With…
+              Every Signature Experience Leaves Girls With…
             </h2>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">

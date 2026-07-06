@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "LeadHER Referral Squad Herizon Society",
   description:
-    "Join the Herizon LeadHER Referral Squad. Invite girls ages 12–18 to a Herizon event and earn exclusive merch for growing the community.",
+    "Join the Herizon LeadHER Referral Squad. Invite girls ages 12–18 to a Herizon Signature Experience and earn exclusive merch for growing the community.",
 };
 
 const tiers = [
@@ -12,7 +12,7 @@ const tiers = [
     friends: 3,
     reward: "Exclusive LeadHER T-Shirt",
     icon: "👕",
-    desc: "Bring 3 girls to a Herizon event and earn our exclusive LeadHER tee.",
+    desc: "Bring 3 girls to a Herizon Signature Experience and earn our exclusive LeadHER tee.",
     color: "bg-[#FAF8F5] border-[#E8E6E2]",
   },
   {

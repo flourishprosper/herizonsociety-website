@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Be a Sponsor | Herizon Society",
   description:
-    "Sponsor a Herizon Society event and help create the mentorship, leadership experiences, and community that girls ages 12-18 deserve.",
+    "Sponsor a Herizon Signature Experience and help create the mentorship, leadership, and community that girls ages 12–18 deserve.",
 };
 
 const tiers = [
@@ -15,7 +15,7 @@ const tiers = [
     headerBg: "bg-[#FAF8F5]",
     headerText: "text-[#1A1A1A]",
     perks: [
-      "Logo in event program",
+      "Logo in Signature Experience program",
       "Social media mention (1 post)",
       "Certificate of sponsorship",
       "Thank you from stage",
@@ -30,8 +30,8 @@ const tiers = [
     badge: "Most Popular",
     perks: [
       "All Ignite benefits",
-      "Logo on event banner",
-      "Vendor/display table at event",
+      "Logo on Signature Experience banner",
+      "Vendor/display table at Signature Experience",
       "2 complimentary attendee tickets",
       "Social media mention (3 posts)",
       "Spotlight in email newsletter",
@@ -46,8 +46,8 @@ const tiers = [
     perks: [
       "All Blaze benefits",
       "Named session sponsorship",
-      "Featured logo on all event materials",
-      "5 min speaking opportunity at event",
+      "Featured logo on all Signature Experience materials",
+      "5 min speaking opportunity at Signature Experience",
       "4 complimentary attendee tickets",
       "Co-branded social content",
       "Year-round website logo placement",

@@ -27,7 +27,7 @@ const coreValues = [
     title: "Connection",
     icon: "🤝",
     description:
-      "Building relationships with mentors and peers that last beyond the event. The people around you shape what you believe is possible.",
+      "Building relationships with mentors and peers that last beyond the experience. The people around you shape what you believe is possible.",
   },
   {
     number: "04",
@@ -354,7 +354,7 @@ export default function AboutPage() {
           <p className="text-[#9B9B9B] text-lg mb-10 leading-relaxed">
             Whether you&rsquo;re a parent, mentor, volunteer, or community
             partner, there&rsquo;s a place for you at Herizon. Join us at an
-            upcoming event and help create a future where every girl has the
+            upcoming Signature Experience and help create a future where every girl has the
             confidence to discover what&rsquo;s possible.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

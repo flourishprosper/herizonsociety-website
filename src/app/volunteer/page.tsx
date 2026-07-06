@@ -36,7 +36,7 @@ const roles = [
     icon: "📋",
     title: "Operations & Logistics",
     description:
-      "Behind every great event is a great team. Help with logistics, coordination, and making sure everything runs smoothly.",
+      "Behind every great Signature Experience is a great team. Help with logistics, coordination, and making sure everything runs smoothly.",
   },
   {
     icon: "💼",

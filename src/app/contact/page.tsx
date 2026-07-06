@@ -10,7 +10,7 @@ const contactOptions = [
   {
     icon: "📅",
     title: "Events & Experiences",
-    desc: "Ask about upcoming event dates, registration, or bringing Herizon to your city.",
+    desc: "Ask about upcoming Signature Experience dates, registration, or bringing Herizon to your city.",
   },
   {
     icon: "🏫",
@@ -44,7 +44,7 @@ export default function ContactPage() {
             Get In <span className="text-[#FF7477]">Touch</span>
           </h1>
           <p className="text-[#9B9B9B] text-xl max-w-xl mx-auto leading-relaxed">
-            Whether you want to register a girl for an event, explore mentorship,
+            Whether you want to register a girl for a Signature Experience, explore mentorship,
             ask about sponsorship, or just say hi. We're here.
           </p>
         </div>
