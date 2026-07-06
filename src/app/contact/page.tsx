@@ -9,23 +9,23 @@ export const metadata: Metadata = {
 const contactOptions = [
   {
     icon: "📅",
-    title: "Events & Experiences",
-    desc: "Ask about upcoming Signature Experience dates, registration, or bringing Herizon to your city.",
-  },
-  {
-    icon: "🏫",
-    title: "Program Inquiries",
-    desc: "Bring a Herizon program to your school, youth organization, or community group.",
+    title: "Attend an Experience",
+    desc: "Have questions about an upcoming Herizon experience? We&rsquo;d love to help you find the right event and answer any questions before you join us.",
   },
   {
     icon: "🤝",
-    title: "Sponsorships",
-    desc: "Interested in supporting a Herizon experience? Let&rsquo;s talk about what&rsquo;s right for your business.",
+    title: "Become a Mentor or Volunteer",
+    desc: "Interested in mentoring girls or volunteering at a Herizon experience? We&rsquo;d love to learn more about you.",
   },
   {
-    icon: "🌟",
-    title: "Partnerships",
-    desc: "Coaches, therapists, and speakers are welcome to reach out and explore a partnership with Herizon Society.",
+    icon: "💗",
+    title: "Partner With Herizon",
+    desc: "Schools, nonprofits, businesses, and community organizations are invited to collaborate with us to expand opportunities for girls.",
+  },
+  {
+    icon: "⭐",
+    title: "Sponsorship Opportunities",
+    desc: "Help make Herizon experiences accessible to more girls while investing in the next generation of confident leaders.",
   },
 ];
 
@@ -44,8 +44,9 @@ export default function ContactPage() {
             Get In <span className="text-[#FF7477]">Touch</span>
           </h1>
           <p className="text-[#9B9B9B] text-xl max-w-xl mx-auto leading-relaxed">
-            Whether you want to register a girl for a Signature Experience, explore mentorship,
-            ask about sponsorship, or just say hi. We're here.
+            Whether you&rsquo;re a parent, mentor, volunteer, sponsor, school,
+            or community partner, we&rsquo;d love to hear from you. Whether you
+            have a question or want to get involved, we&rsquo;re here to help.
           </p>
         </div>
       </section>
@@ -127,7 +128,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <label className="block text-sm font-semibold text-[#1A1A1A] mb-2">
-                  I&rsquo;m Reaching Out About
+                  How Can We Help You?
                 </label>
                 <select className="w-full border border-[#E8E6E2] rounded-xl px-4 py-3 text-sm text-[#2D2D2D] focus:outline-none focus:border-[#FF7477] transition-colors bg-white">
                   <option value="">Select a topic</option>
