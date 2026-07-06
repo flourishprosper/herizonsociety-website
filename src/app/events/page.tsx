@@ -18,7 +18,9 @@ const upcomingEvents = [
     fullDate: "",
     venue: "",
     description:
-      "Be part of the very first Herizon Experience. Designed for girls ages 12–18, this unforgettable day will bring together inspiring women, creative experiences, meaningful conversations, and a supportive community that encourages every girl to dream bigger, build confidence, and discover what’s possible.",
+      "Join us for Bloom, Herizon’s very first experience. Designed for girls ages 12–18, this unforgettable day is about more than just an event. It’s about building confidence, creating meaningful connections, and helping girls discover what’s possible.",
+    description2:
+      "Through inspiring women, creative experiences, and genuine conversations, girls will leave feeling encouraged, connected, and excited about the future ahead of them.",
     status: "coming-soon",
   },
   {
@@ -148,9 +150,14 @@ export default function EventsPage() {
                 <div className="p-8">
                   {event.fullDate && <p className="text-[#9B9B9B] text-sm mb-2">{event.fullDate}</p>}
                   {event.venue && <p className="text-[#9B9B9B] text-sm mb-4">{event.venue}</p>}
-                  <p className="text-[#2D2D2D] text-sm leading-relaxed mb-6">
+                  <p className="text-[#2D2D2D] text-sm leading-relaxed mb-4">
                     {event.description}
                   </p>
+                  {event.description2 && (
+                    <p className="text-[#2D2D2D] text-sm leading-relaxed mb-6">
+                      {event.description2}
+                    </p>
+                  )}
 
                 </div>
               </div>
