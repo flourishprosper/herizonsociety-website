@@ -10,7 +10,8 @@ export const metadata: Metadata = {
 const upcomingEvents = [
   {
     id: "glendora-sept-2026",
-    city: "🌸 The Bloom Experience",
+    city: "🌸 Bloom",
+    subtitle: "The Inaugural Herizon Experience",
     state: "Glendora, California",
     badge: "✨ Founding Event",
     date: "September 19, 2026",
@@ -139,6 +140,9 @@ export default function EventsPage() {
                   <h3 className="font-serif text-3xl font-black text-white">
                     {event.city}
                   </h3>
+                  {event.subtitle && (
+                    <p className="text-white/80 text-sm font-medium mt-1">{event.subtitle}</p>
+                  )}
                   <p className="text-white/80 text-sm mt-1">{event.state}</p>
                 </div>
                 <div className="p-8">
