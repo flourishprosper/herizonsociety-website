@@ -195,11 +195,11 @@ export default function EventsPage() {
               The Herizon Experience
             </p>
             <h2 className="font-serif text-4xl font-black text-[#1A1A1A] mb-6">
-              More Than an Event.
-              A Community Where Girls Grow.
+              More Than an Event.<br />
+              <span className="text-[#FF7477]">It&rsquo;s Where Confidence Grows.</span>
             </h2>
             <p className="text-[#9B9B9B] text-lg max-w-2xl mx-auto leading-relaxed">
-              Every Herizon experience is thoughtfully designed to help girls build confidence, form meaningful friendships, and connect with inspiring mentors. Whether it&rsquo;s your first Signature Experience or your tenth, you&rsquo;ll become part of a community that encourages growth, leadership, and lifelong connection.
+              Herizon is more than a series of events. It&rsquo;s a community where girls build confidence, form lasting friendships, and discover what&rsquo;s possible together. Every experience is thoughtfully designed to inspire, challenge, and encourage girls to grow into confident leaders, compassionate friends, and courageous young women.
             </p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
