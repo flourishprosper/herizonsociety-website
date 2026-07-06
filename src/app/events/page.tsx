@@ -26,7 +26,7 @@ const upcomingEvents = [
   {
     id: "pasadena-winter-2026",
     city: "🎤 Find Your Voice",
-    subtitle: "Herizon Experience",
+    subtitle: "A Herizon Experience",
     state: "Pasadena, California",
     date: "Winter 2026",
     fullDate: "Date & Location Coming Soon",
