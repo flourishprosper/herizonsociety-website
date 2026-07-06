@@ -152,13 +152,21 @@ export default function EventsPage() {
               </div>
             ))}
           </div>
-          <p className="text-center text-[#9B9B9B] text-sm mt-10">
-            Dates and venues will be announced soon.{" "}
-            <Link href="/contact" className="text-[#FF7477] hover:underline">
-              Contact us
-            </Link>{" "}
-            to be notified first.
-          </p>
+          <div className="text-center mt-14">
+            <h3 className="font-serif text-2xl font-black text-[#1A1A1A] mb-3">
+              Don&rsquo;t Miss the Beginning.
+            </h3>
+            <p className="text-[#9B9B9B] text-base max-w-lg mx-auto mb-8">
+              Join our mailing list to be the first to know when registration
+              opens and new experiences are announced.
+            </p>
+            <Link
+              href="/contact"
+              className="inline-block bg-[#FF7477] text-white font-semibold px-10 py-4 rounded-full hover:bg-[#E85F62] transition-colors"
+            >
+              Join the Waitlist
+            </Link>
+          </div>
         </div>
       </section>
 
