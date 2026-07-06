@@ -196,7 +196,7 @@ export default function EventsPage() {
             </p>
             <h2 className="font-serif text-4xl font-black text-[#1A1A1A]">
               More Than an Event.
-              It’s the Beginning of Something Bigger.
+              A Community Where Girls Grow.
             </h2>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
