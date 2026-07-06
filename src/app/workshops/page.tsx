@@ -65,15 +65,15 @@ export default function WorkshopsPage() {
           style={{ backgroundImage: "radial-gradient(circle at 1px 1px, #fff 1px, transparent 0)", backgroundSize: "30px 30px" }} />
         <div className="relative max-w-4xl mx-auto px-6">
           <p className="text-white/70 text-xs font-semibold uppercase tracking-widest mb-4">
-            Monthly Programs
+            Monthly Meetups & Community Gatherings
           </p>
           <h1 className="font-serif text-6xl sm:text-7xl font-black text-white leading-tight mb-6">
-            Herizon Programs
+            Your Ongoing Community
           </h1>
           <p className="text-white/80 text-xl max-w-2xl mx-auto leading-relaxed">
-            Monthly programs for girls ages 12–18 where real experiences,
-            honest mentorship, and a powerful community meet. Every session is
-            designed to build something that lasts.
+            Beyond the big experiences, Herizon shows up every month &mdash; and
+            every week. Monthly meetups and regular community gatherings where
+            girls connect, grow, and support each other in real time.
           </p>
         </div>
       </section>

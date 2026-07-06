@@ -208,65 +208,75 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ─── MENTORSHIP + EXPERIENCES ────────────────────── */}
+      {/* ─── YOUR HERIZON JOURNEY ─────────────────────────── */}
       <section className="bg-[#FAF8F5] py-24">
-        <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
-          <div>
+        <div className="max-w-4xl mx-auto px-6">
+          <div className="text-center mb-14">
             <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-4">
-              More Than an Event
+              How It Works
             </p>
-            <h2 className="font-serif text-4xl sm:text-5xl font-black text-[#1A1A1A] leading-snug mb-6">
-              Real Experiences.<br />
-              Real Mentors.<br />
-              Real Change.
+            <h2 className="font-serif text-4xl sm:text-5xl font-black text-[#1A1A1A] leading-tight mb-6">
+              Your Herizon Journey
             </h2>
-            <p className="text-[#9B9B9B] text-lg leading-relaxed mb-6">
-              Every Herizon experience is designed to leave girls with something
-              meaningful: a new connection, a fresh perspective, greater
-              confidence, and the belief that their future is full of
-              possibilities. Herizon isn&rsquo;t just an event. It&rsquo;s a
-              community where girls are inspired, encouraged, and supported by
-              women who&rsquo;ve walked the path before them.
+            <p className="text-[#9B9B9B] text-lg leading-relaxed max-w-2xl mx-auto">
+              Herizon isn&rsquo;t just an event you attend once. It&rsquo;s a community you grow with &mdash; through experiences, connections, and relationships that build over time.
             </p>
-            <Link
-              href="/mentorship"
-              className="inline-flex bg-[#1A1A1A] text-white font-semibold px-8 py-4 rounded-full hover:bg-[#2D2D2D] transition-colors"
-            >
-              Discover Herizon
-            </Link>
           </div>
-          <div className="grid grid-cols-2 gap-2 sm:gap-4">
+          <div className="space-y-4">
             {[
               {
-                icon: "🤝",
-                label: "Connect",
-                description: "Build meaningful relationships with mentors and other girls.",
+                num: "01",
+                emoji: "🌸",
+                title: "Quarterly Signature Experiences",
+                desc: "Big, meaningful events designed to inspire, challenge, and connect girls in an unforgettable way.",
               },
               {
-                icon: "🌱",
-                label: "Grow",
-                description: "Develop confidence, leadership, and life skills through real experiences.",
+                num: "02",
+                emoji: "🤝",
+                title: "Monthly Meetups",
+                desc: "Smaller, focused gatherings where girls go deeper &mdash; building skills, sharing stories, and growing together.",
               },
               {
-                icon: "💡",
-                label: "Explore",
-                description: "Discover new opportunities, careers, and possibilities for your future.",
+                num: "03",
+                emoji: "💬",
+                title: "Weekly & Biweekly Community Gatherings",
+                desc: "Your ongoing community. A consistent space where girls show up, connect, and support one another.",
               },
               {
-                icon: "⭐",
-                label: "Lead",
-                description: "Leave every Herizon experience ready to make a difference in your school, community, and beyond.",
+                num: "04",
+                emoji: "👩‍🏫",
+                title: "Mentorship",
+                desc: "Real relationships with real women &mdash; mentors who&rsquo;ve walked the path and are passionate about guiding the next generation.",
               },
-            ].map((item) => (
+              {
+                num: "05",
+                emoji: "⭐",
+                title: "Lifelong Network",
+                desc: "Once Herizon, always Herizon. The connections you build here grow into friendships, opportunities, and a network that lasts a lifetime.",
+              },
+            ].map((step) => (
               <div
-                key={item.label}
-                className="bg-white rounded-2xl p-6 text-left card-hover shadow-sm border border-[#E8E6E2]"
+                key={step.num}
+                className="flex items-start gap-6 bg-white rounded-2xl border border-[#E8E6E2] p-6 sm:p-8 card-hover"
               >
-                <span className="text-4xl block mb-3">{item.icon}</span>
-                <p className="text-sm font-bold text-[#1A1A1A] mb-2">{item.label}</p>
-                <p className="text-xs text-[#9B9B9B] leading-relaxed">{item.description}</p>
+                <div className="shrink-0 w-12 h-12 bg-[#FF7477]/10 rounded-full flex items-center justify-center text-2xl">
+                  {step.emoji}
+                </div>
+                <div>
+                  <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-1">{step.num}</p>
+                  <h3 className="font-serif text-xl font-black text-[#1A1A1A] mb-2" dangerouslySetInnerHTML={{ __html: step.title }} />
+                  <p className="text-[#9B9B9B] text-sm leading-relaxed" dangerouslySetInnerHTML={{ __html: step.desc }} />
+                </div>
               </div>
             ))}
+          </div>
+          <div className="text-center mt-12">
+            <Link
+              href="/apply"
+              className="inline-block bg-[#FF7477] text-white font-semibold px-10 py-4 rounded-full hover:bg-[#E85F62] transition-colors"
+            >
+              Join the Community
+            </Link>
           </div>
         </div>
       </section>

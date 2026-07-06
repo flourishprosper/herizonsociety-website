@@ -38,7 +38,7 @@ export default function MentorshipPage() {
               Why It Matters
             </p>
             <h2 className="font-serif text-4xl sm:text-5xl font-black text-[#1A1A1A] leading-tight mb-6">
-              Relationships That Last Beyond the Event
+              Relationships That Last a Lifetime
             </h2>
             <div className="space-y-5 text-[#2D2D2D] leading-relaxed">
               <p>
@@ -49,9 +49,10 @@ export default function MentorshipPage() {
               </p>
               <p>
                 At Herizon, mentorship isn&rsquo;t a checkbox. It&rsquo;s a
-                core part of who we are. Every event is designed to create
-                genuine, lasting connections between girls and the women who
-                inspire them.
+                core part of who we are. As girls move through quarterly
+                experiences, monthly meetups, and regular community gatherings,
+                they build genuine, lasting relationships with mentors and peers
+                who will walk with them for life.
               </p>
             </div>
           </div>
