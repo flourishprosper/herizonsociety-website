@@ -31,6 +31,65 @@ export default function MentorshipPage() {
         </div>
       </section>
 
+      {/* Join the Movement Cards */}
+      <section className="bg-white py-24">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid sm:grid-cols-2 gap-6">
+            {[
+              {
+                icon: "🤝",
+                title: "Become a Mentor",
+                lines: ["Share your experience.", "Inspire confidence.", "Make a lasting difference."],
+                href: "/contact",
+                cta: "Become a Mentor",
+              },
+              {
+                icon: "💗",
+                title: "Volunteer",
+                lines: ["Help create meaningful experiences that girls will remember for years to come."],
+                href: "/volunteer",
+                cta: "Volunteer With Us",
+              },
+              {
+                icon: "🌎",
+                title: "Partner With Herizon",
+                lines: ["Businesses.", "Schools.", "Organizations.", "Community leaders."],
+                href: "/contact",
+                cta: "Explore a Partnership",
+              },
+              {
+                icon: "✨",
+                title: "Sponsor a Signature Experience",
+                lines: ["Invest in the next generation and help make Herizon accessible to more girls."],
+                href: "/sponsor",
+                cta: "Become a Sponsor",
+              },
+            ].map((card) => (
+              <div
+                key={card.title}
+                className="bg-[#FAF8F5] border border-[#E8E6E2] rounded-3xl p-10 flex flex-col gap-6 card-hover"
+              >
+                <span className="text-5xl">{card.icon}</span>
+                <div>
+                  <h3 className="font-serif text-2xl font-black text-[#1A1A1A] mb-4">{card.title}</h3>
+                  <div className="space-y-1">
+                    {card.lines.map((line) => (
+                      <p key={line} className="text-[#9B9B9B] text-base leading-relaxed">{line}</p>
+                    ))}
+                  </div>
+                </div>
+                <Link
+                  href={card.href}
+                  className="mt-auto inline-block bg-[#FF7477] text-white font-semibold px-8 py-3 rounded-full hover:bg-[#E85F62] transition-colors self-start"
+                >
+                  {card.cta}
+                </Link>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Why Mentorship */}
       <section className="bg-[#FAF8F5] py-24">
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
