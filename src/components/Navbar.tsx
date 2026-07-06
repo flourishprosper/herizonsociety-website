@@ -48,7 +48,7 @@ export default function Navbar() {
             href="/apply"
             className="hidden lg:inline-flex bg-[#FF7477] text-white text-sm font-semibold px-5 py-2.5 rounded-full hover:bg-[#E85F62] transition-colors duration-200"
           >
-            Join Now
+            Join Herizon
           </Link>
           <button
             onClick={() => setOpen(!open)}
@@ -86,7 +86,7 @@ export default function Navbar() {
             onClick={() => setOpen(false)}
             className="mt-2 bg-[#FF7477] text-white text-sm font-semibold px-5 py-3 rounded-full text-center hover:bg-[#E85F62] transition-colors"
           >
-            Join Now
+            Join Herizon
           </Link>
         </div>
       )}
