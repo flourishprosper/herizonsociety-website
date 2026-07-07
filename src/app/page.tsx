@@ -261,7 +261,6 @@ export default function HomePage() {
                   {step.emoji}
                 </div>
                 <div>
-                  <p className="text-[#FF7477] text-xs font-semibold uppercase tracking-widest mb-1">{step.num}</p>
                   <h3 className="font-serif text-xl font-black text-[#1A1A1A] mb-2" dangerouslySetInnerHTML={{ __html: step.title }} />
                   <p className="text-[#9B9B9B] text-sm leading-relaxed" dangerouslySetInnerHTML={{ __html: step.desc }} />
                 </div>
