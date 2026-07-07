@@ -321,7 +321,10 @@ export default function AboutPage() {
                     Ryan Guerra is the Co-Founder of Herizon Society and is passionate about helping girls discover their strengths, build lasting confidence, and realize there&rsquo;s no limit to what they can achieve.
                   </p>
                   <p>
-                    Throughout her career, Ryan has built businesses, led teams, and created opportunities that bring people together. But Herizon is the project closest to her heart. Together with her lifelong friend, Rene, she created Herizon to build the community they both wish they&rsquo;d had growing up, a place where girls can find mentors, build meaningful friendships, gain real-world experiences, and discover what&rsquo;s possible for their future.
+                    Throughout her career, Ryan has built businesses, led teams, and created opportunities that bring people together. She believes one of the greatest investments we can make is helping young women discover their confidence before the world tells them who they should be. But Herizon is the project closest to her heart.
+                  </p>
+                  <p>
+                    Together with her lifelong friend, Rene, Ryan created Herizon to build the community they both wish they&rsquo;d had growing up. A place where girls can find mentors, build meaningful friendships, gain real-world experiences, and develop the confidence and life skills to pursue whatever future they choose.
                   </p>
                   <p>
                     Ryan believes confidence changes everything. Her hope is that every girl who becomes part of Herizon leaves feeling seen, encouraged, and empowered to pursue her dreams with courage and confidence.
