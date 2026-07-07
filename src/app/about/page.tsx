@@ -347,21 +347,21 @@ export default function AboutPage() {
                 </p>
                 <div className="space-y-4 text-[#9B9B9B] text-sm leading-relaxed">
                   <p>
-                    Rene Babich is the Co-Founder of Herizon Society and is passionate about helping girls build confidence, discover their strengths, and realize they don&rsquo;t have to figure life out alone.
+                    Rene Babich is the Co-Founder of Herizon Society and has spent years investing in young people through coaching, mentorship, and community involvement. She is passionate about helping girls build confidence, believe in themselves, and discover what&rsquo;s possible for their future.
                   </p>
                   <p>
-                    A longtime Glendora resident for more than 20 years and the proud mother of three children, Rene has spent years investing in young people through coaching, mentorship, and community involvement. She believes every girl deserves positive role models, meaningful opportunities, and the support to become the best version of herself.
+                    A longtime Glendora resident and proud mother of three, Rene has dedicated much of her time to coaching youth sports, supporting local families, and giving back to the community she proudly calls home. She believes every girl deserves positive role models, meaningful opportunities, and the confidence to become the best version of herself.
                   </p>
                   <p>
-                    Together with her lifelong friend, Ryan, Rene created Herizon to give girls the opportunities, encouragement, and life skills they both wish they&rsquo;d had growing up. Their vision is to create a community where girls feel supported, build lasting confidence, and discover what&rsquo;s possible for their future.
+                    Together with her lifelong friend, Ryan, Rene created Herizon to give girls the opportunities, encouragement, and life skills they both wish they&rsquo;d had growing up. Together, they are building a community where girls can find mentors, build confidence, and discover what&rsquo;s possible for their future.
                   </p>
                   <p>
-                    Rene hopes every girl who becomes part of Herizon leaves with greater confidence, happiness from within, and the belief that she is capable of achieving incredible things. Her dream is to help raise a generation of independent, courageous, and unstoppable young women who know they are never alone.
+                    Rene believes no girl should have to figure life out alone. Her hope is that every girl who becomes part of Herizon leaves with greater confidence, happiness from within, and the belief that she is capable of incredible things.
                   </p>
                   <p className="text-[#1A1A1A] font-medium italic mt-4">
                     And every girl deserves a community that reminds her what&rsquo;s possible.
                   </p>
-                  <p className="text-[#FF7477] font-semibold text-xs uppercase tracking-widest">— RENE</p>
+                  <p className="text-[#FF7477] font-semibold text-xs uppercase tracking-widest">— Rene</p>
                 </div>
               </div>
             </div>
