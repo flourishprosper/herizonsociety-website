@@ -329,7 +329,7 @@ export default function AboutPage() {
                   <p className="text-[#1A1A1A] font-medium italic mt-4">
                     Every girl deserves someone who believes in her before she fully believes in herself.
                   </p>
-                  <p className="text-[#FF7477] font-semibold text-xs uppercase tracking-widest">— Ryan</p>
+                  <p className="text-[#FF7477] font-semibold text-xs tracking-widest">— Ryan</p>
                 </div>
               </div>
             </div>
@@ -361,7 +361,7 @@ export default function AboutPage() {
                   <p className="text-[#1A1A1A] font-medium italic mt-4">
                     And every girl deserves a community that reminds her what&rsquo;s possible.
                   </p>
-                  <p className="text-[#FF7477] font-semibold text-xs uppercase tracking-widest">— Rene</p>
+                  <p className="text-[#FF7477] font-semibold text-xs tracking-widest">— Rene</p>
                 </div>
               </div>
             </div>
