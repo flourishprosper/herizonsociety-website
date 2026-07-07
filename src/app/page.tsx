@@ -143,7 +143,7 @@ export default function HomePage() {
             </h2>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-px bg-white/10 rounded-3xl overflow-hidden">
-            {brandPillars.map((pillar, i) => (
+            {brandPillars.map((pillar) => (
               <div
                 key={pillar.title}
                 className="bg-[#1A1A1A] p-8 flex flex-col gap-4 hover:bg-[#2D2D2D] transition-colors"
@@ -151,9 +151,7 @@ export default function HomePage() {
                 <span className="font-serif text-5xl font-black text-white/10 leading-none">
                   {pillar.number}
                 </span>
-                <h3 className={`font-serif text-2xl font-black leading-tight ${
-                  i === 0 ? "text-[#FF7477]" : "text-white"
-                }`}>
+                <h3 className="font-serif text-2xl font-black leading-tight text-white">
                   {pillar.title}
                 </h3>
                 <div className="w-8 h-0.5 bg-[#FF7477]" />
