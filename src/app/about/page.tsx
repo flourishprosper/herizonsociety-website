@@ -1,11 +1,20 @@
-import type { Metadata } from "next";
 import Link from "next/link";
+import SeoJsonLd from "@/components/SeoJsonLd";
+import {
+  createBreadcrumbSchema,
+  createPageMetadata,
+  createWebPageSchema,
+} from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "About Us | Herizon Society",
-  description:
-    "Learn who we are, why we started Herizon, and the mission and values that guide everything we do.",
-};
+const pageTitle = "About Us";
+const pageDescription =
+  "Learn who we are, why we started Herizon, and the mission and values that guide everything we do.";
+
+export const metadata = createPageMetadata({
+  title: pageTitle,
+  description: pageDescription,
+  path: "/about",
+});
 
 const coreValues = [
   {
@@ -48,6 +57,20 @@ const coreValues = [
 export default function AboutPage() {
   return (
     <>
+      <SeoJsonLd
+        data={[
+          createWebPageSchema({
+            title: `${pageTitle} | Herizon Society`,
+            description: pageDescription,
+            path: "/about",
+            type: "AboutPage",
+          }),
+          createBreadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "About", path: "/about" },
+          ]),
+        ]}
+      />
       {/* ── HERO ────────────────────────────────────────── */}
       <section className="bg-[#1A1A1A] py-36 text-center relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-[#1A1A1A] via-[#2D2D2D] to-[#1A1A1A]" />

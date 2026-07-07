@@ -1,11 +1,20 @@
-import type { Metadata } from "next";
 import Link from "next/link";
+import SeoJsonLd from "@/components/SeoJsonLd";
+import {
+  createBreadcrumbSchema,
+  createPageMetadata,
+  createWebPageSchema,
+} from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Confidence Conversations Herizon Society",
-  description:
-    "Watch and explore Herizon Society's Confidence Conversations real talks on leadership, mentorship, confidence, mental health, and expanding what's possible for girls ages 12–18.",
-};
+const pageTitle = "Confidence Conversations";
+const pageDescription =
+  "Watch and explore Herizon Society's Confidence Conversations on leadership, mentorship, confidence, mental health, and expanding what is possible for girls ages 12 to 18.";
+
+export const metadata = createPageMetadata({
+  title: pageTitle,
+  description: pageDescription,
+  path: "/conversations",
+});
 
 const topics = [
   {
@@ -51,6 +60,20 @@ const categories = ["All", "Leadership", "Mindset", "Mental Health", "Mentorship
 export default function ConversationsPage() {
   return (
     <>
+      <SeoJsonLd
+        data={[
+          createWebPageSchema({
+            title: `${pageTitle} | Herizon Society`,
+            description: pageDescription,
+            path: "/conversations",
+            type: "CollectionPage",
+          }),
+          createBreadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "Confidence Conversations", path: "/conversations" },
+          ]),
+        ]}
+      />
       {/* Hero */}
       <section className="bg-[#1A1A1A] py-32 relative overflow-hidden">
         <div className="absolute top-0 left-0 w-96 h-96 rounded-full bg-[#FF7477] opacity-10 blur-3xl" />

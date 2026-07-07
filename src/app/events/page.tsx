@@ -1,11 +1,20 @@
-import type { Metadata } from "next";
 import Link from "next/link";
+import SeoJsonLd from "@/components/SeoJsonLd";
+import {
+  createBreadcrumbSchema,
+  createPageMetadata,
+  createWebPageSchema,
+} from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Events | Herizon Society",
-  description:
-    "Find an upcoming Herizon Society experience near you. A youth program for girls ages 12–18 across Southern California.",
-};
+const pageTitle = "Events";
+const pageDescription =
+  "Find an upcoming Herizon Society experience near you. Explore events for girls ages 12 to 18 across Southern California.";
+
+export const metadata = createPageMetadata({
+  title: pageTitle,
+  description: pageDescription,
+  path: "/events",
+});
 
 const upcomingEvents = [
   {
@@ -89,6 +98,20 @@ const whatToExpect = [
 export default function EventsPage() {
   return (
     <>
+      <SeoJsonLd
+        data={[
+          createWebPageSchema({
+            title: `${pageTitle} | Herizon Society`,
+            description: pageDescription,
+            path: "/events",
+            type: "CollectionPage",
+          }),
+          createBreadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "Events", path: "/events" },
+          ]),
+        ]}
+      />
       {/* Hero */}
       <section className="bg-[#1A1A1A] py-32 relative overflow-hidden">
         <div className="absolute top-0 right-0 w-96 h-96 rounded-full bg-[#FF7477] opacity-10 blur-3xl" />

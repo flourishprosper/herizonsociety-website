@@ -1,11 +1,20 @@
-import type { Metadata } from "next";
 import Link from "next/link";
+import SeoJsonLd from "@/components/SeoJsonLd";
+import {
+  createBreadcrumbSchema,
+  createPageMetadata,
+  createWebPageSchema,
+} from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "How It Works | Herizon Society",
-  description:
-    "Discover how Herizon works. From Signature Experiences and community gatherings to mentorship, leadership development, real-world experiences, and a lifelong network for girls ages 12 to 18.",
-};
+const pageTitle = "How It Works";
+const pageDescription =
+  "Discover how Herizon works, from Signature Experiences and community gatherings to mentorship, leadership development, real-world experiences, and a lifelong network for girls ages 12 to 18.";
+
+export const metadata = createPageMetadata({
+  title: pageTitle,
+  description: pageDescription,
+  path: "/workshops",
+});
 
 const steps = [
   {
@@ -46,6 +55,19 @@ const pillars = [
 export default function WorkshopsPage() {
   return (
     <>
+      <SeoJsonLd
+        data={[
+          createWebPageSchema({
+            title: `${pageTitle} | Herizon Society`,
+            description: pageDescription,
+            path: "/workshops",
+          }),
+          createBreadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "How It Works", path: "/workshops" },
+          ]),
+        ]}
+      />
       {/* Hero */}
       <section className="bg-[#FF7477] py-32 relative overflow-hidden text-center">
         <div

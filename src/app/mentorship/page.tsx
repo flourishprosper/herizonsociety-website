@@ -1,15 +1,37 @@
-import type { Metadata } from "next";
 import Link from "next/link";
+import SeoJsonLd from "@/components/SeoJsonLd";
+import {
+  createBreadcrumbSchema,
+  createPageMetadata,
+  createWebPageSchema,
+} from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Mentorship | Herizon Society",
-  description:
-    "Connect with women leaders, entrepreneurs, and business professionals who inspire confidence and expand what's possible for girls ages 12–18.",
-};
+const pageTitle = "Mentorship";
+const pageDescription =
+  "Connect with women leaders, entrepreneurs, and business professionals who inspire confidence and expand what is possible for girls ages 12 to 18.";
+
+export const metadata = createPageMetadata({
+  title: pageTitle,
+  description: pageDescription,
+  path: "/mentorship",
+});
 
 export default function MentorshipPage() {
   return (
     <>
+      <SeoJsonLd
+        data={[
+          createWebPageSchema({
+            title: `${pageTitle} | Herizon Society`,
+            description: pageDescription,
+            path: "/mentorship",
+          }),
+          createBreadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "Mentorship", path: "/mentorship" },
+          ]),
+        ]}
+      />
       {/* Hero */}
       <section className="bg-[#1A1A1A] py-32 text-center relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-[#1A1A1A] via-[#2D2D2D] to-[#1A1A1A]" />

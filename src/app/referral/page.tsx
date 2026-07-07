@@ -1,11 +1,20 @@
-import type { Metadata } from "next";
 import Link from "next/link";
+import SeoJsonLd from "@/components/SeoJsonLd";
+import {
+  createBreadcrumbSchema,
+  createPageMetadata,
+  createWebPageSchema,
+} from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "LeadHER Referral Squad Herizon Society",
-  description:
-    "Join the Herizon LeadHER Referral Squad. Invite girls ages 12–18 to a Herizon Signature Experience and earn exclusive merch for growing the community.",
-};
+const pageTitle = "LeadHER Referral Squad";
+const pageDescription =
+  "Join the Herizon LeadHER Referral Squad. Invite girls ages 12 to 18 to a Herizon Signature Experience and earn exclusive merch for growing the community.";
+
+export const metadata = createPageMetadata({
+  title: pageTitle,
+  description: pageDescription,
+  path: "/referral",
+});
 
 const tiers = [
   {
@@ -43,6 +52,19 @@ const steps = [
 export default function ReferralPage() {
   return (
     <>
+      <SeoJsonLd
+        data={[
+          createWebPageSchema({
+            title: `${pageTitle} | Herizon Society`,
+            description: pageDescription,
+            path: "/referral",
+          }),
+          createBreadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "LeadHER Referral Squad", path: "/referral" },
+          ]),
+        ]}
+      />
       {/* Hero */}
       <section className="bg-[#1A1A1A] py-32 relative overflow-hidden text-center">
         <div className="absolute inset-0 bg-gradient-to-br from-[#1A1A1A] via-[#2D2D2D] to-[#1A1A1A]" />

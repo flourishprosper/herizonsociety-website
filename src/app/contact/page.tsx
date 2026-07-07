@@ -1,10 +1,19 @@
-import type { Metadata } from "next";
+import SeoJsonLd from "@/components/SeoJsonLd";
+import {
+  createBreadcrumbSchema,
+  createPageMetadata,
+  createWebPageSchema,
+} from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Contact Us | Herizon Society",
-  description:
-    "Get in touch with Herizon Society for event inquiries, mentorship, sponsorships, or partnerships for girls ages 12–18.",
-};
+const pageTitle = "Contact Us";
+const pageDescription =
+  "Get in touch with Herizon Society for event inquiries, mentorship, sponsorships, or partnerships for girls ages 12 to 18.";
+
+export const metadata = createPageMetadata({
+  title: pageTitle,
+  description: pageDescription,
+  path: "/contact",
+});
 
 const contactOptions = [
   {
@@ -32,6 +41,20 @@ const contactOptions = [
 export default function ContactPage() {
   return (
     <>
+      <SeoJsonLd
+        data={[
+          createWebPageSchema({
+            title: `${pageTitle} | Herizon Society`,
+            description: pageDescription,
+            path: "/contact",
+            type: "ContactPage",
+          }),
+          createBreadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "Contact", path: "/contact" },
+          ]),
+        ]}
+      />
       {/* Hero */}
       <section className="bg-[#1A1A1A] py-32 relative overflow-hidden text-center">
         <div className="absolute inset-0 bg-gradient-to-br from-[#1A1A1A] via-[#2D2D2D] to-[#1A1A1A]" />

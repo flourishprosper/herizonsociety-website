@@ -1,14 +1,37 @@
-import type { Metadata } from "next";
+import SeoJsonLd from "@/components/SeoJsonLd";
+import {
+  createBreadcrumbSchema,
+  createPageMetadata,
+  createWebPageSchema,
+} from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Gallery | Herizon Society",
-  description:
-    "See the energy, confidence, and community at Herizon Society events. Photos from our events and experiences.",
-};
+const pageTitle = "Gallery";
+const pageDescription =
+  "See the energy, confidence, and community at Herizon Society events. Browse photos from Herizon experiences and gatherings.";
+
+export const metadata = createPageMetadata({
+  title: pageTitle,
+  description: pageDescription,
+  path: "/gallery",
+});
 
 export default function GalleryPage() {
   return (
     <>
+      <SeoJsonLd
+        data={[
+          createWebPageSchema({
+            title: `${pageTitle} | Herizon Society`,
+            description: pageDescription,
+            path: "/gallery",
+            type: "ImageGallery",
+          }),
+          createBreadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "Gallery", path: "/gallery" },
+          ]),
+        ]}
+      />
       {/* Hero */}
       <section className="bg-[#1A1A1A] py-32 text-center relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-[#1A1A1A] via-[#2D2D2D] to-[#1A1A1A]" />

@@ -1,11 +1,20 @@
-import type { Metadata } from "next";
 import Link from "next/link";
+import SeoJsonLd from "@/components/SeoJsonLd";
+import {
+  createBreadcrumbSchema,
+  createPageMetadata,
+  createWebPageSchema,
+} from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Partner Programs Herizon Society",
-  description:
-    "Herizon Society partners with mentors, coaches, speakers, and leaders who are committed to expanding what's possible for girls ages 12–18.",
-};
+const pageTitle = "Partner Programs";
+const pageDescription =
+  "Herizon Society partners with mentors, coaches, speakers, and leaders who are committed to expanding what is possible for girls ages 12 to 18.";
+
+export const metadata = createPageMetadata({
+  title: pageTitle,
+  description: pageDescription,
+  path: "/partners",
+});
 
 const partnerTypes = [
   {
@@ -55,6 +64,19 @@ const currentPartner = {
 export default function PartnersPage() {
   return (
     <>
+      <SeoJsonLd
+        data={[
+          createWebPageSchema({
+            title: `${pageTitle} | Herizon Society`,
+            description: pageDescription,
+            path: "/partners",
+          }),
+          createBreadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "Partner Programs", path: "/partners" },
+          ]),
+        ]}
+      />
       {/* Hero */}
       <section className="bg-[#FAF8F5] py-32 text-center relative overflow-hidden">
         <div className="absolute bottom-0 right-0 w-96 h-96 rounded-full bg-[#FF7477] opacity-5 blur-3xl" />

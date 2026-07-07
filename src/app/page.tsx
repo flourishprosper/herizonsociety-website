@@ -1,4 +1,22 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+import SeoJsonLd from "@/components/SeoJsonLd";
+import { createPageMetadata, createWebPageSchema } from "@/lib/seo";
+
+const pageTitle = "Confidence, Mentorship, and Leadership for Girls";
+const pageDescription =
+  "Herizon Society helps girls ages 12 to 18 build confidence, discover their strengths, connect with mentors, and pursue a future full of possibility.";
+
+export const metadata: Metadata = createPageMetadata({
+  title: pageTitle,
+  description: pageDescription,
+  path: "/",
+  keywords: [
+    "girls leadership community",
+    "mentorship for teen girls",
+    "confidence building for girls",
+  ],
+});
 
 const brandPillars = [
   {
@@ -38,6 +56,13 @@ const stats = [
 export default function HomePage() {
   return (
     <>
+      <SeoJsonLd
+        data={createWebPageSchema({
+          title: `${pageTitle} | Herizon Society`,
+          description: pageDescription,
+          path: "/",
+        })}
+      />
       {/* ─── HERO ─────────────────────────────────────────── */}
       <section className="relative min-h-[92vh] flex items-center overflow-hidden bg-[#1A1A1A]">
         <div className="absolute inset-0 bg-gradient-to-br from-[#1A1A1A] via-[#2D2D2D] to-[#1A1A1A]" />

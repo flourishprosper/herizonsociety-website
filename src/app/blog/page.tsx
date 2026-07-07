@@ -1,11 +1,20 @@
-import type { Metadata } from "next";
 import Link from "next/link";
+import SeoJsonLd from "@/components/SeoJsonLd";
+import {
+  createBreadcrumbSchema,
+  createPageMetadata,
+  createWebPageSchema,
+} from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Blog | Herizon Society",
-  description:
-    "Read the Herizon Society blog for insights on confidence, leadership, mentorship, and empowering the girls ages 12–18 in your life.",
-};
+const pageTitle = "Blog";
+const pageDescription =
+  "Read the Herizon Society blog for insights on confidence, leadership, mentorship, and empowering the girls ages 12 to 18 in your life.";
+
+export const metadata = createPageMetadata({
+  title: pageTitle,
+  description: pageDescription,
+  path: "/blog",
+});
 
 const posts = [
   {
@@ -104,6 +113,20 @@ export default function BlogPage() {
 
   return (
     <>
+      <SeoJsonLd
+        data={[
+          createWebPageSchema({
+            title: `${pageTitle} | Herizon Society`,
+            description: pageDescription,
+            path: "/blog",
+            type: "Blog",
+          }),
+          createBreadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "Blog", path: "/blog" },
+          ]),
+        ]}
+      />
       {/* Hero */}
       <section className="bg-[#FAF8F5] py-24 text-center">
         <div className="max-w-3xl mx-auto px-6">

@@ -1,11 +1,20 @@
-import type { Metadata } from "next";
 import Link from "next/link";
+import SeoJsonLd from "@/components/SeoJsonLd";
+import {
+  createBreadcrumbSchema,
+  createPageMetadata,
+  createWebPageSchema,
+} from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Be a Sponsor | Herizon Society",
-  description:
-    "Sponsor a Herizon Signature Experience and help create the mentorship, leadership, and community that girls ages 12–18 deserve.",
-};
+const pageTitle = "Be a Sponsor";
+const pageDescription =
+  "Sponsor a Herizon Signature Experience and help create the mentorship, leadership, and community that girls ages 12 to 18 deserve.";
+
+export const metadata = createPageMetadata({
+  title: pageTitle,
+  description: pageDescription,
+  path: "/sponsor",
+});
 
 const tiers = [
   {
@@ -65,6 +74,19 @@ const reasons = [
 export default function SponsorPage() {
   return (
     <>
+      <SeoJsonLd
+        data={[
+          createWebPageSchema({
+            title: `${pageTitle} | Herizon Society`,
+            description: pageDescription,
+            path: "/sponsor",
+          }),
+          createBreadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "Sponsor", path: "/sponsor" },
+          ]),
+        ]}
+      />
       {/* Hero */}
       <section className="bg-[#1A1A1A] py-32 relative overflow-hidden text-center">
         <div className="absolute inset-0 bg-gradient-to-br from-[#1A1A1A] via-[#2D2D2D] to-[#1A1A1A]" />
